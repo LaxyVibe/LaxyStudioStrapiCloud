@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hubs",
+  "info": {
+    "singularName": "hub",
+    "pluralName": "hubs",
+    "displayName": "Hub"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}
