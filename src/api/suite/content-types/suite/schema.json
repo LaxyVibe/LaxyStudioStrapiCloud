@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "suites",
+  "info": {
+    "singularName": "suite",
+    "pluralName": "suites",
+    "displayName": "Suite"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "photos": {
+      "allowedTypes": [
+        "files",
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
