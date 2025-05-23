@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hub service
+ * stay service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::hub.hub');
+module.exports = createCoreService('api::stay.stay');

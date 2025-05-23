@@ -16,11 +16,11 @@
     }
   },
   "attributes": {
-    "hubLanding": {
+    "stayLanding": {
       "type": "json",
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     }

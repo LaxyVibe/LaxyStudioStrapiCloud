@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hub controller
+ * stay controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::hub.hub');
+module.exports = createCoreController('api::stay.stay');

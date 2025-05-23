@@ -1,75 +1,44 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
-export interface SharedMedia extends Struct.ComponentSchema {
-  collectionName: 'components_shared_media';
+export interface StayFaqItem extends Struct.ComponentSchema {
+  collectionName: 'components_stay_faq_items';
   info: {
-    displayName: 'Media';
-    icon: 'file-video';
+    displayName: 'Faq item';
   };
   attributes: {
-    file: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
+    answer: Schema.Attribute.RichText;
+    question: Schema.Attribute.String;
   };
 }
 
-export interface SharedQuote extends Struct.ComponentSchema {
-  collectionName: 'components_shared_quotes';
-  info: {
-    displayName: 'Quote';
-    icon: 'indent';
-  };
-  attributes: {
-    body: Schema.Attribute.Text;
-    title: Schema.Attribute.String;
-  };
-}
-
-export interface SharedRichText extends Struct.ComponentSchema {
-  collectionName: 'components_shared_rich_texts';
+export interface StaySuite extends Struct.ComponentSchema {
+  collectionName: 'components_stay_suites';
   info: {
     description: '';
-    displayName: 'Rich text';
-    icon: 'align-justify';
+    displayName: 'Suite';
+    icon: 'house';
   };
   attributes: {
-    body: Schema.Attribute.RichText;
-  };
-}
-
-export interface SharedSeo extends Struct.ComponentSchema {
-  collectionName: 'components_shared_seos';
-  info: {
-    description: '';
-    displayName: 'Seo';
-    icon: 'allergies';
-    name: 'Seo';
-  };
-  attributes: {
-    metaDescription: Schema.Attribute.Text & Schema.Attribute.Required;
-    metaTitle: Schema.Attribute.String & Schema.Attribute.Required;
-    shareImage: Schema.Attribute.Media<'images'>;
-  };
-}
-
-export interface SharedSlider extends Struct.ComponentSchema {
-  collectionName: 'components_shared_sliders';
-  info: {
-    description: '';
-    displayName: 'Slider';
-    icon: 'address-book';
-  };
-  attributes: {
-    files: Schema.Attribute.Media<'images', true>;
+    amenities: Schema.Attribute.RichText;
+    checkInOut: Schema.Attribute.RichText;
+    houseRules: Schema.Attribute.RichText;
+    name: Schema.Attribute.String;
+    slider: Schema.Attribute.Media<'images' | 'files', true>;
+    slug: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
+    wifiAccess1: Schema.Attribute.String;
+    wifiAccess2: Schema.Attribute.String;
+    wifiPassword1: Schema.Attribute.String;
+    wifiPassword2: Schema.Attribute.String;
   };
 }
 
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
-      'shared.media': SharedMedia;
-      'shared.quote': SharedQuote;
-      'shared.rich-text': SharedRichText;
-      'shared.seo': SharedSeo;
-      'shared.slider': SharedSlider;
+      'stay.faq-item': StayFaqItem;
+      'stay.suite': StaySuite;
     }
   }
 }

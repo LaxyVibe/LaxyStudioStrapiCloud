@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stays",
+  "info": {
+    "singularName": "stay",
+    "pluralName": "stays",
+    "displayName": "Stay",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "unique": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "suites": {
+      "type": "dynamiczone",
+      "components": [
+        "stay.suite"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "address": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "localizedAddress": {
+      "type": "string"
+    },
+    "localizedLanguageCode": {
+      "type": "string",
+      "default": "ja"
+    },
+    "addressURL": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "greeting": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "faqList": {
+      "type": "dynamiczone",
+      "components": [
+        "stay.faq-item"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

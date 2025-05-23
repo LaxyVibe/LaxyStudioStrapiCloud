@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_stay_faq_items",
+  "info": {
+    "displayName": "Faq item"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

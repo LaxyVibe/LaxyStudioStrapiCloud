@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * hub router
+ * stay router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::hub.hub');
+module.exports = createCoreRouter('api::stay.stay');
