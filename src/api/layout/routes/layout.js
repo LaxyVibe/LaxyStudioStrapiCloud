@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * about router.
+ * layout router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::about.about');
+module.exports = createCoreRouter('api::layout.layout');

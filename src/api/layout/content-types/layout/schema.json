@@ -1,10 +1,10 @@
 {
-  "kind": "collectionType",
-  "collectionName": "hubs",
+  "kind": "singleType",
+  "collectionName": "layouts",
   "info": {
-    "singularName": "hub",
-    "pluralName": "hubs",
-    "displayName": "Hub",
+    "singularName": "layout",
+    "pluralName": "layouts",
+    "displayName": "Layout",
     "description": ""
   },
   "options": {
@@ -16,11 +16,11 @@
     }
   },
   "attributes": {
-    "Name": {
-      "type": "string",
+    "hubLanding": {
+      "type": "json",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     }
