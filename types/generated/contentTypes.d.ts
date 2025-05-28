@@ -468,13 +468,19 @@ export interface ApiRestaurantFindRestaurantFind
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    externalURL: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     highlight: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    isOfficial: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    isLaxy: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -489,6 +495,10 @@ export interface ApiRestaurantFindRestaurantFind
     nativeAddress: Schema.Attribute.String;
     nativeName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    restaurant_recommendations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::restaurant-recommendation.restaurant-recommendation'
+    >;
     tag_labels: Schema.Attribute.Relation<
       'oneToMany',
       'api::tag-label.tag-label'
@@ -510,6 +520,7 @@ export interface ApiRestaurantRecommendationRestaurantRecommendation
   };
   options: {
     draftAndPublish: true;
+    populateCreatorFields: true;
   };
   pluginOptions: {
     i18n: {
@@ -518,8 +529,7 @@ export interface ApiRestaurantRecommendationRestaurantRecommendation
   };
   attributes: {
     createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -533,12 +543,11 @@ export interface ApiRestaurantRecommendationRestaurantRecommendation
         };
       }>;
     restaurant_find: Schema.Attribute.Relation<
-      'oneToOne',
+      'manyToOne',
       'api::restaurant-find.restaurant-find'
     >;
     updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'>;
   };
 }
 
@@ -605,6 +614,10 @@ export interface ApiStayStay extends Struct.CollectionTypeSchema {
       Schema.Attribute.DefaultTo<'ja'>;
     nativeName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    searchable_restaurants: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::restaurant-find.restaurant-find'
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -700,6 +713,7 @@ export interface ApiTagLabelTagLabel extends Struct.CollectionTypeSchema {
     };
   };
   attributes: {
+    color: Schema.Attribute.Enumeration<['yellow', 'red', 'orange']>;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "isOfficial": {
+    "isLaxy": {
       "type": "boolean",
       "default": false
     },
@@ -57,6 +57,20 @@
     },
     "highlight": {
       "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "restaurant_recommendations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant-recommendation.restaurant-recommendation",
+      "mappedBy": "restaurant_find"
+    },
+    "externalURL": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true

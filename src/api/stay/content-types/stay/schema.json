@@ -84,6 +84,11 @@
         }
       },
       "default": "ja"
+    },
+    "searchable_restaurants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant-find.restaurant-find"
     }
   }
 }

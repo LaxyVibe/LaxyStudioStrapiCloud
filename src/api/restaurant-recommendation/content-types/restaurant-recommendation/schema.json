@@ -8,7 +8,8 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "populateCreatorFields": true
   },
   "pluginOptions": {
     "i18n": {
@@ -18,8 +19,9 @@
   "attributes": {
     "restaurant_find": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::restaurant-find.restaurant-find"
+      "relation": "manyToOne",
+      "target": "api::restaurant-find.restaurant-find",
+      "inversedBy": "restaurant_recommendations"
     },
     "recommendation": {
       "type": "text",

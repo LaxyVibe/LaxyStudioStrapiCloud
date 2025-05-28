@@ -23,6 +23,14 @@
           "localized": true
         }
       }
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "yellow",
+        "red",
+        "orange"
+      ]
     }
   }
 }
