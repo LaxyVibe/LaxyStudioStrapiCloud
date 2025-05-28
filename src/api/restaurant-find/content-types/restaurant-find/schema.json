@@ -20,12 +20,6 @@
       "type": "boolean",
       "default": false
     },
-    "restaurant_recommendations": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::restaurant-recommendation.restaurant-recommendation",
-      "mappedBy": "restaurant_find"
-    },
     "name": {
       "type": "string",
       "pluginOptions": {
@@ -50,6 +44,19 @@
     },
     "addressURL": {
       "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "tag_labels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag-label.tag-label"
+    },
+    "highlight": {
+      "type": "text",
       "pluginOptions": {
         "i18n": {
           "localized": true

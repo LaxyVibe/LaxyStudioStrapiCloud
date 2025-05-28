@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tag_labels",
+  "info": {
+    "singularName": "tag-label",
+    "pluralName": "tag-labels",
+    "displayName": "TagLabel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

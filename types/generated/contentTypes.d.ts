@@ -468,6 +468,12 @@ export interface ApiRestaurantFindRestaurantFind
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    highlight: Schema.Attribute.Text &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     isOfficial: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<
@@ -483,9 +489,9 @@ export interface ApiRestaurantFindRestaurantFind
     nativeAddress: Schema.Attribute.String;
     nativeName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    restaurant_recommendations: Schema.Attribute.Relation<
+    tag_labels: Schema.Attribute.Relation<
       'oneToMany',
-      'api::restaurant-recommendation.restaurant-recommendation'
+      'api::tag-label.tag-label'
     >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -497,6 +503,7 @@ export interface ApiRestaurantRecommendationRestaurantRecommendation
   extends Struct.CollectionTypeSchema {
   collectionName: 'restaurant_recommendations';
   info: {
+    description: '';
     displayName: 'RestaurantRecommendation';
     pluralName: 'restaurant-recommendations';
     singularName: 'restaurant-recommendation';
@@ -526,7 +533,7 @@ export interface ApiRestaurantRecommendationRestaurantRecommendation
         };
       }>;
     restaurant_find: Schema.Attribute.Relation<
-      'manyToOne',
+      'oneToOne',
       'api::restaurant-find.restaurant-find'
     >;
     updatedAt: Schema.Attribute.DateTime;
@@ -673,6 +680,44 @@ export interface ApiSuiteSuite extends Struct.CollectionTypeSchema {
     wifiAccess2: Schema.Attribute.String;
     wifiPassword1: Schema.Attribute.String;
     wifiPassword2: Schema.Attribute.String;
+  };
+}
+
+export interface ApiTagLabelTagLabel extends Struct.CollectionTypeSchema {
+  collectionName: 'tag_labels';
+  info: {
+    description: '';
+    displayName: 'TagLabel';
+    pluralName: 'tag-labels';
+    singularName: 'tag-label';
+  };
+  options: {
+    draftAndPublish: false;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::tag-label.tag-label'
+    >;
+    name: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
   };
 }
 
@@ -1191,6 +1236,7 @@ declare module '@strapi/strapi' {
       'api::restaurant-recommendation.restaurant-recommendation': ApiRestaurantRecommendationRestaurantRecommendation;
       'api::stay.stay': ApiStayStay;
       'api::suite.suite': ApiSuiteSuite;
+      'api::tag-label.tag-label': ApiTagLabelTagLabel;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "restaurant-recommendation",
     "pluralName": "restaurant-recommendations",
-    "displayName": "RestaurantRecommendation"
+    "displayName": "RestaurantRecommendation",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,9 +18,8 @@
   "attributes": {
     "restaurant_find": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::restaurant-find.restaurant-find",
-      "inversedBy": "restaurant_recommendations"
+      "relation": "oneToOne",
+      "target": "api::restaurant-find.restaurant-find"
     },
     "recommendation": {
       "type": "text",
