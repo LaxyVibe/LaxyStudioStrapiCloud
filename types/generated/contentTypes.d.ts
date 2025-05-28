@@ -435,6 +435,106 @@ export interface ApiLayoutLayout extends Struct.SingleTypeSchema {
   };
 }
 
+export interface ApiRestaurantFindRestaurantFind
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'restaurant_finds';
+  info: {
+    description: '';
+    displayName: 'RestaurantFind';
+    pluralName: 'restaurant-finds';
+    singularName: 'restaurant-find';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    address: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    addressURL: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    isOfficial: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::restaurant-find.restaurant-find'
+    >;
+    name: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    nativeAddress: Schema.Attribute.String;
+    nativeName: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    restaurant_recommendations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::restaurant-recommendation.restaurant-recommendation'
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiRestaurantRecommendationRestaurantRecommendation
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'restaurant_recommendations';
+  info: {
+    displayName: 'RestaurantRecommendation';
+    pluralName: 'restaurant-recommendations';
+    singularName: 'restaurant-recommendation';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::restaurant-recommendation.restaurant-recommendation'
+    >;
+    publishedAt: Schema.Attribute.DateTime;
+    recommendation: Schema.Attribute.Text &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    restaurant_find: Schema.Attribute.Relation<
+      'manyToOne',
+      'api::restaurant-find.restaurant-find'
+    >;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiStayStay extends Struct.CollectionTypeSchema {
   collectionName: 'stays';
   info: {
@@ -482,25 +582,97 @@ export interface ApiStayStay extends Struct.CollectionTypeSchema {
       }>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::stay.stay'>;
-    localizedAddress: Schema.Attribute.String;
-    localizedLanguageCode: Schema.Attribute.String &
+    name: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    nativeAddress: Schema.Attribute.String;
+    nativeLanguageCode: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }> &
       Schema.Attribute.DefaultTo<'ja'>;
-    Name: Schema.Attribute.String &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
+    nativeName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
-    suites: Schema.Attribute.DynamicZone<['stay.suite']> &
-      Schema.Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+  };
+}
+
+export interface ApiSuiteSuite extends Struct.CollectionTypeSchema {
+  collectionName: 'suites';
+  info: {
+    description: '';
+    displayName: 'Suite';
+    pluralName: 'suites';
+    singularName: 'suite';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    address: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    addressURL: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    amenities: Schema.Attribute.RichText &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    checkInOut: Schema.Attribute.RichText &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    houseRules: Schema.Attribute.RichText &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::suite.suite'>;
+    name: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    nativeAddress: Schema.Attribute.String;
+    nativeName: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    slider: Schema.Attribute.Media<'images', true>;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    wifiAccess1: Schema.Attribute.String;
+    wifiAccess2: Schema.Attribute.String;
+    wifiPassword1: Schema.Attribute.String;
+    wifiPassword2: Schema.Attribute.String;
   };
 }
 
@@ -1015,7 +1187,10 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::global.global': ApiGlobalGlobal;
       'api::layout.layout': ApiLayoutLayout;
+      'api::restaurant-find.restaurant-find': ApiRestaurantFindRestaurantFind;
+      'api::restaurant-recommendation.restaurant-recommendation': ApiRestaurantRecommendationRestaurantRecommendation;
       'api::stay.stay': ApiStayStay;
+      'api::suite.suite': ApiSuiteSuite;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

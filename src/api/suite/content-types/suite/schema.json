@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "stays",
+  "collectionName": "suites",
   "info": {
-    "singularName": "stay",
-    "pluralName": "stays",
-    "displayName": "Stay",
+    "singularName": "suite",
+    "pluralName": "suites",
+    "displayName": "Suite",
     "description": ""
   },
   "options": {
@@ -16,37 +16,59 @@
     }
   },
   "attributes": {
-    "greeting": {
-      "type": "text",
+    "name": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "avatar": {
+    "slider": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "faqList": {
-      "type": "dynamiczone",
-      "components": [
-        "stay.faq-item"
-      ],
+    "wifiAccess1": {
+      "type": "string"
+    },
+    "wifiPassword1": {
+      "type": "string"
+    },
+    "wifiAccess2": {
+      "type": "string"
+    },
+    "wifiPassword2": {
+      "type": "string"
+    },
+    "checkInOut": {
+      "type": "richtext",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "name": {
+    "houseRules": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "amenities": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "addressURL": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -67,23 +89,6 @@
     },
     "nativeAddress": {
       "type": "string"
-    },
-    "addressURL": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "nativeLanguageCode": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "default": "ja"
     }
   }
 }

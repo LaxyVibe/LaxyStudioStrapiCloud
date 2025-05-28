@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurant_finds",
+  "info": {
+    "singularName": "restaurant-find",
+    "pluralName": "restaurant-finds",
+    "displayName": "RestaurantFind",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "isOfficial": {
+      "type": "boolean",
+      "default": false
+    },
+    "restaurant_recommendations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::restaurant-recommendation.restaurant-recommendation",
+      "mappedBy": "restaurant_find"
+    },
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "nativeName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "nativeAddress": {
+      "type": "string"
+    },
+    "addressURL": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
