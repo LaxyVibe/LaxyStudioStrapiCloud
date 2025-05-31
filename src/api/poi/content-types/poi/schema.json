@@ -1,14 +1,14 @@
 {
   "kind": "collectionType",
-  "collectionName": "restaurant_finds",
+  "collectionName": "pois",
   "info": {
-    "singularName": "restaurant-find",
-    "pluralName": "restaurant-finds",
-    "displayName": "RestaurantFind",
+    "singularName": "poi",
+    "pluralName": "pois",
+    "displayName": "POI",
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -16,10 +16,6 @@
     }
   },
   "attributes": {
-    "isLaxy": {
-      "type": "boolean",
-      "default": false
-    },
     "name": {
       "type": "string",
       "pluginOptions": {
@@ -40,13 +36,10 @@
       }
     },
     "nativeAddress": {
-      "type": "string"
-    },
-    "addressURL": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       }
     },
@@ -63,12 +56,6 @@
         }
       }
     },
-    "restaurant_recommendations": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::restaurant-recommendation.restaurant-recommendation",
-      "mappedBy": "restaurant_find"
-    },
     "externalURL": {
       "type": "string",
       "pluginOptions": {
@@ -76,6 +63,13 @@
           "localized": true
         }
       }
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "restaurant",
+        "attraction"
+      ]
     }
   }
 }

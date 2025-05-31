@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poi_recommendations",
+  "info": {
+    "singularName": "poi-recommendation",
+    "pluralName": "poi-recommendations",
+    "displayName": "POIRecommendation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "poi": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::poi.poi"
+    },
+    "recommendation": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "recommendedBy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stay.stay"
+    }
+  }
+}

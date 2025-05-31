@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -32,42 +32,6 @@
         "images"
       ]
     },
-    "wifiAccess1": {
-      "type": "string"
-    },
-    "wifiPassword1": {
-      "type": "string"
-    },
-    "wifiAccess2": {
-      "type": "string"
-    },
-    "wifiPassword2": {
-      "type": "string"
-    },
-    "checkInOut": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "houseRules": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "amenities": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "addressURL": {
       "type": "string",
       "pluginOptions": {
@@ -89,6 +53,53 @@
     },
     "nativeAddress": {
       "type": "string"
+    },
+    "stay": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::stay.stay"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stay.faq-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "WiFi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stay.wi-fi-item"
+    },
+    "checkInOut": {
+      "type": "customField",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "customField": "plugin::tinymce.tinymce"
+    },
+    "amenities": {
+      "type": "customField",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "customField": "plugin::tinymce.tinymce"
+    },
+    "houseRules": {
+      "type": "customField",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "customField": "plugin::tinymce.tinymce"
     }
   }
 }

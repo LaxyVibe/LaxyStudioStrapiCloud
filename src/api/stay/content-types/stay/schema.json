@@ -35,17 +35,6 @@
         "audios"
       ]
     },
-    "faqList": {
-      "type": "dynamiczone",
-      "components": [
-        "stay.faq-item"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "name": {
       "type": "string",
       "pluginOptions": {
@@ -57,25 +46,6 @@
     "nativeName": {
       "type": "string"
     },
-    "address": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "nativeAddress": {
-      "type": "string"
-    },
-    "addressURL": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "nativeLanguageCode": {
       "type": "string",
       "pluginOptions": {
@@ -84,11 +54,6 @@
         }
       },
       "default": "ja"
-    },
-    "searchable_restaurants": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::restaurant-find.restaurant-find"
     }
   }
 }

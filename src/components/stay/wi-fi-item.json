@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_stay_wi_fi_items",
+  "info": {
+    "displayName": "WiFi item",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "network": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}

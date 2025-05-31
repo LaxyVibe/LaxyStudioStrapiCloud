@@ -10,12 +10,8 @@
       "type": "string"
     },
     "answer": {
-      "type": "richtext"
-    },
-    "applicable_suites": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::suite.suite"
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce"
     }
   }
 }
