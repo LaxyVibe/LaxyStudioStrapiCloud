@@ -1,5 +1,12 @@
 {
   "populate": {
+    "universalConfig": {
+      "populate": {
+        "releasedLanguages": {
+          "fields": ["label", "value"]
+        }
+      }
+    },
     "header": {
       "fields": ["leftRoute","rightRoute"],
       "populate": {
@@ -14,13 +21,29 @@
     "pageLanding": {
       "fields": ["recommendationHeading"],
       "populate": {
-        "naviagtionButtons": {
+        "naviagtion": {
           "fields": ["label", "route"],
           "populate": {
             "icon": {
               "fields": ["url"]
             }
           }
+        }
+      }
+    },
+    "pageLanguage": {
+      "fields": ["heading"],
+      "populate": {
+        "applyButton": {
+          "fields": ["label"]
+        }
+      }
+    },
+    "pageSearch": {
+      "fields": ["searchInputPlaceholder", "defaultListHeading", "highlightedListHeading"],
+      "populate": {
+        "defaultList": {
+          "fields": ["label", "value"]
         }
       }
     }

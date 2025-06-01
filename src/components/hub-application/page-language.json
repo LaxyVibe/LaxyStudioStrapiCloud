@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Heading": {
+    "heading": {
       "type": "string"
     },
     "applyButton": {
