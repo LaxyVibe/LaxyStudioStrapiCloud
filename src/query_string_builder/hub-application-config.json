@@ -7,6 +7,19 @@
         }
       }
     },
+    "globalComponent": {
+      "fields": ["readMoreLabel"],
+      "populate": {
+        "speechButton": {
+          "fields": ["label"],
+          "populate": {
+            "icon": {
+              "fields": ["url"]
+            }
+          }
+        }
+      }
+    },
     "header": {
       "fields": ["leftRoute","rightRoute"],
       "populate": {
@@ -44,6 +57,46 @@
       "populate": {
         "defaultList": {
           "fields": ["label", "value"]
+        }
+      }
+    },
+    "pageInfo": {
+      "fields": ["heading"],
+      "populate": {
+        "navigation": {
+          "fields": ["label", "route"],
+          "populate": {
+            "icon": {
+              "fields": ["url"]
+            }
+          }
+        }
+      }
+    },
+    "pageWiFi": {
+      "populate": {
+        "scanQRButton": {
+          "fields": ["label"]
+        },
+        "clipboardButton": {
+          "fields": ["label"]
+        },
+        "showQRButton": {
+          "fields": ["label"]
+        }
+      }
+    },
+    "pagPoiDetail": {
+      "fields": ["recommendationHeading", "highlightHeading"],
+      "populate": {
+        "addressIcon": {
+          "fields": ["url"]
+        },
+        "urlIcon": {
+          "fields": ["url"]
+        },
+        "dialIcon": {
+          "fields": ["url"]
         }
       }
     }
