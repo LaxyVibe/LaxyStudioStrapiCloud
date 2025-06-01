@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hub_application_global_components",
+  "info": {
+    "displayName": "Global Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "readMoreLabel": {
+      "type": "string"
+    },
+    "speechButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.button"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "populate": {
+    "header": {
+      "fields": ["leftRoute","rightRoute"],
+      "populate": {
+        "leftIcon": {
+          "fields": ["url"]
+        },
+        "rightIcon": {
+          "fields": ["url"]
+        }
+      }
+    },
+    "pageLanding": {
+      "fields": ["recommendationHeading"],
+      "populate": {
+        "naviagtionButtons": {
+          "fields": ["label", "route"],
+          "populate": {
+            "icon": {
+              "fields": ["url"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

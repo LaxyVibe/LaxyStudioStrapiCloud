@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_hub_application_page_poi_details",
+  "info": {
+    "displayName": "Page POI Detail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "addressIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "urlIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "dialIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "recommendationHeading": {
+      "type": "string"
+    },
+    "highlightHeading": {
+      "type": "string"
+    }
+  }
+}

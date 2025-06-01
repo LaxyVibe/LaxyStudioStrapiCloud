@@ -1,0 +1,91 @@
+{
+  "kind": "singleType",
+  "collectionName": "hub_application_configs",
+  "info": {
+    "singularName": "hub-application-config",
+    "pluralName": "hub-application-configs",
+    "displayName": "Hub Application Config",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.header",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pageLanding": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.page-landing",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pageLanguage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.page-language",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "universalConfig": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.global-config",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "pageSearch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.page-search"
+    },
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.page-info"
+    },
+    "pagPoiDetail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.page-poi-detail"
+    },
+    "globalComponent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.global-component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "pageWiFi": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.page-wi-fi"
+    }
+  }
+}

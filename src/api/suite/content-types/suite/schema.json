@@ -20,9 +20,10 @@
       "type": "string",
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
-      }
+      },
+      "regex": "^[a-z0-9-]+$"
     },
     "slider": {
       "type": "media",
@@ -40,7 +41,7 @@
         }
       }
     },
-    "nativeName": {
+    "nativeLabel": {
       "type": "string"
     },
     "address": {
@@ -54,7 +55,7 @@
     "nativeAddress": {
       "type": "string"
     },
-    "stay": {
+    "ownedBy": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::stay.stay"
@@ -69,7 +70,7 @@
         }
       }
     },
-    "WiFi": {
+    "wifi": {
       "type": "component",
       "repeatable": true,
       "component": "stay.wi-fi-item"
@@ -100,6 +101,22 @@
         }
       },
       "customField": "plugin::tinymce.tinymce"
+    },
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "headline": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

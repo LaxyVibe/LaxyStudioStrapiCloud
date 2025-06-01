@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hub_application_page_languages",
+  "info": {
+    "displayName": "Page Language",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "applyButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.button"
+    }
+  }
+}

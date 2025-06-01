@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_hub_application_global_configs",
+  "info": {
+    "displayName": "Universal Config",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "releasedLanguages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hub-application.button"
+    }
+  }
+}

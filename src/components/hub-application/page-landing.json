@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_hub_application_page_landings",
+  "info": {
+    "displayName": "Page Landing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "recommendationHeading": {
+      "type": "string"
+    },
+    "naviagtion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hub-application.button"
+    }
+  }
+}

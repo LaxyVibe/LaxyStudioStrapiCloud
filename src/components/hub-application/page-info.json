@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_hub_application_page_infos",
+  "info": {
+    "displayName": "Page Info"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "hub-application.button"
+    }
+  }
+}

@@ -33,6 +33,26 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::stay.stay"
+    },
+    "weightInSearchHighlight": {
+      "type": "integer",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "default": -1
+    },
+    "kmFromStay": {
+      "type": "decimal"
+    },
+    "weightInNearbyRestaurants": {
+      "type": "integer",
+      "default": -1
+    },
+    "weightInNearbyAttractions": {
+      "type": "integer",
+      "default": -1
     }
   }
 }

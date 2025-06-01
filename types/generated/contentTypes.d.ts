@@ -369,47 +369,17 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
-  collectionName: 'globals';
+export interface ApiHubApplicationConfigHubApplicationConfig
+  extends Struct.SingleTypeSchema {
+  collectionName: 'hub_application_configs';
   info: {
-    description: 'Define global settings';
-    displayName: 'Global';
-    pluralName: 'globals';
-    singularName: 'global';
+    description: '';
+    displayName: 'Hub Application Config';
+    pluralName: 'hub-application-configs';
+    singularName: 'hub-application-config';
   };
   options: {
     draftAndPublish: false;
-  };
-  attributes: {
-    createdAt: Schema.Attribute.DateTime;
-    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-    favicon: Schema.Attribute.Media<'images' | 'files' | 'videos'>;
-    locale: Schema.Attribute.String & Schema.Attribute.Private;
-    localizations: Schema.Attribute.Relation<
-      'oneToMany',
-      'api::global.global'
-    > &
-      Schema.Attribute.Private;
-    publishedAt: Schema.Attribute.DateTime;
-    siteDescription: Schema.Attribute.Text & Schema.Attribute.Required;
-    siteName: Schema.Attribute.String & Schema.Attribute.Required;
-    updatedAt: Schema.Attribute.DateTime;
-    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
-      Schema.Attribute.Private;
-  };
-}
-
-export interface ApiLayoutLayout extends Struct.SingleTypeSchema {
-  collectionName: 'layouts';
-  info: {
-    description: '';
-    displayName: 'Layout';
-    pluralName: 'layouts';
-    singularName: 'layout';
-  };
-  options: {
-    draftAndPublish: true;
   };
   pluginOptions: {
     i18n: {
@@ -420,15 +390,45 @@ export interface ApiLayoutLayout extends Struct.SingleTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    locale: Schema.Attribute.String;
-    localizations: Schema.Attribute.Relation<'oneToMany', 'api::layout.layout'>;
-    publishedAt: Schema.Attribute.DateTime;
-    stayLanding: Schema.Attribute.JSON &
+    globalConfig: Schema.Attribute.Component<
+      'hub-application.global-config',
+      false
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
+    header: Schema.Attribute.Component<'hub-application.header', false> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::hub-application-config.hub-application-config'
+    >;
+    pageLanding: Schema.Attribute.Component<
+      'hub-application.page-landing',
+      false
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    pageLanguage: Schema.Attribute.Component<
+      'hub-application.page-language',
+      false
+    > &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    publishedAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -550,7 +550,7 @@ export interface ApiStayStay extends Struct.CollectionTypeSchema {
     singularName: 'stay';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   pluginOptions: {
     i18n: {
@@ -568,14 +568,15 @@ export interface ApiStayStay extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
-    locale: Schema.Attribute.String;
-    localizations: Schema.Attribute.Relation<'oneToMany', 'api::stay.stay'>;
-    name: Schema.Attribute.String &
+    label: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
+    locale: Schema.Attribute.String;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::stay.stay'>;
+    nativeLabel: Schema.Attribute.String;
     nativeLanguageCode: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
@@ -583,8 +584,10 @@ export interface ApiStayStay extends Struct.CollectionTypeSchema {
         };
       }> &
       Schema.Attribute.DefaultTo<'ja'>;
-    nativeName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.String &
+      Schema.Attribute.Required &
+      Schema.Attribute.Unique;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -643,8 +646,20 @@ export interface ApiSuiteSuite extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    headline: Schema.Attribute.String &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     houseRules: Schema.Attribute.RichText &
       Schema.Attribute.CustomField<'plugin::tinymce.tinymce'> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
+    label: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -655,18 +670,18 @@ export interface ApiSuiteSuite extends Struct.CollectionTypeSchema {
     name: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     nativeAddress: Schema.Attribute.String;
-    nativeName: Schema.Attribute.String;
+    nativeLabel: Schema.Attribute.String;
+    ownedBy: Schema.Attribute.Relation<'oneToOne', 'api::stay.stay'>;
     publishedAt: Schema.Attribute.DateTime;
     slider: Schema.Attribute.Media<'images', true>;
-    stay: Schema.Attribute.Relation<'oneToOne', 'api::stay.stay'>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    WiFi: Schema.Attribute.Component<'stay.wi-fi-item', true>;
+    wifi: Schema.Attribute.Component<'stay.wi-fi-item', true>;
   };
 }
 
@@ -1218,8 +1233,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
-      'api::global.global': ApiGlobalGlobal;
-      'api::layout.layout': ApiLayoutLayout;
+      'api::hub-application-config.hub-application-config': ApiHubApplicationConfigHubApplicationConfig;
       'api::poi-recommendation.poi-recommendation': ApiPoiRecommendationPoiRecommendation;
       'api::poi.poi': ApiPoiPoi;
       'api::stay.stay': ApiStayStay;

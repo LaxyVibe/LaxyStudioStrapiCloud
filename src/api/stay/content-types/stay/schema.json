@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -35,7 +35,7 @@
         "audios"
       ]
     },
-    "name": {
+    "label": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -43,7 +43,7 @@
         }
       }
     },
-    "nativeName": {
+    "nativeLabel": {
       "type": "string"
     },
     "nativeLanguageCode": {
@@ -54,6 +54,12 @@
         }
       },
       "default": "ja"
+    },
+    "slug": {
+      "type": "string",
+      "regex": "^[a-z0-9-]+$",
+      "unique": true,
+      "required": true
     }
   }
 }

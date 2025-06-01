@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_hub_application_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "leftIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "leftRoute": {
+      "type": "string"
+    },
+    "rightIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "rightRoute": {
+      "type": "string"
+    }
+  }
+}
