@@ -60,17 +60,32 @@
     "pageSearch": {
       "type": "component",
       "repeatable": false,
-      "component": "hub-application.page-search"
+      "component": "hub-application.page-search",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "pageInfo": {
       "type": "component",
       "repeatable": false,
-      "component": "hub-application.page-info"
+      "component": "hub-application.page-info",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "pagPoiDetail": {
       "type": "component",
       "repeatable": false,
-      "component": "hub-application.page-poi-detail"
+      "component": "hub-application.page-poi-detail",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "globalComponent": {
       "type": "component",
@@ -85,7 +100,12 @@
     "pageWiFi": {
       "type": "component",
       "repeatable": false,
-      "component": "hub-application.page-wi-fi"
+      "component": "hub-application.page-wi-fi",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
