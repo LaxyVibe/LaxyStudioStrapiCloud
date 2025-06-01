@@ -27,6 +27,8 @@ module.exports = [
             "strapi.io",
             "s3.amazonaws.com",
             "cdn.jsdelivr.net",
+            'market-assets.strapi.io',
+            'res.cloudinary.com'
           ],
           "style-src": [
             "'self'",
@@ -34,7 +36,15 @@ module.exports = [
             "*.tinymce.com",
             "*.tiny.cloud",
           ],
+          'media-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'market-assets.strapi.io',
+            'res.cloudinary.com',
+          ],
           "font-src": ["'self'", "*.tinymce.com", "*.tiny.cloud"],
+          upgradeInsecureRequests: null,
         },
         upgradeInsecureRequests: null,
       },
