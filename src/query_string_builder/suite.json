@@ -1,0 +1,35 @@
+{
+    "filters": {
+        "ownedBy": {
+        	"slug": {
+                "$eq": "beppu-story"
+            }
+        },
+        "name": {
+            "$eq": "family-room-1"
+        }
+    },
+    "fields": [
+		"name",
+		"label",
+		"headline",
+		"address",
+		"nativeAddress",
+		"addressURL",
+		"checkInOut",
+		"amenities",
+		"houseRules"
+	],
+    "populate": {
+        "slider": {
+            "fields": ["url"]
+        },
+        "faq": {
+            "fields": ["question", "answer"]
+        },
+        "wifi": {
+            "fields": ["network", "password"]
+        }
+    },
+    "locale": "en"
+}

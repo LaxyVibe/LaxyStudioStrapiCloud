@@ -41,9 +41,6 @@
         }
       }
     },
-    "nativeLabel": {
-      "type": "string"
-    },
     "address": {
       "type": "string",
       "pluginOptions": {
