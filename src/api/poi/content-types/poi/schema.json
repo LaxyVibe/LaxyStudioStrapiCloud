@@ -80,6 +80,13 @@
           "localized": false
         }
       }
+    },
+    "coverPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
