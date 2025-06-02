@@ -34,7 +34,7 @@
       "relation": "oneToOne",
       "target": "api::stay.stay"
     },
-    "weightInSearchHighlight": {
+    "weightInHighlight": {
       "type": "integer",
       "pluginOptions": {
         "i18n": {

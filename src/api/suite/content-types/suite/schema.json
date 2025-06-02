@@ -49,9 +49,6 @@
         }
       }
     },
-    "nativeAddress": {
-      "type": "string"
-    },
     "ownedBy": {
       "type": "relation",
       "relation": "oneToOne",

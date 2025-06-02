@@ -16,22 +16,11 @@
     }
   },
   "attributes": {
-    "nativeLabel": {
-      "type": "string"
-    },
     "address": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
-        }
-      }
-    },
-    "nativeAddress": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
         }
       }
     },
@@ -82,11 +71,16 @@
       }
     },
     "coverPhoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "nativeLanguageCode": {
+      "type": "string",
+      "default": "ja"
     }
   }
 }
