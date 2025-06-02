@@ -29,6 +29,14 @@
         },
         "wifi": {
             "fields": ["network", "password"]
+        },
+        "ownedBy": {
+            "fields": ["slug", "label", "greeting", "nativeLanguageCode"],
+			"populate": {
+				"avatar": {
+					"fields": ["url"]
+				}
+			}
         }
     },
     "locale": "en"

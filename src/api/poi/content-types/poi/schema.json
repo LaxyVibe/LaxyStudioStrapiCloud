@@ -16,15 +16,7 @@
     }
   },
   "attributes": {
-    "name": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "nativeName": {
+    "nativeLabel": {
       "type": "string"
     },
     "address": {
@@ -70,6 +62,24 @@
         "restaurant",
         "attraction"
       ]
+    },
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "string",
+      "unique": true,
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }
