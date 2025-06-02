@@ -28,6 +28,9 @@
             "populate":{
                 "tag_labels": {
                     "fields": ["name", "color"]
+                },
+                "coverPhoto": {
+                    "fields": ["url"]
                 }
             }
         }
