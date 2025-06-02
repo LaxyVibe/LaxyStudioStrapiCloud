@@ -27,10 +27,12 @@
     "color": {
       "type": "enumeration",
       "enum": [
-        "yellow",
-        "red",
-        "orange"
-      ]
+        "GREY",
+        "YELLOW",
+        "ORANGE",
+        "RED"
+      ],
+      "default": "GREY"
     }
   }
 }
