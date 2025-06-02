@@ -43,9 +43,6 @@
         }
       }
     },
-    "nativeLabel": {
-      "type": "string"
-    },
     "nativeLanguageCode": {
       "type": "string",
       "pluginOptions": {
