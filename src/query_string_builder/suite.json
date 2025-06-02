@@ -14,7 +14,6 @@
 		"label",
 		"headline",
 		"address",
-		"nativeAddress",
 		"addressURL",
 		"checkInOut",
 		"amenities",
@@ -35,6 +34,24 @@
 			"populate": {
 				"avatar": {
 					"fields": ["url"]
+				},
+				"pickedPOIs": {
+					"fields": [
+						"slug",
+						"label",
+						"address",
+						"highlight",
+						"externalURL",
+						"type"
+					],
+					"populate":{
+						"tag_labels": {
+							"fields": ["name", "color"]
+						},
+						"coverPhoto": {
+							"fields": ["url"]
+						}
+					}
 				}
 			}
         }
