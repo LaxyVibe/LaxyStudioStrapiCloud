@@ -29,7 +29,7 @@
         }
       }
     },
-    "recommendedBy": {
+    "recommended_by": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::stay.stay"

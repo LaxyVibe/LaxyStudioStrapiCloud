@@ -1,6 +1,6 @@
 {
     "filters": {
-        "recommendedBy": {
+        "recommended_by": {
         	"slug": {
                 "$eq": "beppu-story"
             }
@@ -11,16 +11,14 @@
       "kmFromStay",
       "weightInNearbyRestaurants",
       "weightInNearbyAttractions",
-      "weightInSearchHighlight"
+      "weightInHighlight"
     ],
     "populate": {
         "poi": {
             "fields": [
                 "slug",
                 "label",
-                "nativeLabel",
                 "address",
-                "nativeAddress",
                 "highlight",
                 "externalURL",
                 "type"
