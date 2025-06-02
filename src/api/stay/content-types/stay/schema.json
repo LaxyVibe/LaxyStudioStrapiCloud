@@ -56,7 +56,12 @@
       "type": "string",
       "regex": "^[a-z0-9-]+$",
       "unique": true,
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     }
   }
 }

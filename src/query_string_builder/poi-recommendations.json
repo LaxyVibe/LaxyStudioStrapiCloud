@@ -1,0 +1,40 @@
+{
+    "filters": {
+        "recommendedBy": {
+        	"slug": {
+                "$eq": "beppu-story"
+            }
+        }
+    },
+    "fields": [
+      "recommendation",
+      "kmFromStay",
+      "weightInNearbyRestaurants",
+      "weightInNearbyAttractions",
+      "weightInSearchHighlight"
+    ],
+    "populate": {
+        "poi": {
+            "fields": [
+                "slug",
+                "label",
+                "nativeLabel",
+                "address",
+                "nativeAddress",
+                "highlight",
+                "externalURL",
+                "type"
+            ],
+            "populate":{
+                "tag_labels": {
+                    "fields": ["name", "color"]
+                }
+            }
+        }
+    },
+    "locale": "en",
+    "pagination": {
+        "page": 1,
+        "pageSize": 10000
+    }
+}
