@@ -111,6 +111,9 @@
           "localized": true
         }
       }
+    },
+    "addressEmbedHTML": {
+      "type": "text"
     }
   }
 }
