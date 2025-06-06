@@ -81,6 +81,12 @@
     "nativeLanguageCode": {
       "type": "string",
       "default": "ja"
+    },
+    "addressEmbedHTML": {
+      "type": "text"
+    },
+    "dial": {
+      "type": "string"
     }
   }
 }

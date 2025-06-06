@@ -42,7 +42,8 @@
 						"address",
 						"highlight",
 						"externalURL",
-						"type"
+						"type",
+						"nativeLanguageCode"
 					],
 					"populate":{
 						"tag_labels": {
