@@ -50,7 +50,12 @@
       "enum": [
         "restaurant",
         "attraction"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
     },
     "label": {
       "type": "string",
@@ -86,6 +91,12 @@
       "type": "text"
     },
     "dial": {
+      "type": "string"
+    },
+    "addressURL": {
+      "type": "string"
+    },
+    "laxyURL": {
       "type": "string"
     }
   }
