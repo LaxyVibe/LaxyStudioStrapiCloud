@@ -15,6 +15,7 @@
 		"headline",
 		"address",
 		"addressURL",
+		"addressEmbedHTML",
 		"checkInOut",
 		"amenities",
 		"houseRules"
@@ -40,10 +41,14 @@
 						"slug",
 						"label",
 						"address",
+						"addressURL",
+						"addressEmbedHTML",
+						"dial",
 						"highlight",
 						"externalURL",
 						"type",
-						"nativeLanguageCode"
+						"nativeLanguageCode",
+						"laxyURL"
 					],
 					"populate":{
 						"tag_labels": {
