@@ -1,6 +1,25 @@
 module.exports = ({env}) => ({
-  "strapi-import-export": {
-    enabled: true,
+  "strapi-csv-import-export": {
+          config: {
+            authorizedExports: [
+              "api::tag-label.tag-label",
+              "api::stay.stay", 
+              "api::suite.suite",
+              "api::poi.poi",
+              "api::poi-recommendation.poi-recommendation",
+              "api::hub-application-config",
+              "plugin::users-permissions.user"
+            ],
+            authorizedImports: [
+              "api::tag-label.tag-label",
+              "api::stay.stay",
+              "api::suite.suite", 
+              "api::poi.poi",
+              "api::poi-recommendation.poi-recommendation",
+              "api::hub-application-config",
+              "plugin::users-permissions.user"
+            ]
+  }
   },
   tinymce: {
     enabled: true
