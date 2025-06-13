@@ -1,5 +1,5 @@
 module.exports = ({env}) => ({
-  "import-export-entries": {
+  "strapi-import-export": {
     enabled: true,
   },
   tinymce: {
