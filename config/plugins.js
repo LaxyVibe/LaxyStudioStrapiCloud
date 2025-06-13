@@ -1,6 +1,9 @@
 module.exports = ({env}) => ({
-  "strapi-import-export": {
-    enabled: true,
+  "strapi-csv-import-export": {
+          config: {
+            authorizedExports: ["api::machine.machine"],
+            authorizedImports: ["api::machine.machine"]
+  }
   },
   tinymce: {
     enabled: true
