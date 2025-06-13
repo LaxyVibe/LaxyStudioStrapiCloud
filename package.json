@@ -12,8 +12,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "pg": "^8.11.0",
-    "pg-connection-string": "^2.5.0",
     "@sklinet/strapi-plugin-tinymce": "^1.1.6",
     "@strapi/plugin-cloud": "5.11.0",
     "@strapi/plugin-color-picker": "^5.13.1",
@@ -22,6 +20,8 @@
     "@strapi/strapi": "5.11.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
+    "pg": "^8.11.0",
+    "pg-connection-string": "^2.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
