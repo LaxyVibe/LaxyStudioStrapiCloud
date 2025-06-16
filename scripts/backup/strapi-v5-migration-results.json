@@ -1,0 +1,1800 @@
+{
+  "migrated": {
+    "api::tag-label.tag-label": {
+      "success": 7,
+      "failed": 0,
+      "errors": []
+    },
+    "api::stay.stay": {
+      "success": 0,
+      "failed": 2,
+      "errors": [
+        {
+          "index": 1,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "31 relation(s) of type api::poi.poi associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "31 relation(s) of type api::poi.poi associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "greeting": "Welcome to Beppu Story!",
+                      "locale": "en",
+                      "nativeLanguageCode": "ja",
+                      "label": "Beppu Story",
+                      "slug": "beppu-story",
+                      "avatar": 43,
+                      "pickedPOIs": {
+                        "set": [
+                          {
+                            "id": 20
+                          },
+                          {
+                            "id": 5
+                          },
+                          {
+                            "id": 15
+                          },
+                          {
+                            "id": 10
+                          },
+                          {
+                            "id": 30
+                          },
+                          {
+                            "id": 25
+                          },
+                          {
+                            "id": 100
+                          },
+                          {
+                            "id": 95
+                          },
+                          {
+                            "id": 79
+                          },
+                          {
+                            "id": 45
+                          },
+                          {
+                            "id": 40
+                          },
+                          {
+                            "id": 65
+                          },
+                          {
+                            "id": 60
+                          },
+                          {
+                            "id": 85
+                          },
+                          {
+                            "id": 110
+                          },
+                          {
+                            "id": 55
+                          },
+                          {
+                            "id": 109
+                          },
+                          {
+                            "id": 54
+                          },
+                          {
+                            "id": 71
+                          },
+                          {
+                            "id": 35
+                          },
+                          {
+                            "id": 90
+                          },
+                          {
+                            "id": 80
+                          },
+                          {
+                            "id": 130
+                          },
+                          {
+                            "id": 151
+                          },
+                          {
+                            "id": 155
+                          },
+                          {
+                            "id": 126
+                          },
+                          {
+                            "id": 145
+                          },
+                          {
+                            "id": 115
+                          },
+                          {
+                            "id": 120
+                          },
+                          {
+                            "id": 135
+                          },
+                          {
+                            "id": 140
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:26:33.414Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 14
+        },
+        {
+          "index": 2,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "This attribute must be unique",
+              "details": {
+                "errors": [
+                  {
+                    "path": [
+                      "slug"
+                    ],
+                    "message": "This attribute must be unique",
+                    "name": "ValidationError",
+                    "value": "tokyo-story"
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 12
+        }
+      ]
+    },
+    "api::poi.poi": {
+      "success": 31,
+      "failed": 0,
+      "errors": []
+    },
+    "api::suite.suite": {
+      "success": 0,
+      "failed": 1,
+      "errors": [
+        {
+          "index": 1,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "8 errors occurred",
+              "details": {
+                "errors": [
+                  {
+                    "path": [
+                      "faq",
+                      "0"
+                    ],
+                    "message": "faq[0] must be a `object` type, but the final value was: `null` (cast from the value `84`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [
+                      "faq",
+                      "1"
+                    ],
+                    "message": "faq[1] must be a `object` type, but the final value was: `null` (cast from the value `85`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [
+                      "faq",
+                      "2"
+                    ],
+                    "message": "faq[2] must be a `object` type, but the final value was: `null` (cast from the value `86`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [
+                      "faq",
+                      "3"
+                    ],
+                    "message": "faq[3] must be a `object` type, but the final value was: `null` (cast from the value `87`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [
+                      "faq",
+                      "4"
+                    ],
+                    "message": "faq[4] must be a `object` type, but the final value was: `null` (cast from the value `88`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [
+                      "wifi",
+                      "0"
+                    ],
+                    "message": "wifi[0] must be a `object` type, but the final value was: `null` (cast from the value `19`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [
+                      "wifi",
+                      "1"
+                    ],
+                    "message": "wifi[1] must be a `object` type, but the final value was: `null` (cast from the value `20`).",
+                    "name": "ValidationError",
+                    "value": null
+                  },
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "locale": "en",
+                      "publishedAt": "2025-06-14T02:27:05.585Z",
+                      "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.4395542950692!2d131.5044823!3d33.2811618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a79f8bcc9bdd%3A0x6265dcb4b7a8c0c8!2z5Yil5bqc44K544OI44O844Oq44O84oWh!5e0!3m2!1sja!2sjp!4v1749357483667!5m2!1sja!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                      "headline": null,
+                      "label": "Family Room 1",
+                      "houseRules": "<div class=\"ewa-rteLine\">- 5 guests maximum</div>\n<div class=\"ewa-rteLine\">- No pets</div>\n<div class=\"ewa-rteLine\">- No parties or events</div>\n<div class=\"ewa-rteLine\">- No commercial photography</div>\n<div class=\"ewa-rteLine\">- No smoking</div>",
+                      "amenities": null,
+                      "checkInOut": "<p>- Check-in: After 3:00 PM<br>- Check-out: Before 10:00 AM</p>\n<p>We are pleased to offer convenient options for early check-in and late check-out. Depending on the availability and occupancy, we can provide a minimum of three hours for early check-in and up to three hours for late check-out. Kindly note that additional charges of 1,000 yen per hour apply for these services. We will gladly assist you in making the necessary arrangements. :)</p>",
+                      "wifi": [
+                        null,
+                        null
+                      ],
+                      "faq": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                      ],
+                      "ownedBy": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "address": "2 Chome-6-6 Kitahama, Beppu, Oita 874-0920",
+                      "addressURL": "https://maps.app.goo.gl/z3LNWA1QGYsV4t7h9",
+                      "slider": [
+                        55
+                      ],
+                      "name": "family-room-01"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 11
+        }
+      ]
+    },
+    "api::poi-recommendation.poi-recommendation": {
+      "success": 0,
+      "failed": 31,
+      "errors": [
+        {
+          "index": 1,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "This Meiji-era onsen offers a retro atmosphere and a unique sand bath experience. Staff gently cover you with warm sand, providing a pleasantly warm sensation. It's a memorable and traditional Japanese bathing experience. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": 0,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 326
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:08.221Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 13
+        },
+        {
+          "index": 2,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "This is one of the best onsens we have in downtown Beppu. It's only 3 minutes walking distance from your place and costs you only 250 yen. There are nothing prepared in the onsen so you have to bring the towel, shampoo, etc from our apartment. :) Please try the yogurt drink they sell after onsen, because it's the best, lol. (Please don't forget to bring the towel back). ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": 0,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 328
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:08.986Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 12
+        },
+        {
+          "index": 3,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "This is the time when Beppu's largest hot spring festival is held. Annually, it takes place over five days, usually from around March 30th to April 3rd (the exact dates may vary slightly each year). During this period, you can enjoy a festive atmosphere in various parts of Beppu City.\n\nThe biggest highlight is that all municipal hot springs are opened to the public for free! Additionally, there's a \"mountain burning\" event where an entire mountain is set ablaze, praying for good health and prosperity throughout the year.",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 1,
+                      "weightInHighlight": 0,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 337
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:09.802Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 7
+        },
+        {
+          "index": 4,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Renowned for its crispy and tender tonkatsu (pork cutlet). The generous portions and quality ingredients make it a standout. A must-try for fans of Japanese comfort food. ​ ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 321
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:10.568Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 73
+        },
+        {
+          "index": 5,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "When it comes to hotels and hot springs in Beppu, Suginoi Hotel is probably the most famous. Guests who stay here are generally very satisfied. The only issue is the price even at its cheapest, it costs around 120,000 KRW per night per person, and during peak season it can go up to 400,000 KRW. For a family of four, it’s not hard to spend over 1.5 million KRW.\n\nHowever, there’s a way to enjoy both Suginoi’s rooftop onsen “Tanayu and the heated pool “Aqua Garden at a lower cost. Many people don’t know this, but even if you’re not staying at the hotel, you can still use these facilities by paying a separate entrance fee. Adults can enter for 1,200 yen (1,800 yen on weekends), and children aged 3 to elementary school age can enter for 700 yen (1,100 yen on weekends).\n\nThere’s a free shuttle bus from Beppu Station’s west exit that runs about every 15 minutes, and if you're driving, there’s also free parking available. In the evenings at 8, 9, 10, and 11 PM, there’s a spectacular laser show, and the hotel area is beautifully lit by geothermal powered illuminations that perfect for evening photos.",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": 0,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 330
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:11.338Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 19
+        },
+        {
+          "index": 6,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "This isn’t a must-visit gourmet spot, but in Beppu, where it can be hard to find breakfast options that it’s valuable as a 24-hour place.\nIt’s just a 5-minute walk from your accommodation, and the menu is extensive, so if you want to have a proper breakfast, this is a good choice.",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 320
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:12.106Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 39
+        },
+        {
+          "index": 7,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A cozy eatery offering okonomiyaki and home-style Japanese dishes. Praised for its friendly service and authentic flavors. A great place to experience local cuisine. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 329
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:12.867Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 29
+        },
+        {
+          "index": 8,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A popular izakaya known for its delicious char-grilled dishes. Highlights include beef and amberjack fish head. The lively atmosphere makes it a favorite among locals and tourists alike. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 317
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:13.634Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 24
+        },
+        {
+          "index": 9,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Specializes in yakitori (grilled chicken skewers) with a variety of options. The casual setting and flavorful dishes make it a must-visit for meat lovers. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 318
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:14.718Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 38
+        },
+        {
+          "index": 10,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "This ramen shop is about a 10-minute walk from your accommodation.\nThey serve tonkotsu ramen, but without the usual pork smell that it’s clean and delicious.\nPersonally, I recommend the vegetable ramen. I've never had a guest disappointed after visiting.\n(Check it out on the Beppu Airbnb blog)\nhttps://blog.naver.com/beppu-airbnb/221189815570",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 316
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:15.487Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 48
+        },
+        {
+          "index": 11,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A historic bakery famous for its soft and flavorful bread. Popular items include anpan (red bean bun) and butter rolls. Expect a line, but it's worth the wait. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 335
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:16.252Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 49
+        },
+        {
+          "index": 12,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": null,
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 334
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:17.014Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 55
+        },
+        {
+          "index": 13,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Offers a conveyor belt sushi experience with fresh and delicious options. Free-flowing miso soup and green tea are available. Be prepared for a wait during peak hours. ​ ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 336
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:17.785Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 63
+        },
+        {
+          "index": 14,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Experience cooking your own food using natural hot spring steam. A fun and interactive way to enjoy local ingredients. The steamed dishes are both healthy and flavorful. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 338
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:18.556Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 68
+        },
+        {
+          "index": 15,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A multi-story discount store offering a wide range of products. Great for souvenirs, snacks, and everyday items. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 325
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:19.319Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 78
+        },
+        {
+          "index": 16,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A shopping mall with various retail stores, restaurants, and a supermarket. Convenient for all your shopping needs. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 327
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:20.091Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 83
+        },
+        {
+          "index": 17,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Meet wild Japanese macaques in their natural habitat at this unique zoo. You can watch them freely roaming around the mountain paths and platforms. The monkeys are used to humans and are fun to observe, especially during feeding times. It's an educational and entertaining stop for kids and adults alike. Only a short bus ride from Beppu city center. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 324
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:21.558Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 118
+        },
+        {
+          "index": 18,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Located in the Yayoi shopping arcade, this Tengu statue is a quirky photo spot. Adds a touch of local folklore to your shopping experience. ​ ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 314
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:23.594Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 93
+        },
+        {
+          "index": 19,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A seaside park offering a relaxing environment with ocean views. Ideal for a leisurely walk or a picnic by the beach. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 331
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:33.848Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 88
+        },
+        {
+          "index": 20,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A modern and beautifully designed aquarium by the sea. Features dolphins, sea lions, jellyfish, and interactive exhibits for children. The dolphin show is a favorite among visitors that fun and well-choreographed. It also includes a petting area where you can touch starfish and small marine creatures. Great for families or anyone who enjoys marine life. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 339
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:35.493Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 123
+        },
+        {
+          "index": 21,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Drive through a safari park and see lions, elephants, giraffes, and more up close. You can either take your own car or join the Jungle Bus with open windows for feeding animals. It feels like a mini Africa in Japan exciting and family-friendly. There’s also a walking area with smaller animals and petting zones. Highly recommended for animal lovers and adventurous travelers. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 313
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:36.863Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 133
+        },
+        {
+          "index": 22,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A spacious park in the city center, perfect for relaxation and recreation. Features seasonal flowers and walking paths. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 341
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:38.226Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 98
+        },
+        {
+          "index": 23,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A serene Shinto shrine nestled in nature. Offers a peaceful atmosphere and beautiful architecture. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 333
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:39.478Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 103
+        },
+        {
+          "index": 24,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A scenic beach area ideal for swimming and sunbathing. Enjoy the coastal views and gentle waves. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 340
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:40.596Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 108
+        },
+        {
+          "index": 25,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Shidaka Lake is a peaceful spot surrounded by mountains and trees that perfect for a relaxing day out. You can rent a boat, walk around the lake, or enjoy a picnic with a beautiful view. The calm, natural setting makes it ideal for couples, families, or solo travelers. It’s especially stunning in spring with cherry blossoms and in autumn with colorful leaves. A hidden gem for anyone looking to unwind in nature. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 315
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:41.699Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 113
+        },
+        {
+          "index": 26,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Explore the famous “Hells of Beppu, unique hot spring spots with boiling ponds and steam vents. Each “Jigoku has a distinct color and atmosphere, like the cobalt-blue Umi Jigoku or red Chinoike. You’ll see bubbling mud, geysers, and even crocodiles in one of the areas. A must-see for first-time visitors to Beppu. Don’t forget your camera. The sights are surreal and memorable! ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 342
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:42.706Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 128
+        },
+        {
+          "index": 27,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Many visitors to Beppu also plan a trip to Yufuin.\nIt's a lovely place with beautiful nature and charming little shops, perfect for a relaxing stroll.\nHowever, shops usually open around 10 AM and close around 5 PM, so if you’re not planning to stay in a luxurious ryokan to enjoy a kaiseki dinner and hot springs, an overnight stay may not be necessary.\n\nWhether by bus or train, the route usually starts at Yufuin Station.\nIf you're driving, it's better to park near Lake Kinrinko. There are parking lots nearby and some are 300 yen for a whole day, but those farther out may cost 500 yen or more.\nThe typical walking course goes from Yufuin Station to Lake Kinrinko and back.\nFamous treats include B-Speak roll cake and the Kinsho croquette.\n\nFrom Beppu, the cheapest, fastest, and most convenient way to get there is by bus.\nBuses depart from Beppu Station West Exit about once or twice an hour.\nYou can check the bus schedule here:\nhttp://www.kamenoibus.com/data/kamenoibus_rosen_yufuin.pdf",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 322
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:43.473Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 138
+        },
+        {
+          "index": 28,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Located at a higher elevation, this observatory offers one of the best panoramic views of Beppu. You can see the entire city, Beppu Bay, and even Mount Tsurumi on a clear day. It’s a great place to enjoy sunrise or sunset that very peaceful and photogenic. There’s ample parking and space to sit and relax with the view. Perfect for ending your day with a breathtaking scenic moment. ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 332
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:44.310Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 148
+        },
+        {
+          "index": 29,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "This free observatory offers a panoramic view of Beppu’s famous onsen steam rising from the town. It's especially beautiful in the early morning or evening when the steam is more visible. You can also see the sea and cityscape in the background. There’s a small parking area and benches for a quiet break. A short stop, but a memorable photo spot! ",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 319
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:45.074Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 143
+        },
+        {
+          "index": 30,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "A large-scale summer festival is held in Beppu City every year on the last Friday, Saturday, and Sunday of July. Numerous food stalls line three locations in the city center, where you can enjoy delicious street food and drinks.\n\nOn the final day, Sunday, there's a parade of traditional Japanese dance that lasts approximately two hours. From 8:00 PM, a fireworks display lights up the night sky for about an hour. It's truly a spectacular sight! This period is also one of the times when accommodation prices in Beppu are at their highest throughout the year.",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": 2,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 312
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:45.846Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 153
+        },
+        {
+          "index": 31,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::stay.stay associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "recommendation": "Over two days, on the Saturday and Sunday of Christmas week, Beppu hosts a winter festival and fireworks display. Unlike the single day of fireworks at the summer festival in late July, the winter event features fireworks on two consecutive days.\n\nAt the venue, you can enjoy delicious food stall gourmet and drinks, ensuring a fun time. Accommodation fills up quickly, so early booking, even two months in advance, is highly recommended.",
+                      "locale": "en",
+                      "kmFromStay": null,
+                      "weightInNearbyRestaurants": 0,
+                      "weightInNearbyAttractions": 0,
+                      "weightInHighlight": -1,
+                      "poi": {
+                        "set": [
+                          {
+                            "id": 323
+                          }
+                        ]
+                      },
+                      "recommended_by": {
+                        "set": [
+                          {
+                            "id": 14
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T02:27:46.614Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 158
+        }
+      ]
+    },
+    "api::hub-application-config.hub-application-config": {
+      "success": 0,
+      "failed": 1,
+      "errors": [
+        {
+          "index": 1,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "9 errors occurred",
+              "details": {
+                "errors": [
+                  {
+                    "path": [
+                      "header"
+                    ],
+                    "message": "header must be a `object` type, but the final value was: `1`.",
+                    "name": "ValidationError",
+                    "value": 1
+                  },
+                  {
+                    "path": [
+                      "pageLanding"
+                    ],
+                    "message": "pageLanding must be a `object` type, but the final value was: `1`.",
+                    "name": "ValidationError",
+                    "value": 1
+                  },
+                  {
+                    "path": [
+                      "pageLanguage"
+                    ],
+                    "message": "pageLanguage must be a `object` type, but the final value was: `1`.",
+                    "name": "ValidationError",
+                    "value": 1
+                  },
+                  {
+                    "path": [
+                      "universalConfig"
+                    ],
+                    "message": "universalConfig must be a `object` type, but the final value was: `278`.",
+                    "name": "ValidationError",
+                    "value": 278
+                  },
+                  {
+                    "path": [
+                      "pageSearch"
+                    ],
+                    "message": "pageSearch must be a `object` type, but the final value was: `6`.",
+                    "name": "ValidationError",
+                    "value": 6
+                  },
+                  {
+                    "path": [
+                      "pageInfo"
+                    ],
+                    "message": "pageInfo must be a `object` type, but the final value was: `5`.",
+                    "name": "ValidationError",
+                    "value": 5
+                  },
+                  {
+                    "path": [
+                      "pagPoiDetail"
+                    ],
+                    "message": "pagPoiDetail must be a `object` type, but the final value was: `4`.",
+                    "name": "ValidationError",
+                    "value": 4
+                  },
+                  {
+                    "path": [
+                      "globalComponent"
+                    ],
+                    "message": "globalComponent must be a `object` type, but the final value was: `1`.",
+                    "name": "ValidationError",
+                    "value": 1
+                  },
+                  {
+                    "path": [
+                      "pageWiFi"
+                    ],
+                    "message": "pageWiFi must be a `object` type, but the final value was: `3`.",
+                    "name": "ValidationError",
+                    "value": 3
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "originalId": 1
+        }
+      ]
+    }
+  },
+  "errors": {},
+  "summary": {
+    "total": 73,
+    "success": 38,
+    "failed": 35
+  }
+}

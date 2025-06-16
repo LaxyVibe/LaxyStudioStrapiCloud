@@ -1,0 +1,162 @@
+{
+  "total": 31,
+  "success": 0,
+  "failed": 31,
+  "errors": [
+    {
+      "poiId": 151,
+      "poiName": "Beppu Summer Fireworks Festival (Late July)",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 130,
+      "poiName": "African Safari",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 90,
+      "poiName": "Yayoi Tengu",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 110,
+      "poiName": "Shidaka Lake",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 45,
+      "poiName": "Fukuya Ramen",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 25,
+      "poiName": "Robata Jin",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 35,
+      "poiName": "Yakitori-Bon",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 140,
+      "poiName": "Yukemuri Observatory",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 40,
+      "poiName": "ガスト 別府店",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 71,
+      "poiName": "Tonkichi, Pork Cutlet Restaurant",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 135,
+      "poiName": "Yufuin",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 155,
+      "poiName": "Enjoy Christmas in Beppu (December)",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 115,
+      "poiName": "Takasaki Mountain, Monkey Park",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 79,
+      "poiName": "Don Quijote Beppu ",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 10,
+      "poiName": "Takegawara Onsen",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 80,
+      "poiName": "YouMe Town",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 5,
+      "poiName": "Kaimonji Onsen",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 30,
+      "poiName": "Miyako",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 15,
+      "poiName": "Suginoi Hotel, Aqua Garden",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 85,
+      "poiName": "Matogahama Park",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 145,
+      "poiName": "Jyumonjibaru Observatory",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 100,
+      "poiName": "Asami Shrine",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 55,
+      "poiName": "Taiichi Shoten, Ramen Restaurant",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 54,
+      "poiName": "Tomonaga Bakery",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 60,
+      "poiName": "Kamesho, Sushi Restaurant ",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 20,
+      "poiName": "Beppu Hatto Onsen Festival (Late March–Early April)",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 65,
+      "poiName": "Jigoku Steam Food",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 120,
+      "poiName": "Umitamago, Aquarium",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 109,
+      "poiName": "Tanoura Beach",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 95,
+      "poiName": "Beppu Park",
+      "error": "No document ID mapping found"
+    },
+    {
+      "poiId": 126,
+      "poiName": "Jigoku Hell Tour",
+      "error": "No document ID mapping found"
+    }
+  ]
+}

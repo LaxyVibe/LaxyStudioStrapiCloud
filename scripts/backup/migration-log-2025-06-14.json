@@ -1,0 +1,15 @@
+{
+  "startTime": "2025-06-14T02:10:39.714Z",
+  "source": "https://ethical-novelty-0c204c906b.strapiapp.com",
+  "destination": "https://laxy-studio-strapi-c1d6d20cbc41.herokuapp.com",
+  "phases": {
+    "mediaMigration": {
+      "completed": true,
+      "migratedFiles": 59
+    }
+  },
+  "summary": {},
+  "endTime": "2025-06-14T02:10:59.604Z",
+  "duration": "20 seconds",
+  "success": true
+}

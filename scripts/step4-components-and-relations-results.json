@@ -1,0 +1,200 @@
+{
+  "hubConfig": {
+    "locales": {
+      "en": {
+        "success": 1,
+        "failed": 0,
+        "errors": []
+      },
+      "zh-Hans": {
+        "success": 1,
+        "failed": 0,
+        "errors": []
+      },
+      "zh-Hant": {
+        "success": 1,
+        "failed": 0,
+        "errors": []
+      },
+      "ko": {
+        "success": 1,
+        "failed": 0,
+        "errors": []
+      },
+      "ja": {
+        "success": 1,
+        "failed": 0,
+        "errors": []
+      }
+    },
+    "componentStats": {
+      "total": 45,
+      "processed": 45,
+      "migrated": 5,
+      "failed": 0
+    }
+  },
+  "suite": {
+    "locales": {
+      "en": {
+        "success": 0,
+        "failed": 1,
+        "errors": [
+          {
+            "entryId": "o91y8s8d4k6996mn5m47qkm8",
+            "locale": "en",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 400,
+                "name": "ValidationError",
+                "message": "Invalid key documentId",
+                "details": {
+                  "key": "documentId",
+                  "source": "body"
+                }
+              }
+            },
+            "status": 400
+          }
+        ]
+      },
+      "zh-Hans": {
+        "success": 0,
+        "failed": 1,
+        "errors": [
+          {
+            "entryId": "o91y8s8d4k6996mn5m47qkm8",
+            "locale": "zh-Hans",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 400,
+                "name": "ValidationError",
+                "message": "Invalid key documentId",
+                "details": {
+                  "key": "documentId",
+                  "source": "body"
+                }
+              }
+            },
+            "status": 400
+          }
+        ]
+      },
+      "zh-Hant": {
+        "success": 0,
+        "failed": 1,
+        "errors": [
+          {
+            "entryId": "o91y8s8d4k6996mn5m47qkm8",
+            "locale": "zh-Hant",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 400,
+                "name": "ValidationError",
+                "message": "Invalid key documentId",
+                "details": {
+                  "key": "documentId",
+                  "source": "body"
+                }
+              }
+            },
+            "status": 400
+          }
+        ]
+      },
+      "ko": {
+        "success": 0,
+        "failed": 2,
+        "errors": [
+          {
+            "entryId": "o91y8s8d4k6996mn5m47qkm8",
+            "locale": "ko",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 400,
+                "name": "ValidationError",
+                "message": "Invalid key documentId",
+                "details": {
+                  "key": "documentId",
+                  "source": "body"
+                }
+              }
+            },
+            "status": 400
+          },
+          {
+            "entryId": "ywrleunwy1wbjerqb4r63ais",
+            "locale": "ko",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 404,
+                "name": "NotFoundError",
+                "message": "Not Found",
+                "details": {}
+              }
+            },
+            "status": 404
+          }
+        ]
+      },
+      "ja": {
+        "success": 0,
+        "failed": 2,
+        "errors": [
+          {
+            "entryId": "o91y8s8d4k6996mn5m47qkm8",
+            "locale": "ja",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 400,
+                "name": "ValidationError",
+                "message": "Invalid key documentId",
+                "details": {
+                  "key": "documentId",
+                  "source": "body"
+                }
+              }
+            },
+            "status": 400
+          },
+          {
+            "entryId": "ob1a9a0kln0cxhd2kgcv0f19",
+            "locale": "ja",
+            "error": {
+              "data": null,
+              "error": {
+                "status": 404,
+                "name": "NotFoundError",
+                "message": "Not Found",
+                "details": {}
+              }
+            },
+            "status": 404
+          }
+        ]
+      }
+    },
+    "componentStats": {
+      "total": 35,
+      "processed": 35,
+      "migrated": 0,
+      "failed": 0
+    }
+  },
+  "mediaStats": {
+    "total": 76,
+    "mapped": 76,
+    "unmapped": 0
+  },
+  "summary": {
+    "total": 12,
+    "success": 5,
+    "failed": 7
+  }
+}

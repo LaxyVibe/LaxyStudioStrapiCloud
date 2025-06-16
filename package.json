@@ -9,7 +9,14 @@
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "migrate": "node ./scripts/run-complete-migration.js",
+    "migrate:analyze": "node ./scripts/run-complete-migration.js --analyze-only",
+    "migrate:help": "node ./scripts/run-complete-migration.js --help",
+    "migrate:step1": "node ./scripts/step1-en-content-migrator.js",
+    "migrate:step2": "node ./scripts/step2-non-en-localizations-migrator.js", 
+    "migrate:step3": "node ./scripts/step3-relations-migrator.js",
+    "migrate:step4": "node ./scripts/step4-hub-config-components-migrator.js"
   },
   "dependencies": {
     "@sklinet/strapi-plugin-tinymce": "^1.1.6",
@@ -18,7 +25,9 @@
     "@strapi/plugin-users-permissions": "5.11.0",
     "@strapi/provider-upload-cloudinary": "^5.14.0",
     "@strapi/strapi": "5.11.0",
-    "better-sqlite3": "11.3.0",
+    "axios": "^1.6.0",
+    "better-sqlite3": "^11.3.0",
+    "form-data": "^4.0.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "react": "^18.0.0",

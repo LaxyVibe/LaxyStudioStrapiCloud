@@ -1,0 +1,362 @@
+{
+  "startTime": "2025-06-14T02:09:24.596Z",
+  "source": "https://ethical-novelty-0c204c906b.strapiapp.com",
+  "destination": "https://laxy-studio-strapi-c1d6d20cbc41.herokuapp.com",
+  "phases": {
+    "schemaAnalysis": {
+      "completed": true,
+      "analysis": {
+        "source": {
+          "url": "https://ethical-novelty-0c204c906b.strapiapp.com",
+          "contentTypes": 23,
+          "types": [
+            {
+              "uid": "plugin::upload.file",
+              "displayName": "File",
+              "kind": "collectionType",
+              "attributes": 17
+            },
+            {
+              "uid": "plugin::upload.folder",
+              "displayName": "Folder",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "plugin::i18n.locale",
+              "displayName": "Locale",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "plugin::content-releases.release",
+              "displayName": "Release",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "plugin::content-releases.release-action",
+              "displayName": "Release Action",
+              "kind": "collectionType",
+              "attributes": 5
+            },
+            {
+              "uid": "plugin::review-workflows.workflow",
+              "displayName": "Workflow",
+              "kind": "collectionType",
+              "attributes": 4
+            },
+            {
+              "uid": "plugin::review-workflows.workflow-stage",
+              "displayName": "Stages",
+              "kind": "collectionType",
+              "attributes": 4
+            },
+            {
+              "uid": "plugin::users-permissions.permission",
+              "displayName": "Permission",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "plugin::users-permissions.role",
+              "displayName": "Role",
+              "kind": "collectionType",
+              "attributes": 5
+            },
+            {
+              "uid": "plugin::users-permissions.user",
+              "displayName": "User",
+              "kind": "collectionType",
+              "attributes": 9
+            },
+            {
+              "uid": "api::hub-application-config.hub-application-config",
+              "displayName": "Hub Application Config",
+              "kind": "singleType",
+              "attributes": 9
+            },
+            {
+              "uid": "api::poi.poi",
+              "displayName": "POI",
+              "kind": "collectionType",
+              "attributes": 13
+            },
+            {
+              "uid": "api::poi-recommendation.poi-recommendation",
+              "displayName": "POIRecommendation",
+              "kind": "collectionType",
+              "attributes": 7
+            },
+            {
+              "uid": "api::stay.stay",
+              "displayName": "Stay",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "api::suite.suite",
+              "displayName": "Suite",
+              "kind": "collectionType",
+              "attributes": 13
+            },
+            {
+              "uid": "api::tag-label.tag-label",
+              "displayName": "TagLabel",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "admin::permission",
+              "displayName": "Permission",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "admin::user",
+              "displayName": "User",
+              "kind": "collectionType",
+              "attributes": 11
+            },
+            {
+              "uid": "admin::role",
+              "displayName": "Role",
+              "kind": "collectionType",
+              "attributes": 5
+            },
+            {
+              "uid": "admin::api-token",
+              "displayName": "Api Token",
+              "kind": "collectionType",
+              "attributes": 8
+            },
+            {
+              "uid": "admin::api-token-permission",
+              "displayName": "API Token Permission",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "admin::transfer-token",
+              "displayName": "Transfer Token",
+              "kind": "collectionType",
+              "attributes": 7
+            },
+            {
+              "uid": "admin::transfer-token-permission",
+              "displayName": "Transfer Token Permission",
+              "kind": "collectionType",
+              "attributes": 2
+            }
+          ]
+        },
+        "destination": {
+          "url": "https://laxy-studio-strapi-c1d6d20cbc41.herokuapp.com",
+          "contentTypes": 23,
+          "types": [
+            {
+              "uid": "plugin::upload.file",
+              "displayName": "File",
+              "kind": "collectionType",
+              "attributes": 17
+            },
+            {
+              "uid": "plugin::upload.folder",
+              "displayName": "Folder",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "plugin::i18n.locale",
+              "displayName": "Locale",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "plugin::content-releases.release",
+              "displayName": "Release",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "plugin::content-releases.release-action",
+              "displayName": "Release Action",
+              "kind": "collectionType",
+              "attributes": 5
+            },
+            {
+              "uid": "plugin::review-workflows.workflow",
+              "displayName": "Workflow",
+              "kind": "collectionType",
+              "attributes": 4
+            },
+            {
+              "uid": "plugin::review-workflows.workflow-stage",
+              "displayName": "Stages",
+              "kind": "collectionType",
+              "attributes": 4
+            },
+            {
+              "uid": "plugin::users-permissions.permission",
+              "displayName": "Permission",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "plugin::users-permissions.role",
+              "displayName": "Role",
+              "kind": "collectionType",
+              "attributes": 5
+            },
+            {
+              "uid": "plugin::users-permissions.user",
+              "displayName": "User",
+              "kind": "collectionType",
+              "attributes": 9
+            },
+            {
+              "uid": "api::hub-application-config.hub-application-config",
+              "displayName": "Hub Application Config",
+              "kind": "singleType",
+              "attributes": 9
+            },
+            {
+              "uid": "api::poi.poi",
+              "displayName": "POI",
+              "kind": "collectionType",
+              "attributes": 13
+            },
+            {
+              "uid": "api::poi-recommendation.poi-recommendation",
+              "displayName": "POIRecommendation",
+              "kind": "collectionType",
+              "attributes": 7
+            },
+            {
+              "uid": "api::stay.stay",
+              "displayName": "Stay",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "api::suite.suite",
+              "displayName": "Suite",
+              "kind": "collectionType",
+              "attributes": 13
+            },
+            {
+              "uid": "api::tag-label.tag-label",
+              "displayName": "TagLabel",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "admin::permission",
+              "displayName": "Permission",
+              "kind": "collectionType",
+              "attributes": 6
+            },
+            {
+              "uid": "admin::user",
+              "displayName": "User",
+              "kind": "collectionType",
+              "attributes": 11
+            },
+            {
+              "uid": "admin::role",
+              "displayName": "Role",
+              "kind": "collectionType",
+              "attributes": 5
+            },
+            {
+              "uid": "admin::api-token",
+              "displayName": "Api Token",
+              "kind": "collectionType",
+              "attributes": 8
+            },
+            {
+              "uid": "admin::api-token-permission",
+              "displayName": "API Token Permission",
+              "kind": "collectionType",
+              "attributes": 2
+            },
+            {
+              "uid": "admin::transfer-token",
+              "displayName": "Transfer Token",
+              "kind": "collectionType",
+              "attributes": 7
+            },
+            {
+              "uid": "admin::transfer-token-permission",
+              "displayName": "Transfer Token Permission",
+              "kind": "collectionType",
+              "attributes": 2
+            }
+          ]
+        },
+        "comparison": {
+          "missingInDestination": [],
+          "onlyInDestination": [],
+          "common": [
+            "plugin::upload.file",
+            "plugin::upload.folder",
+            "plugin::i18n.locale",
+            "plugin::content-releases.release",
+            "plugin::content-releases.release-action",
+            "plugin::review-workflows.workflow",
+            "plugin::review-workflows.workflow-stage",
+            "plugin::users-permissions.permission",
+            "plugin::users-permissions.role",
+            "plugin::users-permissions.user",
+            "api::hub-application-config.hub-application-config",
+            "api::poi.poi",
+            "api::poi-recommendation.poi-recommendation",
+            "api::stay.stay",
+            "api::suite.suite",
+            "api::tag-label.tag-label",
+            "admin::permission",
+            "admin::user",
+            "admin::role",
+            "admin::api-token",
+            "admin::api-token-permission",
+            "admin::transfer-token",
+            "admin::transfer-token-permission"
+          ]
+        }
+      },
+      "counts": {
+        "plugin::upload.file": "Error",
+        "plugin::upload.folder": "Error",
+        "plugin::i18n.locale": "Error",
+        "plugin::content-releases.release": "Error",
+        "plugin::content-releases.release-action": "Error",
+        "plugin::review-workflows.workflow": "Error",
+        "plugin::review-workflows.workflow-stage": "Error",
+        "plugin::users-permissions.permission": "Error",
+        "plugin::users-permissions.role": "Error",
+        "plugin::users-permissions.user": "Error",
+        "api::hub-application-config.hub-application-config": "Error",
+        "api::poi.poi": "Error",
+        "api::poi-recommendation.poi-recommendation": "Error",
+        "api::stay.stay": "Error",
+        "api::suite.suite": "Error",
+        "api::tag-label.tag-label": "Error",
+        "admin::permission": "Error",
+        "admin::user": "Error",
+        "admin::role": "Error",
+        "admin::api-token": "Error",
+        "admin::api-token-permission": "Error",
+        "admin::transfer-token": "Error",
+        "admin::transfer-token-permission": "Error"
+      }
+    },
+    "mediaMigration": {
+      "completed": true,
+      "migratedFiles": 59
+    }
+  },
+  "summary": {},
+  "endTime": "2025-06-14T02:09:44.129Z",
+  "error": "Cannot read properties of undefined (reading 'pluralName')",
+  "success": false
+}

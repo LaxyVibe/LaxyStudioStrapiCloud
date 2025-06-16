@@ -1,6 +1,9 @@
 module.exports = ({env}) => ({
   "strapi-import-export": {
     enabled: true,
+    config: {
+      serverPublicHostname: env('PUBLIC_URL', 'http://localhost:1337'), // Required for media handling
+    },
   },
   tinymce: {
     enabled: true

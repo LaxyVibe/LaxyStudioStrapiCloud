@@ -1,0 +1,40 @@
+{
+  "migrated": {
+    "api::tag-label.tag-label": {
+      "success": 0,
+      "failed": 0,
+      "errors": []
+    },
+    "api::stay.stay": {
+      "success": 0,
+      "failed": 0,
+      "errors": []
+    },
+    "api::poi.poi": {
+      "success": 0,
+      "failed": 0,
+      "errors": []
+    },
+    "api::suite.suite": {
+      "success": 0,
+      "failed": 0,
+      "errors": []
+    },
+    "api::poi-recommendation.poi-recommendation": {
+      "success": 0,
+      "failed": 0,
+      "errors": []
+    },
+    "api::hub-application-config.hub-application-config": {
+      "success": 0,
+      "failed": 0,
+      "errors": []
+    }
+  },
+  "errors": {},
+  "summary": {
+    "total": 0,
+    "success": 0,
+    "failed": 0
+  }
+}

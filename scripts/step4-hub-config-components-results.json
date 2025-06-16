@@ -1,0 +1,45 @@
+{
+  "locales": {
+    "en": {
+      "success": 1,
+      "failed": 0,
+      "errors": []
+    },
+    "zh-Hans": {
+      "success": 1,
+      "failed": 0,
+      "errors": []
+    },
+    "zh-Hant": {
+      "success": 1,
+      "failed": 0,
+      "errors": []
+    },
+    "ko": {
+      "success": 1,
+      "failed": 0,
+      "errors": []
+    },
+    "ja": {
+      "success": 1,
+      "failed": 0,
+      "errors": []
+    }
+  },
+  "componentStats": {
+    "total": 45,
+    "processed": 45,
+    "migrated": 5,
+    "failed": 0
+  },
+  "mediaStats": {
+    "total": 76,
+    "mapped": 76,
+    "unmapped": 0
+  },
+  "summary": {
+    "total": 5,
+    "success": 5,
+    "failed": 0
+  }
+}

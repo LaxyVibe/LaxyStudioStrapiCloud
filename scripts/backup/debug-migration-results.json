@@ -1,0 +1,1434 @@
+{
+  "pass1": {
+    "api::tag-label.tag-label": {
+      "success": 2,
+      "failed": 0,
+      "errors": [],
+      "entries": [
+        {
+          "originalEntry": {
+            "id": 26,
+            "documentId": "lxdko1bwrqlgtzcxii4h92qn",
+            "name": "Event",
+            "createdAt": "2025-05-28T10:16:59.960Z",
+            "updatedAt": "2025-06-06T14:21:13.827Z",
+            "publishedAt": "2025-06-02T14:51:57.927Z",
+            "locale": "en",
+            "color": "GREY",
+            "localizations": [
+              {
+                "id": 31,
+                "documentId": "lxdko1bwrqlgtzcxii4h92qn",
+                "name": "活动／盛会",
+                "createdAt": "2025-06-06T14:21:13.751Z",
+                "updatedAt": "2025-06-06T14:21:13.751Z",
+                "publishedAt": "2025-06-06T14:21:13.738Z",
+                "locale": "zh-Hans",
+                "color": "GREY"
+              },
+              {
+                "id": 30,
+                "documentId": "lxdko1bwrqlgtzcxii4h92qn",
+                "name": "活動／盛事",
+                "createdAt": "2025-06-06T14:21:06.841Z",
+                "updatedAt": "2025-06-06T14:21:13.827Z",
+                "publishedAt": "2025-06-06T14:21:06.828Z",
+                "locale": "zh-Hant",
+                "color": "GREY"
+              },
+              {
+                "id": 27,
+                "documentId": "lxdko1bwrqlgtzcxii4h92qn",
+                "name": "이벤트",
+                "createdAt": "2025-05-28T10:17:07.241Z",
+                "updatedAt": "2025-06-06T14:21:13.827Z",
+                "publishedAt": "2025-05-28T10:17:07.229Z",
+                "locale": "ko",
+                "color": "GREY"
+              },
+              {
+                "id": 28,
+                "documentId": "lxdko1bwrqlgtzcxii4h92qn",
+                "name": "イベント",
+                "createdAt": "2025-05-28T10:17:13.454Z",
+                "updatedAt": "2025-06-06T14:21:13.827Z",
+                "publishedAt": "2025-05-28T10:17:13.414Z",
+                "locale": "ja",
+                "color": "GREY"
+              }
+            ]
+          },
+          "newId": 211,
+          "documentId": "i28g5p1b99qvwzp5b4z7j9sm"
+        },
+        {
+          "originalEntry": {
+            "id": 1,
+            "documentId": "h60byd410zus966b96j4rkwy",
+            "name": " Onsen (Hot Spring)",
+            "createdAt": "2025-05-28T10:11:25.015Z",
+            "updatedAt": "2025-06-06T14:22:38.086Z",
+            "publishedAt": "2025-05-28T10:11:25.008Z",
+            "locale": "en",
+            "color": "GREY",
+            "localizations": [
+              {
+                "id": 35,
+                "documentId": "h60byd410zus966b96j4rkwy",
+                "name": "温泉",
+                "createdAt": "2025-06-06T14:22:38.072Z",
+                "updatedAt": "2025-06-06T14:22:38.072Z",
+                "publishedAt": "2025-06-06T14:22:38.064Z",
+                "locale": "zh-Hans",
+                "color": "GREY"
+              },
+              {
+                "id": 34,
+                "documentId": "h60byd410zus966b96j4rkwy",
+                "name": "溫泉",
+                "createdAt": "2025-06-06T14:22:32.180Z",
+                "updatedAt": "2025-06-06T14:22:38.086Z",
+                "publishedAt": "2025-06-06T14:22:32.164Z",
+                "locale": "zh-Hant",
+                "color": "GREY"
+              },
+              {
+                "id": 2,
+                "documentId": "h60byd410zus966b96j4rkwy",
+                "name": "온천",
+                "createdAt": "2025-05-28T10:11:33.447Z",
+                "updatedAt": "2025-06-06T14:22:38.086Z",
+                "publishedAt": "2025-05-28T10:11:33.392Z",
+                "locale": "ko",
+                "color": "GREY"
+              },
+              {
+                "id": 3,
+                "documentId": "h60byd410zus966b96j4rkwy",
+                "name": "おんせん",
+                "createdAt": "2025-05-28T10:11:46.491Z",
+                "updatedAt": "2025-06-06T14:22:38.086Z",
+                "publishedAt": "2025-05-28T10:11:46.474Z",
+                "locale": "ja",
+                "color": "GREY"
+              }
+            ]
+          },
+          "newId": 212,
+          "documentId": "vnmnuk2as24bre2jh2ndfr0a"
+        }
+      ]
+    },
+    "api::stay.stay": {
+      "success": 2,
+      "failed": 0,
+      "errors": [],
+      "entries": [
+        {
+          "originalEntry": {
+            "id": 14,
+            "documentId": "nh91l7ks7t9s37xczk3mkcwx",
+            "greeting": "Welcome to Beppu Story!",
+            "createdAt": "2025-05-23T15:46:58.718Z",
+            "updatedAt": "2025-06-11T09:50:39.183Z",
+            "publishedAt": "2025-06-11T09:50:39.139Z",
+            "locale": "en",
+            "nativeLanguageCode": "ja",
+            "label": "Beppu Story",
+            "slug": "beppu-story",
+            "avatar": {
+              "id": 79,
+              "documentId": "rvf8uwz2ob1djwacq8pntj7c",
+              "name": "beppu-airbnb-logo.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 225,
+              "height": 225,
+              "formats": {
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749201885/thumbnail_beppu_airbnb_logo_786f756142.png",
+                  "hash": "thumbnail_beppu_airbnb_logo_786f756142",
+                  "mime": "image/png",
+                  "name": "thumbnail_beppu-airbnb-logo.png",
+                  "path": null,
+                  "size": 26.37,
+                  "width": 156,
+                  "height": 156,
+                  "sizeInBytes": 26369,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_beppu_airbnb_logo_786f756142",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "beppu_airbnb_logo_786f756142",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 14.75,
+              "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749201884/beppu_airbnb_logo_786f756142.png",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "beppu_airbnb_logo_786f756142",
+                "resource_type": "image"
+              },
+              "createdAt": "2025-06-06T09:24:45.446Z",
+              "updatedAt": "2025-06-06T09:27:37.271Z",
+              "publishedAt": "2025-06-06T09:24:45.454Z"
+            },
+            "pickedPOIs": [
+              {
+                "id": 20,
+                "documentId": "wegzr8tt6ofuoyv5udg8zwan",
+                "address": null,
+                "highlight": "The Beppu Hatto Onsen Festival is the largest hot spring festival in the area, typically lasting five days from late March to early April. During this period, many municipal hot springs offer free admission, and the entire town is filled with a joyous atmosphere. The festivities include parades, traditional performances, and the unique \"\"Yu-Kake Matsuri\"\" (Hot Water Splashing Festival), where participants splash hot spring water onto the crowd, creating an incredibly lively scene.\n\nAnother unique event is the Ogiyama Fire Festival, a ceremony where fires are set on Mount Ogiyama to pray for health, longevity, and prosperity throughout the year. However, please note that this fire festival usually takes place in early February, on a different date from the Onsen Festival, and is a spectacular sight unique to Beppu's winter.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-06T14:45:50.734Z",
+                "updatedAt": "2025-06-11T09:39:34.399Z",
+                "publishedAt": "2025-06-11T09:30:29.026Z",
+                "locale": "en",
+                "label": "Beppu Hatto Onsen Festival (Late March–Early April)",
+                "slug": "Beppu-Hatto-Onsen-Festival",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 5,
+                "documentId": "j3mbj5p4mgqmig383z4dkvqy",
+                "address": "2-3-2 Kitahama, Beppu-shi, Oita 874-0920, Japan",
+                "highlight": "Kaimonji Onsen is a historic public hot spring in Beppu City, Oita Prefecture, Japan. It's affordable and popular among locals and tourists, making it an ideal choice for those who want to experience authentic Japanese bathing culture.\n\nThe onsen retains a traditional and simple style, not luxurious but full of warmth and nostalgia. The facilities are modest, suitable for travelers who prefer a quiet and pure hot spring experience. Its central location near Beppu Station makes it easily accessible on foot.\n\nIf you want to delve into Beppu's daily life and hot spring culture, Kaimonji Onsen is a worthwhile addition to your itinerary.",
+                "externalURL": "https://www.city.beppu.oita.jp/sisetu/shieionsen/detail7.html",
+                "type": "attraction",
+                "createdAt": "2025-06-06T14:18:20.610Z",
+                "updatedAt": "2025-06-13T02:43:59.859Z",
+                "publishedAt": "2025-06-08T04:34:12.521Z",
+                "locale": "en",
+                "label": "Kaimonji Onsen",
+                "slug": "Kaimonji-Onsen",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.4653855924157!2d131.5032886!3d33.2804858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6dd05cfbeff%3A0xdc9485bc2d68384!2z5rW36ZaA5a-65rip5rOJIEthaW1vbmppIG9uc2Vu!5e0!3m2!1sja!2sjp!4v1749357166015!5m2!1sja!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "0977-22-3625",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 15,
+                "documentId": "nyk1nox195rwz864vhirbq4u",
+                "address": "1 Kankaiji, Beppu-shi, Oita 874-0822, Japan",
+                "highlight": "The Aqua Garden is a renowned spa and water park located within Beppu Suginoi Hotel, combining hot spring therapy with a resort atmosphere to offer guests an excellent relaxation experience. Facilities include open-air hot spring pools, illuminated fountains, waterfall walls, and visual effects, making it ideal for couples and families, as well as travelers who enjoy a romantic nighttime ambiance.\n\nVisitors don't need to stay at Suginoi Hotel to purchase tickets for entry, making it popular among day-trippers. Especially at night, the illuminations and water performances, accompanied by background music, create a rare and fantastical scene in Beppu, making it a popular choice for photography and unwinding.",
+                "externalURL": "https://www.suginoi-hotel.com/",
+                "type": "attraction",
+                "createdAt": "2025-06-06T14:37:46.853Z",
+                "updatedAt": "2025-06-13T02:43:45.211Z",
+                "publishedAt": "2025-06-08T05:15:15.447Z",
+                "locale": "en",
+                "label": "Suginoi Hotel, Aqua Garden",
+                "slug": "Suginoi-Hotel-Aqua-Garden",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.289058650653!2d131.4726!3d33.28510000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a65c95c88521%3A0x2b1c619b643d0a36!2sThe%20Aqua%20Garden!5e0!3m2!1sen!2sjp!4v1749359230971!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "0977-24-1141",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 10,
+                "documentId": "htmjfrmp84tbio8un21wx15r",
+                "address": "16-23 Motomachi, Beppu-shi, Oita 874-0944, Japan",
+                "highlight": "Takegawara Onsen is one of Beppu City's most iconic traditional public hot springs, housed in a highly historic old building. The building itself is over a hundred years old, serving as a symbol of Beppu's hot spring culture and considered a city landmark.\n\nBeyond classic Japanese hot spring baths, its most famous feature is the \"\"sand bath\"\" (sunayu) – where visitors lie in warm sand heated by natural geothermal steam, experiencing a healing effect different from regular bathing. It's deeply loved by both domestic and international travelers.\n\nAs a place where history and culture intersect, Takegawara Onsen is not just a bathing spot but also a journey through time, highly recommended for first-time visitors to Beppu.",
+                "externalURL": "https://www.takegawara-onsen.com/",
+                "type": "attraction",
+                "createdAt": "2025-06-06T14:30:41.802Z",
+                "updatedAt": "2025-06-13T02:45:34.289Z",
+                "publishedAt": "2025-06-11T07:37:16.927Z",
+                "locale": "en",
+                "label": "Takegawara Onsen",
+                "slug": "Takegawara-Onsen",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.5811698237458!2d131.5059894!3d33.277455599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6dbc076d72f%3A0x30437b42d69f3478!2sTakegawara%20Onsen!5e0!3m2!1sen!2sjp!4v1749359217585!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "0977-23-1585",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 30,
+                "documentId": "molyzu13gr79s4fgj78qujdr",
+                "address": "7-4 Motomachi, Beppu, Oita 874-0944, Japan",
+                "highlight": "Aji Dining Miyako is a cozy izakaya located in the heart of Beppu City, known for its home-style cooking and Japanese teppanyaki dishes. The affordable prices make it an excellent choice for enjoying good food and casual gatherings.\n\nThe restaurant is situated inside the \"\"Sol Paseo Ginza\"\" commercial building, offering convenient access. The dine-in environment is clean, comfortable, and has a relaxed atmosphere. The menu is extensive, ranging from classic Japanese side dishes to freshly grilled okonomiyaki, making it especially suitable for travelers wanting to experience an authentic Japanese dinner.",
+                "externalURL": null,
+                "type": "restaurant",
+                "createdAt": "2025-06-08T01:16:21.536Z",
+                "updatedAt": "2025-06-13T02:34:25.745Z",
+                "publishedAt": "2025-06-10T13:39:36.693Z",
+                "locale": "en",
+                "label": "Miyako",
+                "slug": "Miyako",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.5981343224757!2d131.5048875!3d33.2770116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6c3382ce709%3A0xa9853fd37dca9845!2z5ZGz44OA44Kk44OL44Oz44KwIOOBv-OChOOBkw!5e0!3m2!1sen!2sjp!4v1749359253640!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-23-3223",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 25,
+                "documentId": "d4mfo8qjqzeeg8zq84hrzb51",
+                "address": "1-15-7 Kitahama, Beppu, Oita 874-0920, Japan",
+                "highlight": "Robata Jin is a cozy Japanese izakaya located in Kitahama, Beppu City, cherished by locals and travelers alike for its friendly service and warm atmosphere. The establishment offers a diverse selection of alcoholic beverages, including beer, sake, and shochu, paired with various delicious side dishes.\n\nThe cuisine primarily features tempura and fresh seafood dishes, making it perfect whether you want to enjoy a few drinks or spend a relaxed time with friends and family. It provides dine-in service only and does not support takeout, offering a space suitable for sitting down and slowly savoring the izakaya experience.",
+                "externalURL": "http://robata-jin.com/",
+                "type": "restaurant",
+                "createdAt": "2025-06-08T01:10:01.333Z",
+                "updatedAt": "2025-06-13T02:38:27.568Z",
+                "publishedAt": "2025-06-10T13:43:28.501Z",
+                "locale": "en",
+                "label": "Robata Jin",
+                "slug": "Robata-Jin",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.5067376287343!2d131.50581929999998!3d33.2794036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6dc86628019%3A0x660c877a77932490!2sRobata%20Jin!5e0!3m2!1sen!2sjp!4v1749359241111!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-21-1768",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 100,
+                "documentId": "sdy1wipnsab8l3r7i4qhghix",
+                "address": "2-15-19 Asami, Beppu, Oita 874-0812, Japan",
+                "highlight": "\"Hachiman Asami Shrine is one of Beppu City's oldest and largest shrines, boasting over a thousand years of history. It is a solemn sanctuary dedicated to Hachiman-okami. Nestled at the foot of Mount Asami, it has long been a spiritual center where locals pray for health, safety, and family harmony.\n\nThe shrine grounds exude a peaceful atmosphere, surrounded by lush greenery. The architecture is rustic and elegant, with torii gates, stone lanterns, sacred bridges, and the main hall all bearing the marks of time. In spring, when the cherry blossoms bloom, the entire shrine becomes even more romantic and serene, making it an excellent spot for flower viewing and photography.\n\nFurthermore, there is a spring here known as the Water of Longevity, a famous natural spring that many locals specially come to draw water from. Whether for sightseeing, worship, or a tranquil stroll for introspection, Hachiman Asami Shrine is an ideal place to deeply explore Beppu's history and culture.\"",
+                "externalURL": "http://www.asami.or.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T07:00:39.850Z",
+                "updatedAt": "2025-06-13T02:39:36.104Z",
+                "publishedAt": "2025-06-11T07:02:40.769Z",
+                "locale": "en",
+                "label": "Asami Shrine",
+                "slug": "Asami-Shrine",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.8040574276943!2d131.4951489!3d33.27162169999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6934ad40397%3A0x6477dc4b0952a412!2sHachiman%20Asami%20Shrine!5e0!3m2!1sen!2sjp!4v1749359524312!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-23-1408",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 95,
+                "documentId": "zggs300v34z7naqadz76n6j3",
+                "address": "3018-1 Beppu, Beppu, Oita 874-0903, Japan",
+                "highlight": "Beppu Park is the largest urban green space in the heart of Beppu City, sprawling with diverse scenery that changes with the seasons. It's a popular spot for locals and visitors to relax, exercise in the morning, and enjoy family strolls. The park features vast lawns, bamboo groves, pine tree pathways, and in spring, blooming cherry blossoms and plum trees, making it an ideal place for photography and flower viewing.\n\nBesides its natural beauty, the park is frequently used as a venue for local events and festivals, creating a lively atmosphere during festive periods, while remaining tranquil and serene on weekdays. It's a great place to immerse yourself in Beppu's lifestyle. The park's pathways are gentle and easy to navigate, suitable for jogging, dog walking, picnics, or simply resting under the shade of trees.\n\nBeppu Park is open year-round without fences and allows dogs, making it very pet-friendly. Its central location near the city provides convenient access, allowing you to experience the comfortable blend of nature and urban life at any time of day.",
+                "externalURL": "http://www.city.beppu.oita.jp/sisetu/kouen_tyuusyajyou/03kouen_03-01beppu.html",
+                "type": "attraction",
+                "createdAt": "2025-06-11T05:36:25.941Z",
+                "updatedAt": "2025-06-13T02:40:33.313Z",
+                "publishedAt": "2025-06-11T07:36:21.928Z",
+                "locale": "en",
+                "label": "Beppu Park",
+                "slug": "Beppu-Park",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.4244488848994!2d131.4910055!3d33.28155710000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6f020482965%3A0x9e5d27cb752123a8!2sBeppu%20Park!5e0!3m2!1sen!2sjp!4v1749359512569!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-21-1473",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 79,
+                "documentId": "hpkbzxg22hpftaenhc8hadnu",
+                "address": "6-20 Minamikitamachō, Beppu, Oita 874-0929, Japan",
+                "highlight": "Don Quijote Beppu Store is one of Japan's famous discount chain stores, located in the heart of Beppu City. It offers a vast array of products, making it a highly popular and convenient shopping destination for tourists and local residents alike.\n\nThe store is packed with an extensive range of items, from snacks, daily necessities, cosmetics, home appliances, toys, to travel goods, clothing, footwear, souvenirs, and almost everything in between. Its unique shelf layout makes you feel like you're in a labyrinth, with every visit leading to new discoveries, making the shopping experience full of fun.\n\nThis store is particularly popular among international visitors, featuring a permanent tax-free counter and offering multilingual signage and friendly service. If you want to purchase everything you need for your trip in one go or find affordable surprise treasures, this is definitely one of the must-visit options.",
+                "externalURL": "https://www.donki.com/store/shop_detail.php?shop_id=650",
+                "type": "attraction",
+                "createdAt": "2025-06-10T14:05:29.389Z",
+                "updatedAt": "2025-06-13T02:36:32.221Z",
+                "publishedAt": "2025-06-10T14:05:29.320Z",
+                "locale": "en",
+                "label": "Don Quijote Beppu ",
+                "slug": "Don-Quijote-Beppu",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": "+81 570-200-465",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 45,
+                "documentId": "cy9slbcmqkc3seup0lvwkymr",
+                "address": "8-16 Kyōmachi, Beppu, Oita 874-0926, Japan",
+                "highlight": "Located in Kyomachi, Beppu City, \"\"Ramen Kobo Fukuya Main Store\"\" is a long-established ramen specialty shop renowned for its authentic taste and rich tonkotsu (pork bone) broth. The exterior is modest and unassuming, while the interior features a simple yet comfortable Japanese design with a friendly atmosphere, making it a daily dining favorite for many locals and regulars.\n\nThis store adheres to traditional methods for simmering its tonkotsu broth, resulting in a rich aroma that is flavorful but not greasy. Paired with springy medium-thin noodles, it delivers a classic Kyushu ramen with abundant flavor. In addition to the standard option, they also offer vegetable ramen, extra chashu versions, and spicy variations to satisfy various diners' preferences.\n\nThe shop provides dine-in seating and also offers takeout service, making it ideal for a quick and hot bowl of ramen during a busy travel itinerary. Whether chosen for lunch or dinner, this place can provide a satisfying bowl of hot ramen.",
+                "externalURL": "https://fukuya-ramen.com/",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:14:01.211Z",
+                "updatedAt": "2025-06-13T02:36:59.111Z",
+                "publishedAt": "2025-06-10T13:16:44.691Z",
+                "locale": "en",
+                "label": "Fukuya Ramen",
+                "slug": "Fukuya-Ramen",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.2133157247627!2d131.5039933!3d33.2870819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6df796c3b93%3A0xcdc0fb800ae8b95e!2sFukuya%20So-Honten!5e0!3m2!1sen!2sjp!4v1749359288720!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-25-9471",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 40,
+                "documentId": "f5lvupmy88iwu5p15g4dg5qq",
+                "address": "5-23 Minamikitamachō, Beppu, Oita 874-0929, Japan",
+                "highlight": "Gusto Beppu Store is a branch of the well-known Japanese family restaurant chain Gusto located in Beppu. This restaurant offers a diverse menu, ranging from Japanese to Western dishes, including hamburg steaks, pasta, salads, and various desserts. It's a great place for locals and tourists to enjoy a casual meal, whether it's breakfast, lunch, or dinner. The restaurant typically has long operating hours, catering to different dining needs and providing a comfortable and convenient dining environment. You can enjoy delicious and affordable family-style cuisine here.",
+                "externalURL": "https://www.skylark.co.jp/gusto/?utm_source=gt&utm_medium=gmb&utm_campaign=brandtop-Oita",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:07:57.216Z",
+                "updatedAt": "2025-06-13T02:35:03.802Z",
+                "publishedAt": "2025-06-10T13:47:59.466Z",
+                "locale": "en",
+                "label": "ガスト 別府店",
+                "slug": "Gusto-Family-Restaurant",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6670.760326954975!2d131.50500399999999!3d33.28271600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6de987686f1%3A0x80977dcb31a9e37e!2z44Ks44K544OIIOWIpeW6nOW6lw!5e0!3m2!1sen!2sjp!4v1749359278056!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 570-021-065",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 65,
+                "documentId": "x621cwnwwwrmwyfqlcg9gq87",
+                "address": "5 Kumi, Furomoto, Beppu, Oita 874-0041, Japan",
+                "highlight": "Jigokumushi Kobo Kannawa is a famous experiential local cuisine restaurant in Beppu, renowned for its Jigokumushi Ryori (hell-steamed cuisine), which utilizes natural hot spring steam for cooking. This cooking method has been passed down since the Edo period, involving placing vegetables, seafood, meats, and other ingredients into a steamer basket and cooking them directly with high-temperature steam erupting from underground, without adding a single drop of oil or water, preserving the ingredients' original flavor and nutrients.\n\nThe Kobo offers two ways to experience it: you can choose from the set menus provided on-site, or you can bring your own ingredients for DIY steaming (a facility usage fee applies). The hands-on experience is both fun and memorable, making it a popular unique Beppu activity for families, friends, and couples.\n\nThe restaurant has a spacious dining area, but it does not offer takeout or delivery services. Located in the heart of the Kannawa Onsen area, it's easily accessible and a must-try local dining experience when visiting Beppu.",
+                "externalURL": "http://jigokumushi.com/",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:55:01.515Z",
+                "updatedAt": "2025-06-13T02:42:16.813Z",
+                "publishedAt": "2025-06-10T13:56:56.813Z",
+                "locale": "en",
+                "label": "Jigoku Steam Food",
+                "slug": "Jigoku-Steam-Food",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.1273790772834!2d131.4762201!3d33.3154852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a7a18b11e30f%3A0x7d092fbf0d6c8086!2sJigokumushikobo%20Kannawa!5e0!3m2!1sen!2sjp!4v1749359417652!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-66-3775",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 60,
+                "documentId": "txdt0lh6nxjvv5ztf2i5xoxm",
+                "address": "34 Tsurumi, Beppu, Oita 874-0840, Japan",
+                "highlight": "Kame Masa Kurukuru Sushi is a highly popular conveyor belt sushi restaurant located in the Tsurumi area of Beppu City, renowned for its fresh and generously portioned sushi ingredients. Each piece of sushi here is made with ample ingredients and expertly cut, providing not only fresh taste but also visual satisfaction, making it a must-revisit spot for many locals and tourists.\n\nThe interior decor is minimalist, featuring counter seats and spacious family-style booth seating, suitable for both solo dining and family gatherings. The variety of plates is extensive, from classic tuna, salmon, and squid to daily fresh seafood, all easily enjoyed via the conveyor belt or by ordering directly from the chef.\n\nThis restaurant does not offer delivery service, but dine-in and takeout are available. Due to its extreme popularity, queuing is often required during peak hours, so it's advisable to arrive early or plan for an earlier dining time.",
+                "externalURL": "https://instagram.com/kamesho_9696_sushi",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:49:41.712Z",
+                "updatedAt": "2025-06-13T02:40:16.819Z",
+                "publishedAt": "2025-06-10T13:51:38.898Z",
+                "locale": "en",
+                "label": "Kamesho, Sushi Restaurant ",
+                "slug": "Kamesho-Sushi-Restaurant",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.2560101022887!2d131.4841769!3d33.31212190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a70b04ebffff%3A0x3a0db168b14ff957!2sKamesho%20Kurukuru%20Sushi!5e0!3m2!1sen!2sjp!4v1749359409305!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-66-5225",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 85,
+                "documentId": "ojd63tl0ap0mqz0wls0z9ioq",
+                "address": "5 Kitamatogahamachō, Beppu, Oita 874-0928, Japan",
+                "highlight": "Matogahama Park is an open public park located in Kitano-hamacho, Beppu City, right by the coast. It boasts expansive views and a serene atmosphere, making it a beloved spot for strolls and relaxation among locals and tourists.\n\nFacing Beppu Bay, the park features a coastal promenade, ideal for morning jogs, evening walks, or enjoying sunrises and ocean views. The wide, flat grounds are lush with greenery, making it a perfect place for dog walking, picnics, and for children to play freely. Crucially, pets are welcome, making it very friendly for travelers with furry companions.\n\nIts proximity to the city center and the seaside allows easy walking access to various hot spring facilities and dining establishments, making it a convenient location that integrates with Beppu's everyday life. Whether it's the morning sea breeze or the evening tranquility, you can feel Beppu's unique laid-back charm here.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T05:17:40.465Z",
+                "updatedAt": "2025-06-13T02:45:19.608Z",
+                "publishedAt": "2025-06-11T05:21:39.717Z",
+                "locale": "en",
+                "label": "Matogahama Park",
+                "slug": "Matogahama-Park",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.2953375788084!2d131.50515289999998!3d33.2849357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6ded9706d85%3A0xc114a1dd39d3335!2sMatogahama%20Park!5e0!3m2!1sen!2sjp!4v1749359474655!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-21-1111",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 110,
+                "documentId": "cwzfwggt56pmedpj357h7iks",
+                "address": "4380-1 Higashiyamabeppu, Beppu, Oita 874-0000, Japan",
+                "highlight": "Shidaka Lake is a highland lake located in the mountainous area of Beppu City, Oita Prefecture. Surrounded by mountains, its lake and mountain scenery complement each other beautifully, making it a hidden gem that combines natural beauty with recreational facilities. The climate here is pleasant year-round, with cherry blossoms in spring and autumn leaves, offering different charms each season.\n\nThe lakeside area is well-developed, featuring camping grounds, BBQ facilities, paddleboat rentals, hiking trails, and family-friendly amenities, making it a great place for locals and tourists to relax on holidays. Those who prefer quiet nature can fish or picnic by the lake, while travelers seeking outdoor activities can plan a day of camping or hiking.\n\nThe lake area boasts fresh air and still, mirror-like waters. It's especially recommended to visit in the early morning or evening to capture stunning reflections and picturesque scenes where the lake blends with mist.",
+                "externalURL": "https://www.recamp.co.jp/recamp%E5%88%A5%E5%BA%9C%E5%BF%97%E9%AB%98%E6%B9%96",
+                "type": "attraction",
+                "createdAt": "2025-06-11T07:10:48.530Z",
+                "updatedAt": "2025-06-13T02:43:23.532Z",
+                "publishedAt": "2025-06-11T07:34:11.870Z",
+                "locale": "en",
+                "label": "Shidaka Lake",
+                "slug": "Shidaka-Lake",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.1078125982526!2d131.4549176!3d33.26366970000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a5e51e2ff08b%3A0x1e166e28e296ff65!2sShidaka%20Lake!5e0!3m2!1sen!2sjp!4v1749359544754!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 55,
+                "documentId": "spkzddcn3qcvcz9ghce3e1xy",
+                "address": "Kitachū, Beppu, Oita 874-0845, Japan",
+                "highlight": "Taichi Shoten Beppu Yamanami Store is a popular ramen shop located in Kita-naka, Beppu City, favored by gourmets for its generous portions and rich broth, characteristic of Jiro-kei ramen. The store design is simple and practical, with spacious seating suitable for solo diners or friends looking to enjoy a hearty bowl of noodles together.\n\nThe broth is pork bone-based, infused with a rich soy sauce flavor, making it rich in fat but not greasy. The noodles are thick and curly, offering excellent elasticity, and are paired with a generous amount of bean sprouts, cabbage, and thick-cut chashu, providing a highly satisfying meal. You can also customize your ramen by adding extra garlic, back fat (seabura), or increasing the portion size according to your preference.\n\nAdditionally, the shop offers takeout service and is one of the must-visit establishments for ramen lovers who enjoy strong flavors and a feeling of fullness.",
+                "externalURL": "http://taichi-shouten.com/",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:31:55.801Z",
+                "updatedAt": "2025-06-13T02:43:02.122Z",
+                "publishedAt": "2025-06-10T13:35:05.011Z",
+                "locale": "en",
+                "label": "Taiichi Shoten, Ramen Restaurant",
+                "slug": "Taiichi-Shoten-Ramen-Restaurant",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.2602628035274!2d131.4821036!3d33.3120107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a70a3edc6e65%3A0xd691cc2f33149c83!2sTaichishoten%20Beppuyamanamiten!5e0!3m2!1sen!2sjp!4v1749359328438!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-67-0876",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 109,
+                "documentId": "zbuqqk89n0ny8glydruig56m",
+                "address": "4253 Kanzaki, Oita, Oita 870-0100, Japan",
+                "highlight": "Tanoura Beach is a popular coastal spot located in the Kanzaki area of Oita City, known for its tranquil and pleasant atmosphere and convenient facilities. It features an artificially constructed gently sloping sandy beach and a breakwater, suitable for strolling, playing in the water, and enjoying magnificent sunset views in the evening.\n\nOpposite the beach is a small artificial island park, easily accessible via a pedestrian bridge. The island is equipped with children's play equipment and seating, making it a popular place for families and couples to stroll and take photos. The promenade along the coast is flat and easy to walk, providing an ideal space for jogging, walking pets, and unwinding.\n\nDuring summer, the beach is open for public swimming, with clean water suitable for fishing and observing small creatures. Basic facilities like restrooms and showers are also available. This area is also pet-friendly, making it a welcoming beach option for dog lovers.",
+                "externalURL": "https://www.city.oita.oita.jp/o177/tanoura_syoukai.html",
+                "type": "attraction",
+                "createdAt": "2025-06-11T07:06:08.468Z",
+                "updatedAt": "2025-06-13T02:45:05.232Z",
+                "publishedAt": "2025-06-11T07:07:00.381Z",
+                "locale": "en",
+                "label": "Tanoura Beach",
+                "slug": "Tanoura-Beach",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.3912072576054!2d131.5474087!3d33.256249200000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a1115d167fe9%3A0xba67a416773d5b1c!2sTanoura%20beach!5e0!3m2!1sen!2sjp!4v1749359533520!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 97-537-5638",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 54,
+                "documentId": "tqlsokni1bav4vrle2r42a0d",
+                "address": "2-29 Chiyomachi, Beppu, Oita 874-0942, Japan",
+                "highlight": "Founded over a century ago, Tomonaga Bakery is one of Beppu's oldest and most popular long-established bakeries. Since its establishment in the Taisho era, the shop has consistently adhered to traditional baking methods and its own refined recipes, bringing simple yet heartwarming handmade bread to every customer.\n\nIts most popular products include the classic red bean bread (tsubuan-pan) and butter French bread. The fillings are not overly sweet, and the texture is soft and elastic, attracting a steady stream of loyal customers. Both locals and tourists often queue up early in the morning just to get their hands on freshly baked, piping hot bread.\n\nThe shop only offers takeout; there are no dine-in seats or delivery services. Due to limited quantities, popular items often sell out by morning, so it's recommended to go early to avoid disappointment.",
+                "externalURL": "https://www.instagram.com/tomonaga_panya/",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:21:27.398Z",
+                "updatedAt": "2025-06-13T02:41:51.223Z",
+                "publishedAt": "2025-06-10T13:44:54.960Z",
+                "locale": "en",
+                "label": "Tomonaga Bakery",
+                "slug": "Tomonaga-Bakery",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.6907363219098!2d131.504148!3d33.2745879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6c3b67a8ff7%3A0x3feb11a15c177bc1!2sTomonaga%20Bakery!5e0!3m2!1sen!2sjp!4v1749359298103!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-23-0969",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 71,
+                "documentId": "fd6h05vxjmatrpqcbydefa7e",
+                "address": "4-38 Funakojimachi, Beppu, Oita 874-0922, Japan",
+                "highlight": "Tonkatsu Tei is a popular Japanese tonkatsu (pork cutlet) specialty restaurant located in Hiji-machi, Hayami-gun, Oita Prefecture, renowned for its crispy exterior and juicy, thick-cut pork cutlets. The tonkatsu here is prepared with meticulous craftsmanship, resulting in a perfectly crispy outside and tender inside. Paired with a rich special sauce and served fresh, it receives consistent praise from both locals and tourists.\n\nThe interior is simple and inviting, with seating areas perfect for family meals or a stop during a road trip. Besides the classic tonkatsu set meal, they offer various options like miso tonkatsu, cheese tonkatsu, and fried seafood. The side dishes, rice, and miso soup are also thoughtfully prepared, making it a restaurant that leaves you feeling full and satisfied.\n\nGiven its location near the midpoint between Beppu and Yufuin, it's an ideal spot for a lunch stop during your itinerary.",
+                "externalURL": null,
+                "type": "restaurant",
+                "createdAt": "2025-06-10T13:59:26.047Z",
+                "updatedAt": "2025-06-13T02:35:53.918Z",
+                "publishedAt": "2025-06-13T00:43:46.765Z",
+                "locale": "en",
+                "label": "Tonkichi, Pork Cutlet Restaurant",
+                "slug": "Tonkichi-Pork-Cutlet-Restaurant",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.7256473316343!2d131.5020446!3d33.2998398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a73d8297750b%3A0xf67fab0c01c2b352!2sTonkatsutei%20Beppu!5e0!3m2!1sen!2sjp!4v1749359440720!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-26-6685",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 35,
+                "documentId": "do1otg0ze0xx8m4f8jbo9zxv",
+                "address": "1-1-11 Kitahama, Beppu, Oita 874-0920, Japan",
+                "highlight": "Yakitori Bon Omocha is a highly popular Japanese yakitori izakaya located in the Kitahama area of Beppu City. The restaurant features horigotatsu (sunken floor) seating and private rooms, offering an elegant and private atmosphere, perfect for gatherings with friends or a relaxing drink.\n\nThe highlight of the menu is the fragrant charcoal-grilled skewers (yakitori), complemented by a variety of fresh seafood dishes and small appetizers. In addition to delicious food, they offer a rich selection of local sake and shochu, satisfying guests with discerning tastes. It's an excellent place to experience authentic Japanese izakaya culture.",
+                "externalURL": "http://www.yakitoribon.com/",
+                "type": "restaurant",
+                "createdAt": "2025-06-10T10:13:16.191Z",
+                "updatedAt": "2025-06-13T02:44:41.023Z",
+                "publishedAt": "2025-06-10T13:47:01.908Z",
+                "locale": "en",
+                "label": "Yakitori-Bon",
+                "slug": "Yakitori-Bon",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.5431976589944!2d131.5028965!3d33.2784494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6c2b7f05fd1%3A0x4db01432deac96d9!2z54S844Go44KK5YehIOavjeWutg!5e0!3m2!1sen!2sjp!4v1749359265680!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-26-6006",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 90,
+                "documentId": "cwnmx2xehk47ihvgvsu6enkp",
+                "address": "1-1-21 Kitahama, Beppu, Oita 874-0920, Japan",
+                "highlight": "Yayoi Tengu is a distinctive landmark statue located at the entrance of Yayoi Shopping Street in Kitahama, Beppu City. Shaped like a giant Tengu mask (a mythical guardian of mountains and forests in Japanese folklore), it symbolizes warding off evil and protection. This statue is not only a symbol of local belief but also a popular photo spot for visitors to Beppu.\n\nThe Tengu's prominent nose and stern expression are said to represent masculine power and blessings. Many tourists pose in front of or beside it, and it takes on a more mysterious aura when illuminated at night. It's rumored that some hidden Easter eggs can be found by observing the statue from behind, adding an element of playful discovery for visitors.\n\nConveniently located near Beppu Station, it also connects to Yayoi Shopping Street, once a bustling shopping area for locals. Although it no longer draws the crowds it once did, this Tengu statue quietly guards Beppu's street corners and memories, making it a cultural landmark not to be missed during a stroll.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T05:25:33.505Z",
+                "updatedAt": "2025-06-13T02:37:36.922Z",
+                "publishedAt": "2025-06-11T05:27:20.679Z",
+                "locale": "en",
+                "label": "Yayoi Tengu",
+                "slug": "Yayoi-Tengu",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.5628792715493!2d131.5033774!3d33.2779343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6c2d16bd203%3A0x325a21d5c2a8dfa8!2sYayoi%20Tengu!5e0!3m2!1sen!2sjp!4v1749359498895!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 80,
+                "documentId": "hukispdgdjcwtb2wa64hj4fs",
+                "address": "382-7 Kusunoki-machi, Beppu, Oita 874-0943, Japan",
+                "highlight": "YouMe Town Beppu is one of the largest multi-purpose shopping centers in Beppu City. It brings together a diverse range of stores, including supermarkets, clothing, cosmetics, bookstores, game centers, restaurants, and lifestyle goods, providing a one-stop shopping and leisure experience for both local residents and tourists.\n\nThe mall spans several floors. The 1st floor features a large supermarket and a general merchandise area, convenient for purchasing daily necessities and souvenirs. The 2nd floor primarily showcases apparel brands and 100-yen shops like DAISO. The 3rd floor houses UNIQLO, a bookstore, a children's play area, and a food court, making it convenient for shopping, dining, or visiting with children.\n\nIts location near the Beppu city center offers easy access, with free parking available, or you can walk or take public transportation. Whether you want to quickly stock up on daily essentials or spend a leisurely afternoon, this is an excellent choice.",
+                "externalURL": "http://www.izumi.jp/tenpo/beppu",
+                "type": "attraction",
+                "createdAt": "2025-06-10T14:08:19.785Z",
+                "updatedAt": "2025-06-13T02:38:02.757Z",
+                "publishedAt": "2025-06-10T14:10:37.495Z",
+                "locale": "en",
+                "label": "YouMe Town",
+                "slug": "YouMe-Town",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6671.257148794366!2d131.5075326!3d33.2762149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a6c4cbb65641%3A0x933daa209e21df0b!2sYouMe%20Town%20Beppu!5e0!3m2!1sen!2sjp!4v1749359463586!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-26-3333",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 130,
+                "documentId": "bbl73mrle3aq2txprtcjn4pv",
+                "address": "2-1755-1 Minamihatsu, Ajimu-machi, Usa, Oita 872-0722, Japan",
+                "highlight": "Kyushu Natural Zoological Park, also known as African Safari, is a vast wild animal park located in Usa City, Oita Prefecture. It features an African savanna-style animal ecosystem with free-roaming animals, making it a must-visit highlight for families and animal lovers.\n\nThe park's main feature is the Jungle Bus, an armored cage bus that allows close-up observation of animals like lions, elephants, giraffes, zebras, and camels along a dedicated route. Visitors can even feed the animals by hand, providing an immersive and interactive wildlife experience. In addition to the Jungle Bus, there are also walking areas and a small petting zoo, suitable for leisurely visits by all ages.\n\nThe park includes shops, dining areas, and convenient parking. It also offers shuttle services to and from Oita City and Beppu City, making it an ideal destination for a day trip with family or group tours.",
+                "externalURL": "https://africansafari.co.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:09:25.131Z",
+                "updatedAt": "2025-06-13T02:33:51.831Z",
+                "publishedAt": "2025-06-11T09:10:58.686Z",
+                "locale": "en",
+                "label": "African Safari",
+                "slug": "African-Safari",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 978-48-2331",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 151,
+                "documentId": "aqw9hrjzadsgenzogj16ajqu",
+                "address": null,
+                "highlight": "Beppu City holds a grand Summer Festival on the last weekend of July each year. This three-day event is a major local celebration, bringing a lively festive atmosphere to Beppu.\n\nDuring the festival, numerous food stalls (yatai) will be set up in the city center, offering a variety of delicious street foods and drinks, allowing locals and tourists to fully enjoy the food and fun.\n\nThe climax of the event falls on Sunday, with a approximately two-hour traditional Japanese dance parade. The most anticipated part is the Beppu Bay Fireworks Display, starting around 8 PM and lasting about an hour, where brilliant fireworks light up the night sky, creating a spectacular scene. Due to the large crowds attracted by the festival, accommodation prices in Beppu during this period are usually among the most expensive of the year, so early planning is recommended.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:40:32.766Z",
+                "updatedAt": "2025-06-11T09:45:53.478Z",
+                "publishedAt": "2025-06-11T09:44:54.168Z",
+                "locale": "en",
+                "label": "Beppu Summer Fireworks Festival (Late July)",
+                "slug": "Beppu-Summer-Fireworks-Festival",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 155,
+                "documentId": "ghaps26t7fkox3fnu2uy23ur",
+                "address": null,
+                "highlight": "Beppu hosts a grand winter festival, Beppu Christmas Hanabi Fantasia, on the Saturday and Sunday of Christmas week. This two-day event is a major highlight of Beppu's winter season.\n\nUnlike the Summer Festival's fireworks in late July, which are held for only one day, this fireworks display lights up Beppu's night sky for two consecutive evenings, making the scenery exceptionally charming and spectacular. The event venue features numerous food stalls (yatai), offering a variety of delicious snacks and drinks, allowing visitors to enjoy the festive atmosphere while indulging in local treats.\n\nDue to the popularity of this winter extravaganza, accommodations in Beppu city tend to fill up quickly. Therefore, it is strongly recommended that travelers planning to attend book their accommodation at least two months in advance to ensure they can fully participate in this romantic and spectacular Christmas fireworks feast.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:46:50.080Z",
+                "updatedAt": "2025-06-11T09:49:06.420Z",
+                "publishedAt": "2025-06-11T09:48:14.009Z",
+                "locale": "en",
+                "label": "Enjoy Christmas in Beppu (December)",
+                "slug": "Enjoy-Christmas-in-Beppu",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 126,
+                "documentId": "zh8b93w48qf9dmk0vg1pqoz1",
+                "address": "559-1 Kannawa, Beppu, Oita 874-0000, Japan",
+                "highlight": "The Beppu Hells Tour is one of Beppu's most iconic sightseeing routes, combining hot spring viewing with cultural themes to create a unique visual and sensory experience. Unlike typical hot springs focused on bathing, the Hells Tour is centered on observing the spectacular wonders of hot springs, featuring multiple distinct hells that allow visitors to fully appreciate the mystery and grandeur of geothermal activity.\n\nThe Hells Tour encompasses eight main hot spring attractions: Umi Jigoku (Sea Hell), Chinoike Jigoku (Blood Pond Hell), Oniyama Jigoku (Demon Mountain Hell), Shiraike Jigoku (White Pond Hell), Tatsumaki Jigoku (Spout Hell), Yama Jigoku (Mountain Hell), Onishi Bouzu Jigoku (Demon Stone Monk Hell), and Kamado Jigoku (Cooking Pot Hell). Each location offers different geothermal phenomena and exhibits; some are vivid red like blood, others are deep blue like the sea. There are even crocodile breeding areas and geothermal steaming food experiences, making it a diverse sightseeing route that blends nature with culture.\n\nSome hells are a bit far apart, so it's recommended to use city buses or drive. You can also purchase a Hells Tour pass to visit all eight at a discounted price. It's suitable for a half-day to full-day in-depth tour.",
+                "externalURL": "https://www.beppu-jigoku.com/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T08:52:50.588Z",
+                "updatedAt": "2025-06-13T02:41:12.295Z",
+                "publishedAt": "2025-06-11T08:54:38.577Z",
+                "locale": "en",
+                "label": "Jigoku Hell Tour",
+                "slug": "Jigoku-Hell-Tour",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.1121527910245!2d131.4696745!3d33.315883299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a7b960bca539%3A0x8bdccd2d35d910f2!2sHells%20of%20Beppu!5e0!3m2!1sen!2sjp!4v1749359571081!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-66-1577",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 145,
+                "documentId": "r9tx7ibedot5di1qqbirwauu",
+                "address": "1200 Noda Aza Ikenotsuru, Beppu, Oita 874-0016, Japan",
+                "highlight": "Jumonji-hara Observatory is located on a high plateau north of Beppu City, offering a superb panoramic view of the entire Beppu city area and Beppu Bay. It is also listed as one of Japan's Top 100 Viewpoints. The expansive view allows you to see as far as Shikoku on clear days, making it a must-visit spot for photography and nature enthusiasts.\n\nIt is especially recommended to visit in the evening to witness the romantic scene of the sunset and the city lights illuminating. The night view is also incredibly charming, showcasing another side of Beppu as a hot spring city. As the observatory is open around the clock, those driving can choose their visiting time to avoid crowds and quietly enjoy the magnificent landscape where mountains meet the sea.",
+                "externalURL": "https://www.city.beppu.oita.jp/sisetu/sangyou_kankou/jumonjibaru.html",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:21:33.688Z",
+                "updatedAt": "2025-06-13T02:41:28.893Z",
+                "publishedAt": "2025-06-11T09:23:20.314Z",
+                "locale": "en",
+                "label": "Jyumonjibaru Observatory",
+                "slug": "Jyumonjibaru-Observatory",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.5828542348854!2d131.4602103!3d33.329719499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a7ecbf391055%3A0x3b0fe1c46181594b!2sJumonji%20Viewpoint!5e0!3m2!1sen!2sjp!4v1749359610113!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-21-1128",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 115,
+                "documentId": "ghxccw6ct55ol1cs3getmko7",
+                "address": "3098-1 Kanzaki, Oita, Oita 870-0802, Japan",
+                "highlight": "Takasakiyama Natural Zoo is a natural animal park focusing on wild macaques (Japanese macaques), located in the Kanzaki area of Oita City. It's one of Kyushu's most representative outdoor attractions for families. The monkey troops live in their natural mountain forest habitat, allowing visitors to observe their natural behavior up close and experience the harmonious coexistence between humans and animals.\n\nKnown for its barrier-free design, the monkeys roam freely within the park, are very lively, and unafraid of people. Besides observing their lives, the park also arranges scheduled feeding sessions with explanations, helping visitors understand the monkeys' habits and group behavior, making it especially popular with families and nature enthusiasts.\n\nThe park includes ticket booths, a simple souvenir shop, and an information exhibition space, making it an ideal venue for educational tourism. It is adjacent to the Oita Marine Palace Aquarium Umitamago, allowing for a half-day to full-day combined sightseeing itinerary.",
+                "externalURL": "http://www.takasakiyama.jp/takasakiyama/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T08:43:51.831Z",
+                "updatedAt": "2025-06-13T02:46:11.233Z",
+                "publishedAt": "2025-06-11T08:45:32.590Z",
+                "locale": "en",
+                "label": "Takasaki Mountain, Monkey Park",
+                "slug": "Takasaki-Mountain-Monkey-Park",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.313444949981!2d131.5328036!3d33.25828549999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a1386bb372c3%3A0xfa8325f5ccb225ff!2sTakasakiyama%20Natural%20Zoological%20Garden!5e0!3m2!1sen!2sjp!4v1749359553556!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 97-532-5010",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 120,
+                "documentId": "z10jc3i9ga28uttlf604u81q",
+                "address": "3078-22 Kanzaki, Oita, Oita 870-0100, Japan",
+                "highlight": "Oita Marine Palace Aquarium Umitamago is a large aquarium located on the coast of the Kanzaki area in Oita Prefecture. It focuses on marine life exhibits and interactive experiences, making it one of Kyushu's popular destinations for family travel. The aquarium is known for its innovative architectural appearance and diverse exhibition spaces, and it is committed to combining entertainment with marine education to create an engaging and educational visitor experience.\n\nThe museum houses a rich collection of exhibits, including various marine creatures such as tropical fish, penguins, sea lions, dolphins, and stingrays. Visitors can enjoy thrilling sea lion and dolphin shows, and even touch starfish and shellfish in the touch pool, which is very popular with children and families.\n\nThe aquarium features a souvenir shop, a cafe area, and an outdoor scenic promenade, making it a comprehensive leisure facility suitable for all-day visits. Outside the building is a coastal promenade that connects to the nearby Takasakiyama Natural Zoo, allowing for a combined half-day to full-day tour itinerary.",
+                "externalURL": "https://www.umitamago.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T08:47:53.084Z",
+                "updatedAt": "2025-06-13T02:42:40.035Z",
+                "publishedAt": "2025-06-11T08:50:31.732Z",
+                "locale": "en",
+                "label": "Umitamago, Aquarium",
+                "slug": "Umitamago-Aquarium",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3336.296645477282!2d131.53556319999998!3d33.258725399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a139253d6ab5%3A0x39c434d349a8835a!2sOita%20Marine%20Palace%20Aquarium%20%22Umitamago%22!5e0!3m2!1sen!2sjp!4v1749359562419!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 97-534-1010",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 135,
+                "documentId": "fwrz1xfpfd960ejishq2e3gs",
+                "address": "Yufuin Onsen, Yufu, Oita, Japan",
+                "highlight": "Yufuin is a renowned hot spring town located in Oita Prefecture, adjacent to Beppu, yet it presents a distinctly different charm. Compared to Beppu's bustling atmosphere, Yufuin is known for its serene elegance, artistic ambiance, and natural beauty, making it an ideal destination for relaxation and romance.\n\nAlong Yunotsubo Kaido, the central street of the town, various unique boutiques, art galleries, cafes, and specialty restaurants line the path, perfect for a leisurely stroll and treasure hunting. The most famous landmark is undoubtedly Lake Kinrinko, where the misty surface in the early morning combined with the lakeside scenery creates a picturesque view. Furthermore, Yufuin is surrounded by the majestic Mount Yufu, offering abundant outdoor activities and spectacular natural landscapes. Traditional Japanese ryokans (inns) here are also renowned for their refined service and private onsen experiences, making it a popular choice for escaping the hustle and bustle and enjoying a high-quality vacation.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:13:47.464Z",
+                "updatedAt": "2025-06-11T09:16:52.329Z",
+                "publishedAt": "2025-06-11T09:15:30.071Z",
+                "locale": "en",
+                "label": "Yufuin",
+                "slug": "Yufuin",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13344.030025572556!2d131.36058895!3d33.2662958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546adda17e590d1%3A0x50b023f7a070b46a!2sYufuin%20Onsen%2C%20Yufu%2C%20Oita!5e0!3m2!1sen!2sjp!4v1749359589844!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 140,
+                "documentId": "e1qlbjpl94hf73gk1cjy180p",
+                "address": "8 Kumi, Kannawa, Beppu, Oita 874-0041, Japan",
+                "highlight": "The Yukemuri Observatory is located in the Kannawa area of Beppu City, offering an excellent vantage point to admire the spectacular scenery of Beppu's hot spring town. From the observatory, you can see hot spring steam (yukemuri) rising from the ground and wafting through the streets, creating a geothermal city landscape full of everyday charm and historical atmosphere, especially captivating at dawn and dusk.\n\nThis spot is not only ideal for photography enthusiasts and sightseers but also a recommended starting point for understanding Beppu's hot spring culture. On clear days, you can also gaze at Beppu Bay and the surrounding mountain views from afar, making it a popular stop for many visitors before or after their Hells Tour.\n\nFor those driving, the observatory has parking available; it can also be combined with a visit to the nearby famous Kame Masa Sushi restaurant.",
+                "externalURL": "https://www.city.beppu.oita.jp/sisetu/sangyou_kankou/yukemuri.html",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:17:33.647Z",
+                "updatedAt": "2025-06-13T02:44:23.090Z",
+                "publishedAt": "2025-06-11T09:19:11.419Z",
+                "locale": "en",
+                "label": "Yukemuri Observatory",
+                "slug": "Yukemuri-Observatory",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.1203760000276!2d131.4853258!3d33.3156683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a775b765d5e7%3A0x21200e289a85660c!2sYukemuri%20Observation%20Deck!5e0!3m2!1sen!2sjp!4v1749359600114!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 977-21-1128",
+                "addressURL": null,
+                "laxyURL": null
+              }
+            ],
+            "localizations": [
+              {
+                "id": 23,
+                "documentId": "nh91l7ks7t9s37xczk3mkcwx",
+                "greeting": "歡迎來到Beppu Story！",
+                "createdAt": "2025-06-02T12:37:01.568Z",
+                "updatedAt": "2025-06-11T09:50:39.272Z",
+                "publishedAt": "2025-06-11T09:50:21.533Z",
+                "locale": "zh-Hant",
+                "nativeLanguageCode": "ja",
+                "label": "Beppu Story",
+                "slug": "beppu-story"
+              },
+              {
+                "id": 24,
+                "documentId": "nh91l7ks7t9s37xczk3mkcwx",
+                "greeting": "欢迎来到Beppu Sotry！",
+                "createdAt": "2025-06-06T09:28:13.386Z",
+                "updatedAt": "2025-06-11T09:50:39.272Z",
+                "publishedAt": "2025-06-11T09:50:05.480Z",
+                "locale": "zh-Hans",
+                "nativeLanguageCode": "ja",
+                "label": "Beppu Story",
+                "slug": "beppu-story"
+              },
+              {
+                "id": 7,
+                "documentId": "nh91l7ks7t9s37xczk3mkcwx",
+                "greeting": "Beppu Story에 오신 것을 환영합니다!",
+                "createdAt": "2025-05-24T06:26:01.273Z",
+                "updatedAt": "2025-06-11T09:50:39.272Z",
+                "publishedAt": "2025-06-11T09:49:48.990Z",
+                "locale": "ko",
+                "nativeLanguageCode": "ja",
+                "label": "Beppu Story",
+                "slug": "beppu-story"
+              },
+              {
+                "id": 9,
+                "documentId": "nh91l7ks7t9s37xczk3mkcwx",
+                "greeting": "Beppu Storyへようこそ!",
+                "createdAt": "2025-05-24T05:59:33.937Z",
+                "updatedAt": "2025-06-11T09:50:39.272Z",
+                "publishedAt": "2025-06-11T09:49:29.814Z",
+                "locale": "ja",
+                "nativeLanguageCode": "ja",
+                "label": "Beppu Story",
+                "slug": "beppu-story"
+              }
+            ]
+          },
+          "newId": 48,
+          "documentId": "xy4e3hc0qgs3vvpnsf987u0m"
+        },
+        {
+          "originalEntry": {
+            "id": 12,
+            "documentId": "a6wof6d8vwpfka98noqfvamc",
+            "greeting": "Welcome to Tokyo",
+            "createdAt": "2025-05-28T06:12:19.433Z",
+            "updatedAt": "2025-06-02T12:43:10.824Z",
+            "publishedAt": "2025-06-02T12:43:10.805Z",
+            "locale": "en",
+            "nativeLanguageCode": "ja",
+            "label": "Tokyo Story",
+            "slug": "tokyo-story",
+            "avatar": null,
+            "pickedPOIs": [],
+            "localizations": []
+          },
+          "newId": 49,
+          "documentId": "pn676wouscy3ftltotyfncsy"
+        }
+      ]
+    },
+    "api::poi.poi": {
+      "success": 2,
+      "failed": 0,
+      "errors": [],
+      "entries": [
+        {
+          "originalEntry": {
+            "id": 151,
+            "documentId": "aqw9hrjzadsgenzogj16ajqu",
+            "address": null,
+            "highlight": "Beppu City holds a grand Summer Festival on the last weekend of July each year. This three-day event is a major local celebration, bringing a lively festive atmosphere to Beppu.\n\nDuring the festival, numerous food stalls (yatai) will be set up in the city center, offering a variety of delicious street foods and drinks, allowing locals and tourists to fully enjoy the food and fun.\n\nThe climax of the event falls on Sunday, with a approximately two-hour traditional Japanese dance parade. The most anticipated part is the Beppu Bay Fireworks Display, starting around 8 PM and lasting about an hour, where brilliant fireworks light up the night sky, creating a spectacular scene. Due to the large crowds attracted by the festival, accommodation prices in Beppu during this period are usually among the most expensive of the year, so early planning is recommended.",
+            "externalURL": null,
+            "type": "attraction",
+            "createdAt": "2025-06-11T09:40:32.766Z",
+            "updatedAt": "2025-06-11T09:45:53.478Z",
+            "publishedAt": "2025-06-11T09:44:54.168Z",
+            "locale": "en",
+            "label": "Beppu Summer Fireworks Festival (Late July)",
+            "slug": "Beppu-Summer-Fireworks-Festival",
+            "nativeLanguageCode": "ja",
+            "addressEmbedHTML": null,
+            "dial": null,
+            "addressURL": null,
+            "laxyURL": null,
+            "tag_labels": [
+              {
+                "id": 26,
+                "documentId": "lxdko1bwrqlgtzcxii4h92qn",
+                "name": "Event",
+                "createdAt": "2025-05-28T10:16:59.960Z",
+                "updatedAt": "2025-06-06T14:21:13.827Z",
+                "publishedAt": "2025-06-02T14:51:57.927Z",
+                "locale": "en",
+                "color": "GREY"
+              }
+            ],
+            "coverPhoto": {
+              "id": 102,
+              "documentId": "o01x6pbtl356in08vgdrj2g6",
+              "name": "Beppu-Summer-Fireworks-Festival.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1024,
+              "height": 682,
+              "formats": {
+                "large": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218469/large_End_of_July_070245810e.jpg",
+                  "hash": "large_End_of_July_070245810e",
+                  "mime": "image/jpeg",
+                  "name": "large_End of July.jpg",
+                  "path": null,
+                  "size": 180.06,
+                  "width": 1000,
+                  "height": 666,
+                  "sizeInBytes": 180058,
+                  "provider_metadata": {
+                    "public_id": "large_End_of_July_070245810e",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218468/small_End_of_July_070245810e.jpg",
+                  "hash": "small_End_of_July_070245810e",
+                  "mime": "image/jpeg",
+                  "name": "small_End of July.jpg",
+                  "path": null,
+                  "size": 50.76,
+                  "width": 500,
+                  "height": 333,
+                  "sizeInBytes": 50764,
+                  "provider_metadata": {
+                    "public_id": "small_End_of_July_070245810e",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218468/medium_End_of_July_070245810e.jpg",
+                  "hash": "medium_End_of_July_070245810e",
+                  "mime": "image/jpeg",
+                  "name": "medium_End of July.jpg",
+                  "path": null,
+                  "size": 107.4,
+                  "width": 750,
+                  "height": 500,
+                  "sizeInBytes": 107401,
+                  "provider_metadata": {
+                    "public_id": "medium_End_of_July_070245810e",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218465/thumbnail_End_of_July_070245810e.jpg",
+                  "hash": "thumbnail_End_of_July_070245810e",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_End of July.jpg",
+                  "path": null,
+                  "size": 12.35,
+                  "width": 234,
+                  "height": 156,
+                  "sizeInBytes": 12345,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_End_of_July_070245810e",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "End_of_July_070245810e",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 194.15,
+              "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218463/End_of_July_070245810e.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "End_of_July_070245810e",
+                "resource_type": "image"
+              },
+              "createdAt": "2025-06-06T14:01:09.762Z",
+              "updatedAt": "2025-06-11T09:42:22.324Z",
+              "publishedAt": "2025-06-06T14:01:09.763Z"
+            },
+            "localizations": [
+              {
+                "id": 150,
+                "documentId": "aqw9hrjzadsgenzogj16ajqu",
+                "address": null,
+                "highlight": "別府市では毎年7月の最後の週末に、盛大な夏まつりが開催されます。この3日間のイベントは地元の一大行事であり、別府に賑やかで華やかなお祭りムードをもたらします。\n\n祭りの期間中、市街地には数多くの屋台が出店し、様々な美味しい屋台料理や飲み物が提供され、市民や観光客が食事と楽しみを存分に味わうことができます。\n\nイベントのクライマックスは日曜日で、当日は約2時間の日本伝統の踊りパレードが行われます。そして最も期待されるのは、夜8時頃から約1時間行われる別府湾花火大会で、夜空に打ち上げられる鮮やかな花火は、まさに壮観な光景です。祭りには多くの人が訪れるため、この時期の別府の宿泊料金は通常、一年で最も高価な時期の一つとなるため、早めの計画をお勧めします。",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:40:00.511Z",
+                "updatedAt": "2025-06-11T09:45:53.362Z",
+                "publishedAt": "2025-06-11T09:45:53.334Z",
+                "locale": "ja",
+                "label": "別府夏の花火大会（7月下旬）",
+                "slug": "Beppu-Summer-Fireworks-Festival",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 154,
+                "documentId": "aqw9hrjzadsgenzogj16ajqu",
+                "address": null,
+                "highlight": "벳푸시는 매년 7월 마지막 주말에 성대한 여름 축제를 개최합니다. 이 3일간의 행사는 벳푸에 활기 넘치는 축제 분위기를 선사하는 대규모 지역 축제입니다.\n\n축제 기간 동안 시내 중심가에는 다양한 길거리 음식과 음료를 제공하는 수많은 야타이(포장마차)가 설치되어 시민과 관광객들이 음식과 즐거움을 만끽할 수 있습니다.\n\n행사의 절정은 일요일에 열리며, 약 두 시간 동안 일본 전통 춤 퍼레이드가 진행됩니다. 가장 기대되는 것은 저녁 8시부터 약 한 시간 동안 펼쳐지는 벳푸만 불꽃놀이로, 화려한 불꽃이 밤하늘을 수놓으며 매우 장관을 이룹니다. 축제에 많은 인파가 몰리기 때문에 이 시기의 벳푸 숙박료는 보통 연중 가장 비싼 시기 중 하나이므로, 미리 계획을 세우는 것이 좋습니다.",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:41:09.707Z",
+                "updatedAt": "2025-06-11T09:45:53.478Z",
+                "publishedAt": "2025-06-11T09:45:41.574Z",
+                "locale": "ko",
+                "label": "벳푸 여름 불꽃놀이 대회 (7월 하순)",
+                "slug": "Beppu-Summer-Fireworks-Festival",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 153,
+                "documentId": "aqw9hrjzadsgenzogj16ajqu",
+                "address": null,
+                "highlight": "别府市在每年七月的最后一个周末，都会举行盛大的夏日祭典。这项为期三天的活动是当地的大型庆典，为别府带来热闹非凡的节庆气氛。\n\n祭典期间，市中心将设有众多屋台，提供各式美味的街头小吃和饮品，让民众与游客尽情享受美食与欢乐。\n\n活动的高潮落在周日，当天会有约两小时的日本传统舞蹈游行。而最令人期待的，则是晚上八点起约一小时的别府湾花火大会，璀璨烟火在夜空中绽放，场面极为壮观。由于祭典吸引大量人潮，此时期的别府住宿价格通常是一年中最昂贵的时期之一，建议提早规划。",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:40:55.748Z",
+                "updatedAt": "2025-06-11T09:45:53.478Z",
+                "publishedAt": "2025-06-11T09:45:21.533Z",
+                "locale": "zh-Hans",
+                "label": "别府夏季烟火大会（7月下旬）",
+                "slug": "Beppu-Summer-Fireworks-Festival",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 152,
+                "documentId": "aqw9hrjzadsgenzogj16ajqu",
+                "address": null,
+                "highlight": "別府市在每年七月的最後一個週末，都會舉行盛大的夏日祭典。這項為期三天的活動是當地的大型慶典，為別府帶來熱鬧非凡的節慶氣氛。\n\n祭典期間，市中心將設有眾多屋台，提供各式美味的街頭小吃和飲品，讓民眾與遊客盡情享受美食與歡樂。\n\n活動的高潮落在週日，當天會有約兩小時的日本傳統舞蹈遊行。而最令人期待的，則是晚上八點起約一小時的別府灣花火大會，璀璨煙火在夜空中綻放，場面極為壯觀。由於祭典吸引大量人潮，此時期的別府住宿價格通常是一年中最昂貴的時期之一，建議提早規劃。",
+                "externalURL": null,
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:40:45.891Z",
+                "updatedAt": "2025-06-11T09:45:53.478Z",
+                "publishedAt": "2025-06-11T09:45:07.076Z",
+                "locale": "zh-Hant",
+                "label": "別府夏季煙火大會（7月下旬）",
+                "slug": "Beppu-Summer-Fireworks-Festival",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": null,
+                "dial": null,
+                "addressURL": null,
+                "laxyURL": null
+              }
+            ]
+          },
+          "newId": 758,
+          "documentId": "pjj3px9hjekdpihk49m4pnu9"
+        },
+        {
+          "originalEntry": {
+            "id": 130,
+            "documentId": "bbl73mrle3aq2txprtcjn4pv",
+            "address": "2-1755-1 Minamihatsu, Ajimu-machi, Usa, Oita 872-0722, Japan",
+            "highlight": "Kyushu Natural Zoological Park, also known as African Safari, is a vast wild animal park located in Usa City, Oita Prefecture. It features an African savanna-style animal ecosystem with free-roaming animals, making it a must-visit highlight for families and animal lovers.\n\nThe park's main feature is the Jungle Bus, an armored cage bus that allows close-up observation of animals like lions, elephants, giraffes, zebras, and camels along a dedicated route. Visitors can even feed the animals by hand, providing an immersive and interactive wildlife experience. In addition to the Jungle Bus, there are also walking areas and a small petting zoo, suitable for leisurely visits by all ages.\n\nThe park includes shops, dining areas, and convenient parking. It also offers shuttle services to and from Oita City and Beppu City, making it an ideal destination for a day trip with family or group tours.",
+            "externalURL": "https://africansafari.co.jp/",
+            "type": "attraction",
+            "createdAt": "2025-06-11T09:09:25.131Z",
+            "updatedAt": "2025-06-13T02:33:51.831Z",
+            "publishedAt": "2025-06-11T09:10:58.686Z",
+            "locale": "en",
+            "label": "African Safari",
+            "slug": "African-Safari",
+            "nativeLanguageCode": "ja",
+            "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+            "dial": "+81 978-48-2331",
+            "addressURL": null,
+            "laxyURL": null,
+            "tag_labels": [
+              {
+                "id": 20,
+                "documentId": "jn73kyohuix43w65wfv62om2",
+                "name": "Top Attractions",
+                "createdAt": "2025-05-28T10:14:16.157Z",
+                "updatedAt": "2025-06-11T05:11:41.167Z",
+                "publishedAt": "2025-06-11T05:11:02.257Z",
+                "locale": "en",
+                "color": "GREY"
+              }
+            ],
+            "coverPhoto": {
+              "id": 89,
+              "documentId": "bxy45vfdf1jzbargk7sg7drz",
+              "name": "African Safari.jpeg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1000,
+              "height": 667,
+              "formats": {
+                "small": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218428/small_African_Safari_7c6ed4ea46.jpg",
+                  "hash": "small_African_Safari_7c6ed4ea46",
+                  "mime": "image/jpeg",
+                  "name": "small_African Safari.jpeg",
+                  "path": null,
+                  "size": 50.74,
+                  "width": 500,
+                  "height": 334,
+                  "sizeInBytes": 50742,
+                  "provider_metadata": {
+                    "public_id": "small_African_Safari_7c6ed4ea46",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218429/medium_African_Safari_7c6ed4ea46.jpg",
+                  "hash": "medium_African_Safari_7c6ed4ea46",
+                  "mime": "image/jpeg",
+                  "name": "medium_African Safari.jpeg",
+                  "path": null,
+                  "size": 103.18,
+                  "width": 750,
+                  "height": 500,
+                  "sizeInBytes": 103184,
+                  "provider_metadata": {
+                    "public_id": "medium_African_Safari_7c6ed4ea46",
+                    "resource_type": "image"
+                  }
+                },
+                "thumbnail": {
+                  "ext": ".jpeg",
+                  "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218427/thumbnail_African_Safari_7c6ed4ea46.jpg",
+                  "hash": "thumbnail_African_Safari_7c6ed4ea46",
+                  "mime": "image/jpeg",
+                  "name": "thumbnail_African Safari.jpeg",
+                  "path": null,
+                  "size": 13.04,
+                  "width": 234,
+                  "height": 156,
+                  "sizeInBytes": 13040,
+                  "provider_metadata": {
+                    "public_id": "thumbnail_African_Safari_7c6ed4ea46",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "hash": "African_Safari_7c6ed4ea46",
+              "ext": ".jpeg",
+              "mime": "image/jpeg",
+              "size": 158.77,
+              "url": "https://res.cloudinary.com/dui2mxeuh/image/upload/v1749218426/African_Safari_7c6ed4ea46.jpg",
+              "previewUrl": null,
+              "provider": "cloudinary",
+              "provider_metadata": {
+                "public_id": "African_Safari_7c6ed4ea46",
+                "resource_type": "image"
+              },
+              "createdAt": "2025-06-06T14:00:29.832Z",
+              "updatedAt": "2025-06-06T14:00:29.832Z",
+              "publishedAt": "2025-06-06T14:00:29.833Z"
+            },
+            "localizations": [
+              {
+                "id": 134,
+                "documentId": "bbl73mrle3aq2txprtcjn4pv",
+                "address": "〒872-0722 大分県宇佐市安心院町南畑２−１７５５−１",
+                "highlight": "「九州自然動物公園」、通称「アフリカンサファリ」は、大分県宇佐市にある広大な野生動物園で、アフリカの草原を思わせる動物たちが放し飼いにされており、親子連れや動物愛好家にとって見逃せない観光スポットです。\n\n園内最大の特色は、檻付き装甲の「ジャングルバス」に乗車することです。専用ルートでライオン、ゾウ、キリン、シマウマ、ラクダなどの動物たちを間近で観察でき、直接餌やりも体験できるため、非常に臨場感あふれる野生動物との触れ合いが楽しめます。ジャングルバスの他に、ウォーキングゾーンや小型動物とのふれあい広場もあり、あらゆる年齢層の来園者がゆっくりと楽しめます。\n\n\n園内には売店、飲食エリア、便利な駐車場が併設されており、大分市や別府市からのアクセス手段も提供されているため、日帰りでの親子旅行や団体旅行に理想的なスポットです。",
+                "externalURL": "https://africansafari.co.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:10:05.687Z",
+                "updatedAt": "2025-06-13T02:33:51.831Z",
+                "publishedAt": "2025-06-11T09:13:15.962Z",
+                "locale": "ja",
+                "label": "アフリカンサファリ",
+                "slug": "African-Safari",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 978-48-2331",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 133,
+                "documentId": "bbl73mrle3aq2txprtcjn4pv",
+                "address": "일본 〒872-0722 오이타현 우사시 아지무마치 미나미하타 2-1755-1",
+                "highlight": "규슈 자연 동물 공원, 일명 아프리칸 사파리는 오이타현 우사시에 위치한 광활한 야생 동물원으로, 자유 방목 방식으로 아프리카 초원 스타일의 동물 생태계를 보여주며 가족과 동물 애호가들이 놓칠 수 없는 여행 명소입니다.\n\n공원의 가장 큰 특징은 철제 우리 장갑차 형태의 정글 버스를 타는 것으로, 전용 노선을 따라 사자, 코끼리, 기린, 얼룩말, 낙타 등의 동물을 가까이에서 관찰할 수 있으며, 직접 먹이를 줄 수도 있어 매우 생생한 야생 동물 상호작용 체험을 제공합니다. 정글 버스 외에도 도보 구역과 작은 동물 만지기 공원이 있어 모든 연령대의 방문객이 여유롭게 관람하기에 적합합니다.\n\n공원 내에는 상점, 식사 공간, 편리한 주차장이 마련되어 있으며, 오이타시와 벳푸시 간 셔틀 교통편도 제공되어 가족 나들이나 단체 여행을 위한 이상적인 장소입니다.",
+                "externalURL": "https://africansafari.co.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:09:56.515Z",
+                "updatedAt": "2025-06-13T02:33:51.789Z",
+                "publishedAt": "2025-06-13T02:33:51.733Z",
+                "locale": "ko",
+                "label": "아프리칸 사파리",
+                "slug": "African-Safari",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 978-48-2331",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 132,
+                "documentId": "bbl73mrle3aq2txprtcjn4pv",
+                "address": "〒872-0722 大分县宇佐市安心院町南畑2-1755-1",
+                "highlight": "九州自然动物公园，又名African Safari，是一座位于大分县宇佐市的广阔野生动物园，以自由放养方式展示非洲草原风格的动物生态，是亲子与动物爱好者不可错过的旅游亮点。\n\n园区最大特色是搭乘铁笼装甲的丛林巴士，可在专属路线中近距离观察狮子、大象、长颈鹿、斑马、骆驼等动物，还可以亲手喂食，带来极具临场感的野生动物互动体验。除了丛林巴士外，也设有步行区与小型动物触摸园，适合各年龄层游客悠闲参观。\n\n园内附设商店、餐饮区与便利的停车场，亦提供与大分市、别府市间接驳的交通方案，是安排一日亲子郊游或团体旅游的理想景点。",
+                "externalURL": "https://africansafari.co.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:09:45.708Z",
+                "updatedAt": "2025-06-13T02:33:51.831Z",
+                "publishedAt": "2025-06-11T09:12:35.177Z",
+                "locale": "zh-Hans",
+                "label": "九州自然动物公园",
+                "slug": "African-Safari",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 978-48-2331",
+                "addressURL": null,
+                "laxyURL": null
+              },
+              {
+                "id": 131,
+                "documentId": "bbl73mrle3aq2txprtcjn4pv",
+                "address": "〒872-0722 大分縣宇佐市安心院町南畑2-1755-1",
+                "highlight": "九州自然動物公園，又名「African Safari」，是一座位於大分縣宇佐市的廣闊野生動物園，以自由放養方式展示非洲草原風格的動物生態，是親子與動物愛好者不可錯過的旅遊亮點。\n\n園區最大特色是搭乘鐵籠裝甲的「叢林巴士」，可在專屬路線中近距離觀察獅子、大象、長頸鹿、斑馬、駱駝等動物，還可以親手餵食，帶來極具臨場感的野生動物互動體驗。除了叢林巴士外，也設有步行區與小型動物觸摸園，適合各年齡層遊客悠閒參觀。\n\n園內附設商店、餐飲區與便利的停車場，亦提供與大分市、別府市間接駁的交通方案，是安排一日親子郊遊或團體旅遊的理想景點。",
+                "externalURL": "https://africansafari.co.jp/",
+                "type": "attraction",
+                "createdAt": "2025-06-11T09:09:36.579Z",
+                "updatedAt": "2025-06-13T02:33:51.831Z",
+                "publishedAt": "2025-06-11T09:12:03.437Z",
+                "locale": "zh-Hant",
+                "label": "九州自然動物公園",
+                "slug": "African-Safari",
+                "nativeLanguageCode": "ja",
+                "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                "dial": "+81 978-48-2331",
+                "addressURL": null,
+                "laxyURL": null
+              }
+            ]
+          },
+          "newId": 759,
+          "documentId": "nt2ha1gkpvw4fffq3ntpubgb"
+        }
+      ]
+    }
+  },
+  "pass2": {
+    "api::tag-label.tag-label": {
+      "success": 2,
+      "failed": 0,
+      "errors": []
+    },
+    "api::stay.stay": {
+      "success": 1,
+      "failed": 1,
+      "errors": [
+        {
+          "index": 1,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "29 relation(s) of type api::poi.poi associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "29 relation(s) of type api::poi.poi associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "greeting": "Welcome to Beppu Story!",
+                      "locale": "en",
+                      "nativeLanguageCode": "ja",
+                      "label": "Beppu Story",
+                      "slug": "beppu-story",
+                      "avatar": 43,
+                      "pickedPOIs": {
+                        "set": [
+                          {
+                            "id": 20
+                          },
+                          {
+                            "id": 5
+                          },
+                          {
+                            "id": 15
+                          },
+                          {
+                            "id": 10
+                          },
+                          {
+                            "id": 30
+                          },
+                          {
+                            "id": 25
+                          },
+                          {
+                            "id": 100
+                          },
+                          {
+                            "id": 95
+                          },
+                          {
+                            "id": 79
+                          },
+                          {
+                            "id": 45
+                          },
+                          {
+                            "id": 40
+                          },
+                          {
+                            "id": 65
+                          },
+                          {
+                            "id": 60
+                          },
+                          {
+                            "id": 85
+                          },
+                          {
+                            "id": 110
+                          },
+                          {
+                            "id": 55
+                          },
+                          {
+                            "id": 109
+                          },
+                          {
+                            "id": 54
+                          },
+                          {
+                            "id": 71
+                          },
+                          {
+                            "id": 35
+                          },
+                          {
+                            "id": 90
+                          },
+                          {
+                            "id": 80
+                          },
+                          {
+                            "id": 759
+                          },
+                          {
+                            "id": 758
+                          },
+                          {
+                            "id": 155
+                          },
+                          {
+                            "id": 126
+                          },
+                          {
+                            "id": 145
+                          },
+                          {
+                            "id": 115
+                          },
+                          {
+                            "id": 120
+                          },
+                          {
+                            "id": 135
+                          },
+                          {
+                            "id": 140
+                          }
+                        ]
+                      },
+                      "publishedAt": "2025-06-14T09:56:55.075Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "entryId": 48
+        }
+      ]
+    },
+    "api::poi.poi": {
+      "success": 1,
+      "failed": 1,
+      "errors": [
+        {
+          "index": 2,
+          "error": {
+            "data": null,
+            "error": {
+              "status": 400,
+              "name": "ValidationError",
+              "message": "1 relation(s) of type api::tag-label.tag-label associated with this entity do not exist",
+              "details": {
+                "errors": [
+                  {
+                    "path": [],
+                    "message": "1 relation(s) of type api::tag-label.tag-label associated with this entity do not exist",
+                    "name": "ValidationError",
+                    "value": {
+                      "address": "2-1755-1 Minamihatsu, Ajimu-machi, Usa, Oita 872-0722, Japan",
+                      "highlight": "Kyushu Natural Zoological Park, also known as African Safari, is a vast wild animal park located in Usa City, Oita Prefecture. It features an African savanna-style animal ecosystem with free-roaming animals, making it a must-visit highlight for families and animal lovers.\n\nThe park's main feature is the Jungle Bus, an armored cage bus that allows close-up observation of animals like lions, elephants, giraffes, zebras, and camels along a dedicated route. Visitors can even feed the animals by hand, providing an immersive and interactive wildlife experience. In addition to the Jungle Bus, there are also walking areas and a small petting zoo, suitable for leisurely visits by all ages.\n\nThe park includes shops, dining areas, and convenient parking. It also offers shuttle services to and from Oita City and Beppu City, making it an ideal destination for a day trip with family or group tours.",
+                      "externalURL": "https://africansafari.co.jp/",
+                      "type": "attraction",
+                      "locale": "en",
+                      "label": "African Safari",
+                      "slug": "African-Safari",
+                      "nativeLanguageCode": "ja",
+                      "addressEmbedHTML": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.7712648138936!2d131.4137658!3d33.35092509999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3546a82560d12c2f%3A0x6f9e5e00fb890acd!2sKyushu%20Wildlife%20Park%20African%20Safari!5e0!3m2!1sen!2sjp!4v1749359580506!5m2!1sen!2sjp\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+                      "dial": "+81 978-48-2331",
+                      "addressURL": null,
+                      "laxyURL": null,
+                      "tag_labels": {
+                        "set": [
+                          {
+                            "id": 20
+                          }
+                        ]
+                      },
+                      "coverPhoto": 59,
+                      "publishedAt": "2025-06-14T09:57:06.462Z"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "status": 400,
+          "entryId": 759
+        }
+      ]
+    }
+  }
+}

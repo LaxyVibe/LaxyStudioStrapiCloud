@@ -1,0 +1,183 @@
+{
+  "info": {
+    "name": "Strapi v5 Migration Tests",
+    "description": "Test API authentication and debug 401 errors",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://laxy-studio-strapi-c1d6d20cbc41.herokuapp.com",
+      "type": "string"
+    },
+    {
+      "key": "apiToken",
+      "value": "89a1e8fd59f028d76a1bf5cac977635aa51e4fed079ac514cb50cb87a4110be8b82d09c642344abfcad6e24894a633d64ca0b8bd044b5a6f3ff422a990ac277f9363e30e7035d3537aad812e039ded4d4ceb616b872a69bcd0794f465a584a63c1ec750d363193a12abaabeb9176fe9a63edd471c6d24c86d9570a82001cb3b8",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "1. GET Tag Labels (Should Work)",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/tag-labels",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "tag-labels"]
+        },
+        "description": "Basic GET request to verify token works for reading"
+      }
+    },
+    {
+      "name": "2. Check User Info",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/users/me",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "users", "me"]
+        },
+        "description": "Check API token user and permissions"
+      }
+    },
+    {
+      "name": "3. POST Tag Label (Test Create)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"label\": \"Test Tag\",\n    \"slug\": \"test-tag\",\n    \"locale\": \"en\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/tag-labels",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "tag-labels"]
+        },
+        "description": "Test creating a tag label - this is where the 401 error occurs"
+      }
+    },
+    {
+      "name": "4. POST POI (Test Create)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"data\": {\n    \"name\": \"Test POI\",\n    \"slug\": \"test-poi\",\n    \"locale\": \"en\",\n    \"publishedAt\": \"2024-01-01T00:00:00.000Z\"\n  }\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/pois",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "pois"]
+        },
+        "description": "Test creating a POI"
+      }
+    },
+    {
+      "name": "5. GET Content Types",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/content-manager/content-types",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "content-manager", "content-types"]
+        },
+        "description": "Check available content types and permissions"
+      }
+    },
+    {
+      "name": "6. GET POIs",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{apiToken}}",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/api/pois",
+          "host": ["{{baseUrl}}"],
+          "path": ["api", "pois"]
+        },
+        "description": "Get all POIs to verify read access"
+      }
+    }
+  ]
+}

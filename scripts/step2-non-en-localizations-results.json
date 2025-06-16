@@ -1,0 +1,2147 @@
+{
+  "locales": {
+    "api::tag-label.tag-label": {
+      "zh-Hans": {
+        "success": 7,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 31,
+            "originalName": "活动／盛会",
+            "newId": 8,
+            "documentId": "xd02cfhqrxhr35klrjghebhi",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 35,
+            "originalName": "温泉",
+            "newId": 12,
+            "documentId": "cfq91726e76i6u7ywdblwsnn",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 39,
+            "originalName": "购物",
+            "newId": 16,
+            "documentId": "n1fasfi52e6y59v8id9eimde",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 43,
+            "originalName": "美食",
+            "newId": 23,
+            "documentId": "g5i2tgti48fgebp6rlauo6ci",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 37,
+            "originalName": "人气景点",
+            "newId": 26,
+            "documentId": "y0fm6ubj5q6j89tv7xchn360",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 41,
+            "originalName": "漫步",
+            "newId": 29,
+            "documentId": "cbe1blfqovxzr7wnb3dce3c8",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 33,
+            "originalName": "观景台",
+            "newId": 33,
+            "documentId": "fakk0mv2t9ckbl11cnd4m2s8",
+            "locale": "zh-Hans"
+          }
+        ]
+      },
+      "zh-Hant": {
+        "success": 7,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 30,
+            "originalName": "活動／盛事",
+            "newId": 9,
+            "documentId": "xd02cfhqrxhr35klrjghebhi",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 34,
+            "originalName": "溫泉",
+            "newId": 13,
+            "documentId": "cfq91726e76i6u7ywdblwsnn",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 38,
+            "originalName": "購物",
+            "newId": 17,
+            "documentId": "n1fasfi52e6y59v8id9eimde",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 42,
+            "originalName": "美食",
+            "newId": 22,
+            "documentId": "g5i2tgti48fgebp6rlauo6ci",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 36,
+            "originalName": "人氣景點",
+            "newId": 27,
+            "documentId": "y0fm6ubj5q6j89tv7xchn360",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 40,
+            "originalName": "漫步",
+            "newId": 28,
+            "documentId": "cbe1blfqovxzr7wnb3dce3c8",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 32,
+            "originalName": "觀景台",
+            "newId": 32,
+            "documentId": "fakk0mv2t9ckbl11cnd4m2s8",
+            "locale": "zh-Hant"
+          }
+        ]
+      },
+      "ko": {
+        "success": 7,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 27,
+            "originalName": "이벤트",
+            "newId": 10,
+            "documentId": "xd02cfhqrxhr35klrjghebhi",
+            "locale": "ko"
+          },
+          {
+            "originalId": 2,
+            "originalName": "온천",
+            "newId": 14,
+            "documentId": "cfq91726e76i6u7ywdblwsnn",
+            "locale": "ko"
+          },
+          {
+            "originalId": 11,
+            "originalName": "쇼핑",
+            "newId": 18,
+            "documentId": "n1fasfi52e6y59v8id9eimde",
+            "locale": "ko"
+          },
+          {
+            "originalId": 6,
+            "originalName": "맛집",
+            "newId": 20,
+            "documentId": "g5i2tgti48fgebp6rlauo6ci",
+            "locale": "ko"
+          },
+          {
+            "originalId": 19,
+            "originalName": "인기 관광지",
+            "newId": 25,
+            "documentId": "y0fm6ubj5q6j89tv7xchn360",
+            "locale": "ko"
+          },
+          {
+            "originalId": 14,
+            "originalName": "산책",
+            "newId": 31,
+            "documentId": "cbe1blfqovxzr7wnb3dce3c8",
+            "locale": "ko"
+          },
+          {
+            "originalId": 22,
+            "originalName": "전망대",
+            "newId": 35,
+            "documentId": "fakk0mv2t9ckbl11cnd4m2s8",
+            "locale": "ko"
+          }
+        ]
+      },
+      "ja": {
+        "success": 7,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 28,
+            "originalName": "イベント",
+            "newId": 11,
+            "documentId": "xd02cfhqrxhr35klrjghebhi",
+            "locale": "ja"
+          },
+          {
+            "originalId": 3,
+            "originalName": "おんせん",
+            "newId": 15,
+            "documentId": "cfq91726e76i6u7ywdblwsnn",
+            "locale": "ja"
+          },
+          {
+            "originalId": 10,
+            "originalName": "ショッピング",
+            "newId": 19,
+            "documentId": "n1fasfi52e6y59v8id9eimde",
+            "locale": "ja"
+          },
+          {
+            "originalId": 7,
+            "originalName": "グルメ",
+            "newId": 21,
+            "documentId": "g5i2tgti48fgebp6rlauo6ci",
+            "locale": "ja"
+          },
+          {
+            "originalId": 18,
+            "originalName": "人気観光スポット",
+            "newId": 24,
+            "documentId": "y0fm6ubj5q6j89tv7xchn360",
+            "locale": "ja"
+          },
+          {
+            "originalId": 15,
+            "originalName": "散策",
+            "newId": 30,
+            "documentId": "cbe1blfqovxzr7wnb3dce3c8",
+            "locale": "ja"
+          },
+          {
+            "originalId": 23,
+            "originalName": "展望台",
+            "newId": 34,
+            "documentId": "fakk0mv2t9ckbl11cnd4m2s8",
+            "locale": "ja"
+          }
+        ]
+      }
+    },
+    "api::stay.stay": {
+      "zh-Hans": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 24,
+            "originalName": "Beppu Story",
+            "newId": 4,
+            "documentId": "sryg01oy5y4rbisxyhzujue9",
+            "locale": "zh-Hans"
+          }
+        ]
+      },
+      "zh-Hant": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 23,
+            "originalName": "Beppu Story",
+            "newId": 3,
+            "documentId": "sryg01oy5y4rbisxyhzujue9",
+            "locale": "zh-Hant"
+          }
+        ]
+      },
+      "ko": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 7,
+            "originalName": "Beppu Story",
+            "newId": 5,
+            "documentId": "sryg01oy5y4rbisxyhzujue9",
+            "locale": "ko"
+          }
+        ]
+      },
+      "ja": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 9,
+            "originalName": "Beppu Story",
+            "newId": 6,
+            "documentId": "sryg01oy5y4rbisxyhzujue9",
+            "locale": "ja"
+          }
+        ]
+      }
+    },
+    "api::poi.poi": {
+      "zh-Hans": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 153,
+            "originalName": "别府夏季烟火大会（7月下旬）",
+            "newId": 34,
+            "documentId": "rnmkx5dp1q18a54vl94sdf6y",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 132,
+            "originalName": "九州自然动物公园",
+            "newId": 36,
+            "documentId": "lxxj4eydfyx81d25fx4623yv",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 92,
+            "originalName": "弥生天狗",
+            "newId": 42,
+            "documentId": "nkd2ej5kim0rc9kkf0c90ws6",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 112,
+            "originalName": "志高湖",
+            "newId": 46,
+            "documentId": "ojprcnuzd2onbyvkfnqpf95l",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 47,
+            "originalName": "福屋拉面工房 总本店",
+            "newId": 49,
+            "documentId": "rc804d2del0mxnd6yah50v5x",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 27,
+            "originalName": "炉端烧 仁",
+            "newId": 52,
+            "documentId": "c719oonijgcgt626kq8fdcix",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 37,
+            "originalName": "烤鸡凡 母家",
+            "newId": 58,
+            "documentId": "ryy1jnppo9wybvmp70ech7am",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 142,
+            "originalName": "汤烟展望台",
+            "newId": 62,
+            "documentId": "wn13m48m8jo1ngqgrjubqou2",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 42,
+            "originalName": "Gusto 别府店",
+            "newId": 64,
+            "documentId": "ufvfj53ool114vx4qoajv07p",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 73,
+            "originalName": "炸豬排亭",
+            "newId": 71,
+            "documentId": "wq5ru3gyazxqyv3zel38jv70",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 137,
+            "originalName": "汤布院",
+            "newId": 75,
+            "documentId": "z5ftr8chb861ij88uz9jkgp0",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 157,
+            "originalName": "在别府享受圣诞节（12月）",
+            "newId": 78,
+            "documentId": "hm5m7axp9xl437e9shjpjaeo",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 117,
+            "originalName": "高崎山自然动物园",
+            "newId": 83,
+            "documentId": "buj1fyygg1np66jit4b0is97",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 77,
+            "originalName": "驚安的殿堂 唐吉訶德 別府店",
+            "newId": 85,
+            "documentId": "k43jal69ybwqggeyuh7x5plr",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 12,
+            "originalName": "竹瓦温泉",
+            "newId": 88,
+            "documentId": "ay4mg0bs3x2bxba901uhtanm",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 82,
+            "originalName": "YouMe Town",
+            "newId": 92,
+            "documentId": "u7dzshg6ndcfbqn4lostzltw",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 7,
+            "originalName": "海门寺温泉",
+            "newId": 97,
+            "documentId": "zbyhe0y7k0w2ma9h1538lab9",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 32,
+            "originalName": "御好烧与家庭料理店",
+            "newId": 101,
+            "documentId": "jib9rnnskq6upziyoqrcy20w",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 17,
+            "originalName": "杉乃井酒店 棚汤・水上乐园",
+            "newId": 104,
+            "documentId": "hjcj7rzrritadxa3c3cmrgjg",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 87,
+            "originalName": "的ヶ滨公园",
+            "newId": 111,
+            "documentId": "qjxyx38759qbkxcvw0rzwshe",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 147,
+            "originalName": "十文字原展望台",
+            "newId": 113,
+            "documentId": "wwzn6fi6olvnxqwcds45r21p",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 102,
+            "originalName": "八幡朝见神社",
+            "newId": 118,
+            "documentId": "jd9fe7zsk035bjm6x5n5ap4f",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 57,
+            "originalName": "太一商店 別府山嶺店",
+            "newId": 123,
+            "documentId": "ta9w6rsuey2dq5giwvjymqmm",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 52,
+            "originalName": "友永面包店",
+            "newId": 125,
+            "documentId": "ni2f8rqmz4p31j41wfw7cqba",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 62,
+            "originalName": "龟正寿司",
+            "newId": 129,
+            "documentId": "b0awrv0nz4o9jx05w2g2bfqa",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 22,
+            "originalName": "别府八汤温泉节（3月下旬至4月上旬）",
+            "newId": 134,
+            "documentId": "c7j2oppvcojte9if27e22xue",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 67,
+            "originalName": "地狱蒸工房 铁轮",
+            "newId": 138,
+            "documentId": "he4j08woj4a9xa8951wr185e",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 122,
+            "originalName": "大分海洋宫水族馆",
+            "newId": 142,
+            "documentId": "uyj91g2qym0hfs9s78jvhk7u",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 107,
+            "originalName": "田之浦海滩",
+            "newId": 146,
+            "documentId": "ndibwc6kzg3gud9w03qwrde6",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 97,
+            "originalName": "别府公园",
+            "newId": 150,
+            "documentId": "ukfqzkoowvkcpqcorzthjnou",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 127,
+            "originalName": "别府地狱巡礼",
+            "newId": 154,
+            "documentId": "f4fwpb81h7i0fqrbgosmkdh6",
+            "locale": "zh-Hans"
+          }
+        ]
+      },
+      "zh-Hant": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 152,
+            "originalName": "別府夏季煙火大會（7月下旬）",
+            "newId": 35,
+            "documentId": "rnmkx5dp1q18a54vl94sdf6y",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 131,
+            "originalName": "九州自然動物公園",
+            "newId": 39,
+            "documentId": "lxxj4eydfyx81d25fx4623yv",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 91,
+            "originalName": "彌生天狗",
+            "newId": 40,
+            "documentId": "nkd2ej5kim0rc9kkf0c90ws6",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 111,
+            "originalName": "志高湖",
+            "newId": 45,
+            "documentId": "ojprcnuzd2onbyvkfnqpf95l",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 46,
+            "originalName": "福屋拉麵工房 總本店",
+            "newId": 48,
+            "documentId": "rc804d2del0mxnd6yah50v5x",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 26,
+            "originalName": "炉端燒 仁",
+            "newId": 53,
+            "documentId": "c719oonijgcgt626kq8fdcix",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 36,
+            "originalName": "烤雞凡 母家",
+            "newId": 56,
+            "documentId": "ryy1jnppo9wybvmp70ech7am",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 141,
+            "originalName": "湯煙展望台",
+            "newId": 61,
+            "documentId": "wn13m48m8jo1ngqgrjubqou2",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 41,
+            "originalName": "Gusto 別府店",
+            "newId": 67,
+            "documentId": "ufvfj53ool114vx4qoajv07p",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 72,
+            "originalName": "炸豬排亭",
+            "newId": 69,
+            "documentId": "wq5ru3gyazxqyv3zel38jv70",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 136,
+            "originalName": "湯布院",
+            "newId": 72,
+            "documentId": "z5ftr8chb861ij88uz9jkgp0",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 156,
+            "originalName": "在別府享受聖誕節（12月）",
+            "newId": 79,
+            "documentId": "hm5m7axp9xl437e9shjpjaeo",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 116,
+            "originalName": "高崎山自然動物園",
+            "newId": 82,
+            "documentId": "buj1fyygg1np66jit4b0is97",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 78,
+            "originalName": "惊安的殿堂 唐吉诃德 别府店",
+            "newId": 84,
+            "documentId": "k43jal69ybwqggeyuh7x5plr",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 11,
+            "originalName": "竹瓦溫泉",
+            "newId": 90,
+            "documentId": "ay4mg0bs3x2bxba901uhtanm",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 81,
+            "originalName": "YouMe Town",
+            "newId": 93,
+            "documentId": "u7dzshg6ndcfbqn4lostzltw",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 6,
+            "originalName": "海門寺溫泉",
+            "newId": 98,
+            "documentId": "zbyhe0y7k0w2ma9h1538lab9",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 31,
+            "originalName": "御好燒與家庭料理店",
+            "newId": 103,
+            "documentId": "jib9rnnskq6upziyoqrcy20w",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 16,
+            "originalName": "杉乃井飯店 棚湯・水上樂園",
+            "newId": 105,
+            "documentId": "hjcj7rzrritadxa3c3cmrgjg",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 86,
+            "originalName": "的ヶ濱公園",
+            "newId": 108,
+            "documentId": "qjxyx38759qbkxcvw0rzwshe",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 146,
+            "originalName": "十文字原展望台",
+            "newId": 114,
+            "documentId": "wwzn6fi6olvnxqwcds45r21p",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 101,
+            "originalName": "八幡朝見神社",
+            "newId": 117,
+            "documentId": "jd9fe7zsk035bjm6x5n5ap4f",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 56,
+            "originalName": "太一商店 別府山嶺店",
+            "newId": 120,
+            "documentId": "ta9w6rsuey2dq5giwvjymqmm",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 53,
+            "originalName": "友永麵包店",
+            "newId": 127,
+            "documentId": "ni2f8rqmz4p31j41wfw7cqba",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 61,
+            "originalName": "龜正壽司",
+            "newId": 130,
+            "documentId": "b0awrv0nz4o9jx05w2g2bfqa",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 21,
+            "originalName": "別府八湯溫泉祭（3月下旬至4月上旬）",
+            "newId": 135,
+            "documentId": "c7j2oppvcojte9if27e22xue",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 66,
+            "originalName": "地獄蒸工房 鐵輪",
+            "newId": 139,
+            "documentId": "he4j08woj4a9xa8951wr185e",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 121,
+            "originalName": "大分海洋宮水族館",
+            "newId": 143,
+            "documentId": "uyj91g2qym0hfs9s78jvhk7u",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 106,
+            "originalName": "田之浦海灘",
+            "newId": 147,
+            "documentId": "ndibwc6kzg3gud9w03qwrde6",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 96,
+            "originalName": "別府公園",
+            "newId": 151,
+            "documentId": "ukfqzkoowvkcpqcorzthjnou",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 125,
+            "originalName": "別府地獄巡禮",
+            "newId": 155,
+            "documentId": "f4fwpb81h7i0fqrbgosmkdh6",
+            "locale": "zh-Hant"
+          }
+        ]
+      },
+      "ko": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 154,
+            "originalName": "벳푸 여름 불꽃놀이 대회 (7월 하순)",
+            "newId": 33,
+            "documentId": "rnmkx5dp1q18a54vl94sdf6y",
+            "locale": "ko"
+          },
+          {
+            "originalId": 133,
+            "originalName": "아프리칸 사파리",
+            "newId": 37,
+            "documentId": "lxxj4eydfyx81d25fx4623yv",
+            "locale": "ko"
+          },
+          {
+            "originalId": 93,
+            "originalName": "야요이 텐구",
+            "newId": 43,
+            "documentId": "nkd2ej5kim0rc9kkf0c90ws6",
+            "locale": "ko"
+          },
+          {
+            "originalId": 113,
+            "originalName": "시다카 호수",
+            "newId": 47,
+            "documentId": "ojprcnuzd2onbyvkfnqpf95l",
+            "locale": "ko"
+          },
+          {
+            "originalId": 48,
+            "originalName": "후쿠야 라멘 공방 총본점",
+            "newId": 50,
+            "documentId": "rc804d2del0mxnd6yah50v5x",
+            "locale": "ko"
+          },
+          {
+            "originalId": 28,
+            "originalName": "로바타 진",
+            "newId": 54,
+            "documentId": "c719oonijgcgt626kq8fdcix",
+            "locale": "ko"
+          },
+          {
+            "originalId": 38,
+            "originalName": "야키토리 범 오모야",
+            "newId": 59,
+            "documentId": "ryy1jnppo9wybvmp70ech7am",
+            "locale": "ko"
+          },
+          {
+            "originalId": 143,
+            "originalName": "유케무리 전망대",
+            "newId": 60,
+            "documentId": "wn13m48m8jo1ngqgrjubqou2",
+            "locale": "ko"
+          },
+          {
+            "originalId": 43,
+            "originalName": "가스토 벳푸점",
+            "newId": 65,
+            "documentId": "ufvfj53ool114vx4qoajv07p",
+            "locale": "ko"
+          },
+          {
+            "originalId": 74,
+            "originalName": "돈카츠테이",
+            "newId": 70,
+            "documentId": "wq5ru3gyazxqyv3zel38jv70",
+            "locale": "ko"
+          },
+          {
+            "originalId": 138,
+            "originalName": "유후인",
+            "newId": 74,
+            "documentId": "z5ftr8chb861ij88uz9jkgp0",
+            "locale": "ko"
+          },
+          {
+            "originalId": 158,
+            "originalName": "벳푸에서 즐기는 크리스마스 (12월)",
+            "newId": 77,
+            "documentId": "hm5m7axp9xl437e9shjpjaeo",
+            "locale": "ko"
+          },
+          {
+            "originalId": 118,
+            "originalName": "다카사키야마 자연 동물원",
+            "newId": 80,
+            "documentId": "buj1fyygg1np66jit4b0is97",
+            "locale": "ko"
+          },
+          {
+            "originalId": 76,
+            "originalName": "돈키호테 벳푸점",
+            "newId": 87,
+            "documentId": "k43jal69ybwqggeyuh7x5plr",
+            "locale": "ko"
+          },
+          {
+            "originalId": 13,
+            "originalName": "다케가와라 온천",
+            "newId": 89,
+            "documentId": "ay4mg0bs3x2bxba901uhtanm",
+            "locale": "ko"
+          },
+          {
+            "originalId": 83,
+            "originalName": "유메타운 벳푸",
+            "newId": 94,
+            "documentId": "u7dzshg6ndcfbqn4lostzltw",
+            "locale": "ko"
+          },
+          {
+            "originalId": 8,
+            "originalName": "카이몬지 온천",
+            "newId": 99,
+            "documentId": "zbyhe0y7k0w2ma9h1538lab9",
+            "locale": "ko"
+          },
+          {
+            "originalId": 33,
+            "originalName": "[오코노미야키와 가정 요리 전문점] 아지 다이닝 미야코",
+            "newId": 102,
+            "documentId": "jib9rnnskq6upziyoqrcy20w",
+            "locale": "ko"
+          },
+          {
+            "originalId": 18,
+            "originalName": "스기노이 호텔 타나유 · 더 아쿠아 가든",
+            "newId": 106,
+            "documentId": "hjcj7rzrritadxa3c3cmrgjg",
+            "locale": "ko"
+          },
+          {
+            "originalId": 88,
+            "originalName": "마토가하마 공원",
+            "newId": 109,
+            "documentId": "qjxyx38759qbkxcvw0rzwshe",
+            "locale": "ko"
+          },
+          {
+            "originalId": 148,
+            "originalName": "주몬지하라 전망대",
+            "newId": 112,
+            "documentId": "wwzn6fi6olvnxqwcds45r21p",
+            "locale": "ko"
+          },
+          {
+            "originalId": 103,
+            "originalName": "하치만 아사미 신사",
+            "newId": 116,
+            "documentId": "jd9fe7zsk035bjm6x5n5ap4f",
+            "locale": "ko"
+          },
+          {
+            "originalId": 58,
+            "originalName": "타이치 상점 벳푸 야마나미점",
+            "newId": 122,
+            "documentId": "ta9w6rsuey2dq5giwvjymqmm",
+            "locale": "ko"
+          },
+          {
+            "originalId": 51,
+            "originalName": "토모나가 빵집",
+            "newId": 126,
+            "documentId": "ni2f8rqmz4p31j41wfw7cqba",
+            "locale": "ko"
+          },
+          {
+            "originalId": 63,
+            "originalName": "카메쇼",
+            "newId": 131,
+            "documentId": "b0awrv0nz4o9jx05w2g2bfqa",
+            "locale": "ko"
+          },
+          {
+            "originalId": 23,
+            "originalName": "벳푸 핫토 온천 축제 (3월 하순 ~ 4월 상순)",
+            "newId": 133,
+            "documentId": "c7j2oppvcojte9if27e22xue",
+            "locale": "ko"
+          },
+          {
+            "originalId": 68,
+            "originalName": "지옥찜 공방 가나와",
+            "newId": 137,
+            "documentId": "he4j08woj4a9xa8951wr185e",
+            "locale": "ko"
+          },
+          {
+            "originalId": 123,
+            "originalName": "오이타 마린 팰리스 수족관 우미타마고",
+            "newId": 141,
+            "documentId": "uyj91g2qym0hfs9s78jvhk7u",
+            "locale": "ko"
+          },
+          {
+            "originalId": 108,
+            "originalName": "야키토리 범 오모야",
+            "newId": 145,
+            "documentId": "ndibwc6kzg3gud9w03qwrde6",
+            "locale": "ko"
+          },
+          {
+            "originalId": 98,
+            "originalName": "벳푸 공원",
+            "newId": 149,
+            "documentId": "ukfqzkoowvkcpqcorzthjnou",
+            "locale": "ko"
+          },
+          {
+            "originalId": 128,
+            "originalName": "벳푸 지옥 순례",
+            "newId": 153,
+            "documentId": "f4fwpb81h7i0fqrbgosmkdh6",
+            "locale": "ko"
+          }
+        ]
+      },
+      "ja": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 150,
+            "originalName": "別府夏の花火大会（7月下旬）",
+            "newId": 32,
+            "documentId": "rnmkx5dp1q18a54vl94sdf6y",
+            "locale": "ja"
+          },
+          {
+            "originalId": 134,
+            "originalName": "アフリカンサファリ",
+            "newId": 38,
+            "documentId": "lxxj4eydfyx81d25fx4623yv",
+            "locale": "ja"
+          },
+          {
+            "originalId": 94,
+            "originalName": "やよい天狗",
+            "newId": 41,
+            "documentId": "nkd2ej5kim0rc9kkf0c90ws6",
+            "locale": "ja"
+          },
+          {
+            "originalId": 114,
+            "originalName": "志高湖",
+            "newId": 44,
+            "documentId": "ojprcnuzd2onbyvkfnqpf95l",
+            "locale": "ja"
+          },
+          {
+            "originalId": 49,
+            "originalName": "ふくやラーメン工房 総本店",
+            "newId": 51,
+            "documentId": "rc804d2del0mxnd6yah50v5x",
+            "locale": "ja"
+          },
+          {
+            "originalId": 29,
+            "originalName": "ろばた仁",
+            "newId": 55,
+            "documentId": "c719oonijgcgt626kq8fdcix",
+            "locale": "ja"
+          },
+          {
+            "originalId": 39,
+            "originalName": "焼とり凡 母家",
+            "newId": 57,
+            "documentId": "ryy1jnppo9wybvmp70ech7am",
+            "locale": "ja"
+          },
+          {
+            "originalId": 144,
+            "originalName": "湯けむり展望台",
+            "newId": 63,
+            "documentId": "wn13m48m8jo1ngqgrjubqou2",
+            "locale": "ja"
+          },
+          {
+            "originalId": 44,
+            "originalName": "ガスト 別府店",
+            "newId": 66,
+            "documentId": "ufvfj53ool114vx4qoajv07p",
+            "locale": "ja"
+          },
+          {
+            "originalId": 70,
+            "originalName": "とんカツ亭",
+            "newId": 68,
+            "documentId": "wq5ru3gyazxqyv3zel38jv70",
+            "locale": "ja"
+          },
+          {
+            "originalId": 139,
+            "originalName": "湯布院",
+            "newId": 73,
+            "documentId": "z5ftr8chb861ij88uz9jkgp0",
+            "locale": "ja"
+          },
+          {
+            "originalId": 159,
+            "originalName": "別府で楽しむクリスマス（12月）",
+            "newId": 76,
+            "documentId": "hm5m7axp9xl437e9shjpjaeo",
+            "locale": "ja"
+          },
+          {
+            "originalId": 119,
+            "originalName": "高崎山自然動物園",
+            "newId": 81,
+            "documentId": "buj1fyygg1np66jit4b0is97",
+            "locale": "ja"
+          },
+          {
+            "originalId": 75,
+            "originalName": "ドン・キホーテ別府店",
+            "newId": 86,
+            "documentId": "k43jal69ybwqggeyuh7x5plr",
+            "locale": "ja"
+          },
+          {
+            "originalId": 14,
+            "originalName": "竹瓦温泉",
+            "newId": 91,
+            "documentId": "ay4mg0bs3x2bxba901uhtanm",
+            "locale": "ja"
+          },
+          {
+            "originalId": 84,
+            "originalName": "ゆめタウン別府",
+            "newId": 95,
+            "documentId": "u7dzshg6ndcfbqn4lostzltw",
+            "locale": "ja"
+          },
+          {
+            "originalId": 9,
+            "originalName": "海門寺温泉",
+            "newId": 96,
+            "documentId": "zbyhe0y7k0w2ma9h1538lab9",
+            "locale": "ja"
+          },
+          {
+            "originalId": 34,
+            "originalName": "[お好み焼きと家庭料理の店] 味Dining みやこ",
+            "newId": 100,
+            "documentId": "jib9rnnskq6upziyoqrcy20w",
+            "locale": "ja"
+          },
+          {
+            "originalId": 19,
+            "originalName": "杉乃井ホテル 棚湯・ザ アクアガーデン  ",
+            "newId": 107,
+            "documentId": "hjcj7rzrritadxa3c3cmrgjg",
+            "locale": "ja"
+          },
+          {
+            "originalId": 89,
+            "originalName": "的ケ浜公園",
+            "newId": 110,
+            "documentId": "qjxyx38759qbkxcvw0rzwshe",
+            "locale": "ja"
+          },
+          {
+            "originalId": 149,
+            "originalName": "十文字原展望台",
+            "newId": 115,
+            "documentId": "wwzn6fi6olvnxqwcds45r21p",
+            "locale": "ja"
+          },
+          {
+            "originalId": 104,
+            "originalName": "八幡朝見神社",
+            "newId": 119,
+            "documentId": "jd9fe7zsk035bjm6x5n5ap4f",
+            "locale": "ja"
+          },
+          {
+            "originalId": 59,
+            "originalName": "太一商店 別府やまなみ店 ",
+            "newId": 121,
+            "documentId": "ta9w6rsuey2dq5giwvjymqmm",
+            "locale": "ja"
+          },
+          {
+            "originalId": 50,
+            "originalName": "友永パン屋",
+            "newId": 124,
+            "documentId": "ni2f8rqmz4p31j41wfw7cqba",
+            "locale": "ja"
+          },
+          {
+            "originalId": 64,
+            "originalName": "亀正",
+            "newId": 128,
+            "documentId": "b0awrv0nz4o9jx05w2g2bfqa",
+            "locale": "ja"
+          },
+          {
+            "originalId": 24,
+            "originalName": "別府八湯温泉まつり（3月下旬〜4月上旬）",
+            "newId": 132,
+            "documentId": "c7j2oppvcojte9if27e22xue",
+            "locale": "ja"
+          },
+          {
+            "originalId": 69,
+            "originalName": "地獄蒸し工房 鉄輪",
+            "newId": 136,
+            "documentId": "he4j08woj4a9xa8951wr185e",
+            "locale": "ja"
+          },
+          {
+            "originalId": 124,
+            "originalName": "大分マリーンパレス水族館 うみたまご ",
+            "newId": 140,
+            "documentId": "uyj91g2qym0hfs9s78jvhk7u",
+            "locale": "ja"
+          },
+          {
+            "originalId": 105,
+            "originalName": "田ノ浦ビーチ",
+            "newId": 144,
+            "documentId": "ndibwc6kzg3gud9w03qwrde6",
+            "locale": "ja"
+          },
+          {
+            "originalId": 99,
+            "originalName": "別府公園",
+            "newId": 148,
+            "documentId": "ukfqzkoowvkcpqcorzthjnou",
+            "locale": "ja"
+          },
+          {
+            "originalId": 129,
+            "originalName": "別府地獄めぐり ",
+            "newId": 152,
+            "documentId": "f4fwpb81h7i0fqrbgosmkdh6",
+            "locale": "ja"
+          }
+        ]
+      }
+    },
+    "api::suite.suite": {
+      "zh-Hans": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 13,
+            "originalName": "family-room-01",
+            "newId": 5,
+            "documentId": "i0n9t1b9ktzszafp237jaqvo",
+            "locale": "zh-Hans"
+          }
+        ]
+      },
+      "zh-Hant": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 12,
+            "originalName": "family-room-01",
+            "newId": 4,
+            "documentId": "i0n9t1b9ktzszafp237jaqvo",
+            "locale": "zh-Hant"
+          }
+        ]
+      },
+      "ko": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 10,
+            "originalName": "family-room-01",
+            "newId": 2,
+            "documentId": "i0n9t1b9ktzszafp237jaqvo",
+            "locale": "ko"
+          }
+        ]
+      },
+      "ja": {
+        "success": 1,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 14,
+            "originalName": "family-room-01",
+            "newId": 3,
+            "documentId": "i0n9t1b9ktzszafp237jaqvo",
+            "locale": "ja"
+          }
+        ]
+      }
+    },
+    "api::poi-recommendation.poi-recommendation": {
+      "zh-Hans": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 15,
+            "originalName": "Localized 15",
+            "newId": 34,
+            "documentId": "fqo1h0out7mhbu3510at2l4x",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 10,
+            "originalName": "Localized 10",
+            "newId": 36,
+            "documentId": "cdemz0jtzqzijqkioptpa5fm",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 5,
+            "originalName": "Localized 5",
+            "newId": 42,
+            "documentId": "lpo90tb4pgei3cfzi4qu8o9c",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 71,
+            "originalName": "Localized 71",
+            "newId": 45,
+            "documentId": "yc90mvlgxhe5vpota6hx1eas",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 21,
+            "originalName": "Localized 21",
+            "newId": 49,
+            "documentId": "iyw10rslycmv2ehlqunsfw33",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 41,
+            "originalName": "Localized 41",
+            "newId": 52,
+            "documentId": "sztyjnxmari8esrsqhxjtg95",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 31,
+            "originalName": "Localized 31",
+            "newId": 56,
+            "documentId": "ygz4f9zcv7qn7zka972zlrgj",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 26,
+            "originalName": "Localized 26",
+            "newId": 62,
+            "documentId": "w8juezzycgun0tjllzv3cu24",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 36,
+            "originalName": "Localized 36",
+            "newId": 66,
+            "documentId": "g1dcfl7avlm56zcjg55mg1d5",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 46,
+            "originalName": "Localized 46",
+            "newId": 69,
+            "documentId": "x6rmzcbbyy4exizeasek46cr",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 52,
+            "originalName": "Localized 52",
+            "newId": 75,
+            "documentId": "isu7ps10ec3y3tzfxakty8pa",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 54,
+            "originalName": "Localized 54",
+            "newId": 78,
+            "documentId": "f09aintojoqdgfuy19fdc28d",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 61,
+            "originalName": "Localized 61",
+            "newId": 81,
+            "documentId": "ggdg58lya8zch2xrc1ub65t5",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 66,
+            "originalName": "Localized 66",
+            "newId": 86,
+            "documentId": "rioj7xtte9duy59488673uwh",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 76,
+            "originalName": "Localized 76",
+            "newId": 89,
+            "documentId": "qxlohlevz1explpizllk1pj9",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 81,
+            "originalName": "Localized 81",
+            "newId": 94,
+            "documentId": "an2vgmjggr5w3twg3vub26lo",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 116,
+            "originalName": "Localized 116",
+            "newId": 97,
+            "documentId": "l5czot5ynsv0dczsdgzmzsga",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 91,
+            "originalName": "Localized 91",
+            "newId": 101,
+            "documentId": "yk8wxb6rl1wqud1ruct2onda",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 86,
+            "originalName": "Localized 86",
+            "newId": 106,
+            "documentId": "r3nirdp1537ofb2srpamuorr",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 121,
+            "originalName": "Localized 121",
+            "newId": 111,
+            "documentId": "mk5pmntu30bmrncmcuxxi0lz",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 131,
+            "originalName": "Localized 131",
+            "newId": 113,
+            "documentId": "yyovr7ipuqhszio96ih8h518",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 96,
+            "originalName": "Localized 96",
+            "newId": 118,
+            "documentId": "y17ikretp33jwfqnysd3jqsg",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 101,
+            "originalName": "Localized 101",
+            "newId": 123,
+            "documentId": "viuss3emxl2tejgslie86t3g",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 106,
+            "originalName": "Localized 106",
+            "newId": 127,
+            "documentId": "ntdkvzhrqe0880rqjzu9jh7c",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 111,
+            "originalName": "Localized 111",
+            "newId": 130,
+            "documentId": "ifrwtcg8mfj3y0ageemxld4q",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 126,
+            "originalName": "Localized 126",
+            "newId": 132,
+            "documentId": "zrye4vm58kewzmsqd6302084",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 136,
+            "originalName": "Localized 136",
+            "newId": 139,
+            "documentId": "s3c7gi3jh1wuy86gu4u9t6b9",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 146,
+            "originalName": "Localized 146",
+            "newId": 142,
+            "documentId": "ei0v8kxm0tfy13hv7ai23yrj",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 141,
+            "originalName": "Localized 141",
+            "newId": 146,
+            "documentId": "ny9fojhgdzv0yvs4paln6mm5",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 151,
+            "originalName": "Localized 151",
+            "newId": 151,
+            "documentId": "xi4di0hpxw8fepvst0verqz7",
+            "locale": "zh-Hans"
+          },
+          {
+            "originalId": 156,
+            "originalName": "Localized 156",
+            "newId": 154,
+            "documentId": "xnupr0rtkiynbti83ju7bd0w",
+            "locale": "zh-Hans"
+          }
+        ]
+      },
+      "zh-Hant": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 14,
+            "originalName": "Localized 14",
+            "newId": 33,
+            "documentId": "fqo1h0out7mhbu3510at2l4x",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 11,
+            "originalName": "Localized 11",
+            "newId": 38,
+            "documentId": "cdemz0jtzqzijqkioptpa5fm",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 6,
+            "originalName": "Localized 6",
+            "newId": 43,
+            "documentId": "lpo90tb4pgei3cfzi4qu8o9c",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 72,
+            "originalName": "Localized 72",
+            "newId": 47,
+            "documentId": "yc90mvlgxhe5vpota6hx1eas",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 20,
+            "originalName": "Localized 20",
+            "newId": 51,
+            "documentId": "iyw10rslycmv2ehlqunsfw33",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 40,
+            "originalName": "Localized 40",
+            "newId": 53,
+            "documentId": "sztyjnxmari8esrsqhxjtg95",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 30,
+            "originalName": "Localized 30",
+            "newId": 57,
+            "documentId": "ygz4f9zcv7qn7zka972zlrgj",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 25,
+            "originalName": "Localized 25",
+            "newId": 60,
+            "documentId": "w8juezzycgun0tjllzv3cu24",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 37,
+            "originalName": "Localized 37",
+            "newId": 67,
+            "documentId": "g1dcfl7avlm56zcjg55mg1d5",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 47,
+            "originalName": "Localized 47",
+            "newId": 70,
+            "documentId": "x6rmzcbbyy4exizeasek46cr",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 50,
+            "originalName": "Localized 50",
+            "newId": 72,
+            "documentId": "isu7ps10ec3y3tzfxakty8pa",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 56,
+            "originalName": "Localized 56",
+            "newId": 79,
+            "documentId": "f09aintojoqdgfuy19fdc28d",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 62,
+            "originalName": "Localized 62",
+            "newId": 83,
+            "documentId": "ggdg58lya8zch2xrc1ub65t5",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 67,
+            "originalName": "Localized 67",
+            "newId": 87,
+            "documentId": "rioj7xtte9duy59488673uwh",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 77,
+            "originalName": "Localized 77",
+            "newId": 88,
+            "documentId": "qxlohlevz1explpizllk1pj9",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 82,
+            "originalName": "Localized 82",
+            "newId": 95,
+            "documentId": "an2vgmjggr5w3twg3vub26lo",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 117,
+            "originalName": "Localized 117",
+            "newId": 98,
+            "documentId": "l5czot5ynsv0dczsdgzmzsga",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 92,
+            "originalName": "Localized 92",
+            "newId": 102,
+            "documentId": "yk8wxb6rl1wqud1ruct2onda",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 87,
+            "originalName": "Localized 87",
+            "newId": 107,
+            "documentId": "r3nirdp1537ofb2srpamuorr",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 122,
+            "originalName": "Localized 122",
+            "newId": 110,
+            "documentId": "mk5pmntu30bmrncmcuxxi0lz",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 132,
+            "originalName": "Localized 132",
+            "newId": 115,
+            "documentId": "yyovr7ipuqhszio96ih8h518",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 97,
+            "originalName": "Localized 97",
+            "newId": 119,
+            "documentId": "y17ikretp33jwfqnysd3jqsg",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 102,
+            "originalName": "Localized 102",
+            "newId": 120,
+            "documentId": "viuss3emxl2tejgslie86t3g",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 107,
+            "originalName": "Localized 107",
+            "newId": 124,
+            "documentId": "ntdkvzhrqe0880rqjzu9jh7c",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 112,
+            "originalName": "Localized 112",
+            "newId": 131,
+            "documentId": "ifrwtcg8mfj3y0ageemxld4q",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 127,
+            "originalName": "Localized 127",
+            "newId": 135,
+            "documentId": "zrye4vm58kewzmsqd6302084",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 137,
+            "originalName": "Localized 137",
+            "newId": 137,
+            "documentId": "s3c7gi3jh1wuy86gu4u9t6b9",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 147,
+            "originalName": "Localized 147",
+            "newId": 143,
+            "documentId": "ei0v8kxm0tfy13hv7ai23yrj",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 142,
+            "originalName": "Localized 142",
+            "newId": 147,
+            "documentId": "ny9fojhgdzv0yvs4paln6mm5",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 152,
+            "originalName": "Localized 152",
+            "newId": 149,
+            "documentId": "xi4di0hpxw8fepvst0verqz7",
+            "locale": "zh-Hant"
+          },
+          {
+            "originalId": 157,
+            "originalName": "Localized 157",
+            "newId": 155,
+            "documentId": "xnupr0rtkiynbti83ju7bd0w",
+            "locale": "zh-Hant"
+          }
+        ]
+      },
+      "ko": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 16,
+            "originalName": "Localized 16",
+            "newId": 35,
+            "documentId": "fqo1h0out7mhbu3510at2l4x",
+            "locale": "ko"
+          },
+          {
+            "originalId": 8,
+            "originalName": "Localized 8",
+            "newId": 39,
+            "documentId": "cdemz0jtzqzijqkioptpa5fm",
+            "locale": "ko"
+          },
+          {
+            "originalId": 4,
+            "originalName": "Localized 4",
+            "newId": 41,
+            "documentId": "lpo90tb4pgei3cfzi4qu8o9c",
+            "locale": "ko"
+          },
+          {
+            "originalId": 70,
+            "originalName": "Localized 70",
+            "newId": 46,
+            "documentId": "yc90mvlgxhe5vpota6hx1eas",
+            "locale": "ko"
+          },
+          {
+            "originalId": 22,
+            "originalName": "Localized 22",
+            "newId": 48,
+            "documentId": "iyw10rslycmv2ehlqunsfw33",
+            "locale": "ko"
+          },
+          {
+            "originalId": 42,
+            "originalName": "Localized 42",
+            "newId": 54,
+            "documentId": "sztyjnxmari8esrsqhxjtg95",
+            "locale": "ko"
+          },
+          {
+            "originalId": 32,
+            "originalName": "Localized 32",
+            "newId": 58,
+            "documentId": "ygz4f9zcv7qn7zka972zlrgj",
+            "locale": "ko"
+          },
+          {
+            "originalId": 27,
+            "originalName": "Localized 27",
+            "newId": 63,
+            "documentId": "w8juezzycgun0tjllzv3cu24",
+            "locale": "ko"
+          },
+          {
+            "originalId": 35,
+            "originalName": "Localized 35",
+            "newId": 64,
+            "documentId": "g1dcfl7avlm56zcjg55mg1d5",
+            "locale": "ko"
+          },
+          {
+            "originalId": 45,
+            "originalName": "Localized 45",
+            "newId": 68,
+            "documentId": "x6rmzcbbyy4exizeasek46cr",
+            "locale": "ko"
+          },
+          {
+            "originalId": 51,
+            "originalName": "Localized 51",
+            "newId": 73,
+            "documentId": "isu7ps10ec3y3tzfxakty8pa",
+            "locale": "ko"
+          },
+          {
+            "originalId": 57,
+            "originalName": "Localized 57",
+            "newId": 77,
+            "documentId": "f09aintojoqdgfuy19fdc28d",
+            "locale": "ko"
+          },
+          {
+            "originalId": 60,
+            "originalName": "Localized 60",
+            "newId": 80,
+            "documentId": "ggdg58lya8zch2xrc1ub65t5",
+            "locale": "ko"
+          },
+          {
+            "originalId": 65,
+            "originalName": "Localized 65",
+            "newId": 85,
+            "documentId": "rioj7xtte9duy59488673uwh",
+            "locale": "ko"
+          },
+          {
+            "originalId": 75,
+            "originalName": "Localized 75",
+            "newId": 91,
+            "documentId": "qxlohlevz1explpizllk1pj9",
+            "locale": "ko"
+          },
+          {
+            "originalId": 80,
+            "originalName": "Localized 80",
+            "newId": 93,
+            "documentId": "an2vgmjggr5w3twg3vub26lo",
+            "locale": "ko"
+          },
+          {
+            "originalId": 115,
+            "originalName": "Localized 115",
+            "newId": 99,
+            "documentId": "l5czot5ynsv0dczsdgzmzsga",
+            "locale": "ko"
+          },
+          {
+            "originalId": 90,
+            "originalName": "Localized 90",
+            "newId": 100,
+            "documentId": "yk8wxb6rl1wqud1ruct2onda",
+            "locale": "ko"
+          },
+          {
+            "originalId": 85,
+            "originalName": "Localized 85",
+            "newId": 105,
+            "documentId": "r3nirdp1537ofb2srpamuorr",
+            "locale": "ko"
+          },
+          {
+            "originalId": 120,
+            "originalName": "Localized 120",
+            "newId": 109,
+            "documentId": "mk5pmntu30bmrncmcuxxi0lz",
+            "locale": "ko"
+          },
+          {
+            "originalId": 130,
+            "originalName": "Localized 130",
+            "newId": 112,
+            "documentId": "yyovr7ipuqhszio96ih8h518",
+            "locale": "ko"
+          },
+          {
+            "originalId": 95,
+            "originalName": "Localized 95",
+            "newId": 117,
+            "documentId": "y17ikretp33jwfqnysd3jqsg",
+            "locale": "ko"
+          },
+          {
+            "originalId": 100,
+            "originalName": "Localized 100",
+            "newId": 122,
+            "documentId": "viuss3emxl2tejgslie86t3g",
+            "locale": "ko"
+          },
+          {
+            "originalId": 105,
+            "originalName": "Localized 105",
+            "newId": 126,
+            "documentId": "ntdkvzhrqe0880rqjzu9jh7c",
+            "locale": "ko"
+          },
+          {
+            "originalId": 110,
+            "originalName": "Localized 110",
+            "newId": 129,
+            "documentId": "ifrwtcg8mfj3y0ageemxld4q",
+            "locale": "ko"
+          },
+          {
+            "originalId": 125,
+            "originalName": "Localized 125",
+            "newId": 134,
+            "documentId": "zrye4vm58kewzmsqd6302084",
+            "locale": "ko"
+          },
+          {
+            "originalId": 135,
+            "originalName": "Localized 135",
+            "newId": 136,
+            "documentId": "s3c7gi3jh1wuy86gu4u9t6b9",
+            "locale": "ko"
+          },
+          {
+            "originalId": 145,
+            "originalName": "Localized 145",
+            "newId": 141,
+            "documentId": "ei0v8kxm0tfy13hv7ai23yrj",
+            "locale": "ko"
+          },
+          {
+            "originalId": 140,
+            "originalName": "Localized 140",
+            "newId": 145,
+            "documentId": "ny9fojhgdzv0yvs4paln6mm5",
+            "locale": "ko"
+          },
+          {
+            "originalId": 150,
+            "originalName": "Localized 150",
+            "newId": 150,
+            "documentId": "xi4di0hpxw8fepvst0verqz7",
+            "locale": "ko"
+          },
+          {
+            "originalId": 155,
+            "originalName": "Localized 155",
+            "newId": 153,
+            "documentId": "xnupr0rtkiynbti83ju7bd0w",
+            "locale": "ko"
+          }
+        ]
+      },
+      "ja": {
+        "success": 31,
+        "failed": 0,
+        "errors": [],
+        "entries": [
+          {
+            "originalId": 17,
+            "originalName": "Localized 17",
+            "newId": 32,
+            "documentId": "fqo1h0out7mhbu3510at2l4x",
+            "locale": "ja"
+          },
+          {
+            "originalId": 9,
+            "originalName": "Localized 9",
+            "newId": 37,
+            "documentId": "cdemz0jtzqzijqkioptpa5fm",
+            "locale": "ja"
+          },
+          {
+            "originalId": 3,
+            "originalName": "Localized 3",
+            "newId": 40,
+            "documentId": "lpo90tb4pgei3cfzi4qu8o9c",
+            "locale": "ja"
+          },
+          {
+            "originalId": 69,
+            "originalName": "Localized 69",
+            "newId": 44,
+            "documentId": "yc90mvlgxhe5vpota6hx1eas",
+            "locale": "ja"
+          },
+          {
+            "originalId": 23,
+            "originalName": "Localized 23",
+            "newId": 50,
+            "documentId": "iyw10rslycmv2ehlqunsfw33",
+            "locale": "ja"
+          },
+          {
+            "originalId": 43,
+            "originalName": "Localized 43",
+            "newId": 55,
+            "documentId": "sztyjnxmari8esrsqhxjtg95",
+            "locale": "ja"
+          },
+          {
+            "originalId": 33,
+            "originalName": "Localized 33",
+            "newId": 59,
+            "documentId": "ygz4f9zcv7qn7zka972zlrgj",
+            "locale": "ja"
+          },
+          {
+            "originalId": 28,
+            "originalName": "Localized 28",
+            "newId": 61,
+            "documentId": "w8juezzycgun0tjllzv3cu24",
+            "locale": "ja"
+          },
+          {
+            "originalId": 34,
+            "originalName": "Localized 34",
+            "newId": 65,
+            "documentId": "g1dcfl7avlm56zcjg55mg1d5",
+            "locale": "ja"
+          },
+          {
+            "originalId": 44,
+            "originalName": "Localized 44",
+            "newId": 71,
+            "documentId": "x6rmzcbbyy4exizeasek46cr",
+            "locale": "ja"
+          },
+          {
+            "originalId": 53,
+            "originalName": "Localized 53",
+            "newId": 74,
+            "documentId": "isu7ps10ec3y3tzfxakty8pa",
+            "locale": "ja"
+          },
+          {
+            "originalId": 58,
+            "originalName": "Localized 58",
+            "newId": 76,
+            "documentId": "f09aintojoqdgfuy19fdc28d",
+            "locale": "ja"
+          },
+          {
+            "originalId": 59,
+            "originalName": "Localized 59",
+            "newId": 82,
+            "documentId": "ggdg58lya8zch2xrc1ub65t5",
+            "locale": "ja"
+          },
+          {
+            "originalId": 64,
+            "originalName": "Localized 64",
+            "newId": 84,
+            "documentId": "rioj7xtte9duy59488673uwh",
+            "locale": "ja"
+          },
+          {
+            "originalId": 74,
+            "originalName": "Localized 74",
+            "newId": 90,
+            "documentId": "qxlohlevz1explpizllk1pj9",
+            "locale": "ja"
+          },
+          {
+            "originalId": 79,
+            "originalName": "Localized 79",
+            "newId": 92,
+            "documentId": "an2vgmjggr5w3twg3vub26lo",
+            "locale": "ja"
+          },
+          {
+            "originalId": 114,
+            "originalName": "Localized 114",
+            "newId": 96,
+            "documentId": "l5czot5ynsv0dczsdgzmzsga",
+            "locale": "ja"
+          },
+          {
+            "originalId": 89,
+            "originalName": "Localized 89",
+            "newId": 103,
+            "documentId": "yk8wxb6rl1wqud1ruct2onda",
+            "locale": "ja"
+          },
+          {
+            "originalId": 84,
+            "originalName": "Localized 84",
+            "newId": 104,
+            "documentId": "r3nirdp1537ofb2srpamuorr",
+            "locale": "ja"
+          },
+          {
+            "originalId": 119,
+            "originalName": "Localized 119",
+            "newId": 108,
+            "documentId": "mk5pmntu30bmrncmcuxxi0lz",
+            "locale": "ja"
+          },
+          {
+            "originalId": 129,
+            "originalName": "Localized 129",
+            "newId": 114,
+            "documentId": "yyovr7ipuqhszio96ih8h518",
+            "locale": "ja"
+          },
+          {
+            "originalId": 94,
+            "originalName": "Localized 94",
+            "newId": 116,
+            "documentId": "y17ikretp33jwfqnysd3jqsg",
+            "locale": "ja"
+          },
+          {
+            "originalId": 99,
+            "originalName": "Localized 99",
+            "newId": 121,
+            "documentId": "viuss3emxl2tejgslie86t3g",
+            "locale": "ja"
+          },
+          {
+            "originalId": 104,
+            "originalName": "Localized 104",
+            "newId": 125,
+            "documentId": "ntdkvzhrqe0880rqjzu9jh7c",
+            "locale": "ja"
+          },
+          {
+            "originalId": 109,
+            "originalName": "Localized 109",
+            "newId": 128,
+            "documentId": "ifrwtcg8mfj3y0ageemxld4q",
+            "locale": "ja"
+          },
+          {
+            "originalId": 124,
+            "originalName": "Localized 124",
+            "newId": 133,
+            "documentId": "zrye4vm58kewzmsqd6302084",
+            "locale": "ja"
+          },
+          {
+            "originalId": 134,
+            "originalName": "Localized 134",
+            "newId": 138,
+            "documentId": "s3c7gi3jh1wuy86gu4u9t6b9",
+            "locale": "ja"
+          },
+          {
+            "originalId": 144,
+            "originalName": "Localized 144",
+            "newId": 140,
+            "documentId": "ei0v8kxm0tfy13hv7ai23yrj",
+            "locale": "ja"
+          },
+          {
+            "originalId": 139,
+            "originalName": "Localized 139",
+            "newId": 144,
+            "documentId": "ny9fojhgdzv0yvs4paln6mm5",
+            "locale": "ja"
+          },
+          {
+            "originalId": 149,
+            "originalName": "Localized 149",
+            "newId": 148,
+            "documentId": "xi4di0hpxw8fepvst0verqz7",
+            "locale": "ja"
+          },
+          {
+            "originalId": 154,
+            "originalName": "Localized 154",
+            "newId": 152,
+            "documentId": "xnupr0rtkiynbti83ju7bd0w",
+            "locale": "ja"
+          }
+        ]
+      }
+    }
+  },
+  "summary": {
+    "total": 284,
+    "success": 284,
+    "failed": 0
+  }
+}

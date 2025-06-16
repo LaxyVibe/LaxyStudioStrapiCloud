@@ -1,0 +1,40 @@
+{
+  "idMappings": {
+    "api::poi.poi_151": 1076,
+    "api::poi.poi_130": 1077,
+    "api::poi.poi_90": 1078,
+    "api::poi.poi_110": 1079,
+    "api::poi.poi_45": 1080,
+    "api::poi.poi_150": 1081,
+    "api::poi.poi_154": 1082,
+    "api::poi.poi_153": 1083,
+    "api::poi.poi_152": 1084,
+    "api::poi.poi_134": 1085,
+    "api::poi.poi_133": 1086,
+    "api::poi.poi_132": 1087,
+    "api::poi.poi_131": 1088,
+    "api::poi.poi_94": 1089,
+    "api::poi.poi_93": 1090,
+    "api::poi.poi_92": 1091,
+    "api::poi.poi_91": 1092,
+    "api::poi.poi_114": 1093,
+    "api::poi.poi_113": 1094,
+    "api::poi.poi_112": 1095,
+    "api::poi.poi_111": 1096,
+    "api::poi.poi_48": 1097,
+    "api::poi.poi_47": 1098,
+    "api::poi.poi_46": 1099
+  },
+  "documentIdMappings": {
+    "api::poi.poi_151": "stel7fhzjf2nguj0x7gk60ki",
+    "151_en": "stel7fhzjf2nguj0x7gk60ki",
+    "api::poi.poi_130": "k0a68tzpnjwvmsvyrvu9129f",
+    "130_en": "k0a68tzpnjwvmsvyrvu9129f",
+    "api::poi.poi_90": "yt8rppkalguso8ab6asoxdjj",
+    "90_en": "yt8rppkalguso8ab6asoxdjj",
+    "api::poi.poi_110": "ysc4nzahgyn6oliif2sh5f88",
+    "110_en": "ysc4nzahgyn6oliif2sh5f88",
+    "api::poi.poi_45": "lhah2kctpw4hhvwhbt1748n4",
+    "45_en": "lhah2kctpw4hhvwhbt1748n4"
+  }
+}
