@@ -12,9 +12,9 @@ module.exports = ({ env }) => {
         database,
         user,
         password,
-        ssl: {
+        ssl: env("NODE_ENV") === "production" ? {
           rejectUnauthorized: false,
-        },
+        } : false,
       },
       pool: {
         min: env.int("DATABASE_POOL_MIN", 2),
