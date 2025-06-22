@@ -19,6 +19,12 @@
     },
     "highlightedListHeading": {
       "type": "string"
+    },
+    "searchResultHeading": {
+      "type": "string"
+    },
+    "noResultsFound": {
+      "type": "string"
     }
   }
 }

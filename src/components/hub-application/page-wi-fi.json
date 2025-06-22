@@ -1,7 +1,8 @@
 {
   "collectionName": "components_hub_application_page_wi_fis",
   "info": {
-    "displayName": "Page WiFi"
+    "displayName": "Page WiFi",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,12 @@
       "type": "component",
       "repeatable": false,
       "component": "hub-application.button"
+    },
+    "networkLabel": {
+      "type": "string"
+    },
+    "passwordLabel": {
+      "type": "string"
     }
   }
 }
