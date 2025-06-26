@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "guide_application_configs",
+  "info": {
+    "singularName": "guide-application-config",
+    "pluralName": "guide-application-configs",
+    "displayName": "Guide Application Config"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "universalConfig": {
+      "displayName": "Universal Config",
+      "type": "component",
+      "repeatable": false,
+      "component": "guide-application.universal-config"
+    }
+  }
+}

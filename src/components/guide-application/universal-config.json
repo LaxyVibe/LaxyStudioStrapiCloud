@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_guide_application_universal_configs",
+  "info": {
+    "displayName": "Universal Config"
+  },
+  "options": {},
+  "attributes": {
+    "releasedLanguages": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "guide-application.button"
+    }
+  }
+}
