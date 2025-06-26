@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poi_guides",
+  "info": {
+    "singularName": "poi-guide",
+    "pluralName": "poi-guides",
+    "displayName": "POIGuide",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "poi": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::poi.poi"
+    },
+    "narrations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "narration.script"
+    },
+    "legacyTourCode": {
+      "type": "string"
+    }
+  }
+}

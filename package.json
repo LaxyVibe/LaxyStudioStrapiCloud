@@ -8,6 +8,8 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "seed:example": "node ./scripts/seed.js",
+    "sync:suite": "node ./scripts/utils/sync-suite.js",
+    "sync:poi-recommendation": "node ./scripts/utils/sync-poi-recommendation.js",
     "start": "strapi start",
     "strapi": "strapi"
   },
