@@ -10,17 +10,32 @@
   "options": {
     "draftAndPublish": false
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "universalConfig": {
       "displayName": "Universal Config",
       "type": "component",
       "repeatable": false,
-      "component": "guide-application.universal-config"
+      "component": "guide-application.universal-config",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "pagePOIGuide": {
       "type": "component",
       "repeatable": false,
-      "component": "guide-application.page-poi-guide"
+      "component": "guide-application.page-poi-guide",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
