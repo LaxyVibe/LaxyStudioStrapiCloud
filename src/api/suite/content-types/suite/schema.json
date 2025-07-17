@@ -114,6 +114,15 @@
     },
     "addressEmbedHTML": {
       "type": "text"
+    },
+    "directContact": {
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
