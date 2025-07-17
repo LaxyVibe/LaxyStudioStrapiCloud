@@ -22,6 +22,14 @@
     },
     "poweredByLabel": {
       "type": "string"
+    },
+    "exploreMoreAboutLabel": {
+      "type": "string"
+    },
+    "audioGuideButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hub-application.button"
     }
   }
 }
