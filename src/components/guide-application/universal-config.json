@@ -1,12 +1,18 @@
 {
   "collectionName": "components_guide_application_universal_configs",
   "info": {
-    "displayName": "Universal Config"
+    "displayName": "Universal Config",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "releasedLanguages": {
       "displayName": "Button",
+      "type": "component",
+      "repeatable": true,
+      "component": "guide-application.button"
+    },
+    "audioLanguages": {
       "type": "component",
       "repeatable": true,
       "component": "guide-application.button"
