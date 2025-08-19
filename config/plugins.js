@@ -3,7 +3,29 @@ module.exports = ({env}) => ({
     enabled: true,
   },
   tinymce: {
-    enabled: true
+    enabled: true,
+    config: {
+      editor: {
+        outputFormat: "html",
+        editorConfig: {
+          plugins: [
+            "advlist",
+            "autolink",
+            "lists",
+            "link",
+            "image",
+            "charmap",
+            "preview",
+            "anchor",
+          ],
+          toolbar:
+            "fullscreen preview | undo redo | blocks | " +
+            "bold italic forecolor backcolor | alignleft aligncenter " +
+            "alignright alignjustify | bullist numlist outdent indent | " +
+            "link image media | removeformat | help"
+        }
+      }
+    }
   },
   upload: {
     config: {
