@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_bot_application_knowledges",
+  "info": {
+    "displayName": "Knowledge",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    },
+    "isOfficial": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

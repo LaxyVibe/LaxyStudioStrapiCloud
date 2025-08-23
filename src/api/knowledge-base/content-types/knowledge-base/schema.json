@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "knowledge_bases",
+  "info": {
+    "singularName": "knowledge-base",
+    "pluralName": "knowledge-bases",
+    "displayName": "KnowledgeBase",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "slug": {
+      "type": "string",
+      "unique": true
+    },
+    "knowledge": {
+      "displayName": "Knowledge",
+      "type": "component",
+      "repeatable": true,
+      "component": "bot-application.knowledge"
+    }
+  }
+}
