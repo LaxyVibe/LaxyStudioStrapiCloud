@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bot_contexts",
+  "info": {
+    "singularName": "bot-context",
+    "pluralName": "bot-contexts",
+    "displayName": "BotContext"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "uuid": {
+      "type": "uid"
+    },
+    "note": {
+      "type": "json"
+    }
+  }
+}
