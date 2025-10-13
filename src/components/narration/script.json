@@ -1,7 +1,8 @@
 {
   "collectionName": "components_narration_scripts",
   "info": {
-    "displayName": "Script"
+    "displayName": "Script",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,29 +10,35 @@
       "type": "string"
     },
     "subtitleFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "slider": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "audioFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
