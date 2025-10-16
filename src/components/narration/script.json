@@ -37,11 +37,12 @@
         "audios"
       ]
     },
-    "content": {
-      "type": "richtext"
-    },
     "legacyStepCode": {
       "type": "string"
+    },
+    "content": {
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce"
     }
   }
 }
