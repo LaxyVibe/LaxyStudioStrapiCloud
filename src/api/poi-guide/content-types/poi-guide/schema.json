@@ -24,7 +24,12 @@
     "narrations": {
       "type": "component",
       "repeatable": true,
-      "component": "narration.script"
+      "component": "narration.script",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "legacyTourCode": {
       "type": "string"
